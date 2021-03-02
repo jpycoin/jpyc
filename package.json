@@ -1,6 +1,7 @@
 {
-    "name": "jpyc2",
+    "name": "jpyc",
     "version": "0.1.0",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "start": "cross-env NODE_ENV=development && react-scripts start",
