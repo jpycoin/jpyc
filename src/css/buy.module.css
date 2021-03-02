@@ -1,0 +1,209 @@
+.buy_main {
+    background-color: #f5f9fd;
+    height: 602px;
+    text-align: center;
+}
+
+.jpyc {
+    flex: none;
+    height: auto;
+    margin: 37px 0px 0px 0px;
+    width: 164px;
+    max-width: 100%;
+}
+
+.text_buy {
+    color: #333;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1.4;
+    margin: 35px 0px 0px 0px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.question {
+    color: #333;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    line-height: 1.4;
+    margin: 21px 0px 0px 0px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.coins {
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.coin {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 297px;
+    justify-content: center;
+    width: 298px;
+    max-width: 100%;
+}
+
+.jpy {
+    flex: none;
+    height: auto;
+    width: 134px;
+    max-width: 100%;
+}
+
+.btc_eth {
+    flex: none;
+    height: auto;
+    width: 212px;
+    max-width: 100%;
+}
+
+.buy_button {
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1f6dff, #31caaa);
+    border-radius: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 40px;
+    justify-content: center;
+    margin: 16px 0px 0px 0px;
+    width: 200px;
+    max-width: 100%;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 4px rgb(131, 150, 163);
+}
+
+.buy_button:active {
+    -webkit-transform: translate(0,2px);
+    -moz-transform: translate(0,2px);
+    transform: translate(0,2px);
+    box-shadow: none;
+}
+
+.popup_menu {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: top left;
+    top: 50%;
+    left: 50%;
+    margin-top: 0.5rem;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    transition: transform 0.2s;
+    position: fixed;
+}
+
+.popup_text {
+    color: rgb(58, 58, 58);
+
+}
+
+.buy_x {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.buy_shown_yen {
+    transform: translate(-50%, -50%);
+}
+.buy_shown_crypto {
+    transform: translate(-50%, -50%);
+}
+
+.buy_settlement {
+    display: flex;
+}
+
+.buy_yen_img {
+    width: 100px;
+    padding: 10px 30px;
+}
+.buy_crypto_img {
+    width: 70px;
+    padding: 20px 30px;
+}
+
+.buy_payment {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buy_link_button {
+    border-radius: 20px;
+    border: 0;
+    background: linear-gradient(45deg, #1f6dff, #31caaa);
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0px 2px 4px rgb(131, 150, 163);
+}
+.buy_link_button:active {
+    -webkit-transform: translate(0,2px);
+    -moz-transform: translate(0,2px);
+    transform: translate(0,2px);
+    box-shadow: none;
+}
+
+.disabled {
+    background: rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 415px) {
+    .buy_button {
+        box-sizing: border-box;
+        width: 85%;
+        font-size: 12px;
+    }
+
+    .buy_coin {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .jpy {
+        height: 50px;
+        width: auto;
+    }
+    .btc_eth {
+        height: 50px;
+        width: auto;
+    }
+
+    .popup_menu {
+        width: 80%;
+    }
+}

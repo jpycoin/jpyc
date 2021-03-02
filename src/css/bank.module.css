@@ -1,0 +1,192 @@
+.bank_main {
+    text-align: center;
+    color: rgb(48, 47, 47);
+    padding-top: 38px;
+}
+
+.bank_jpyc_img {
+    width: 160px;
+}
+
+.bank_buy_text {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    padding-top: 30px;
+}
+
+.bank_imgs {
+    width: 130px;
+}
+
+.bank_flow {
+    margin: 30px auto 20px;
+    border: 1px dotted #7ecdff;
+    text-align: center;
+    padding: 30px 40px 22px;
+    width: 70%;
+    max-width: 600px;
+}
+
+.bank_items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank_item {
+    padding: 20px;
+}
+
+.bank_item_title {
+    font-weight: 550;
+    color: rgb(66, 66, 66);
+}
+
+.bank_item_desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.bank_typeform {
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;
+    width: auto;
+}
+
+.bank_style_title {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 800;
+    color: rgb(42, 53, 82);
+}
+
+.bank_2_text {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #F5F9FD;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+.buy_step_whole {
+    margin: 0px auto;
+    width: 40%;
+    padding: 40px 0;
+}
+
+.buy_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),-9px -9px 16px rgba(255, 255, 255, 0.5),inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+    background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
+    /* background: #E7EDF5; */
+    box-sizing: border-box;
+}
+
+.buy_card_text {
+    text-align: center;
+    width: 90%;
+}
+
+.bank_icon {
+    padding: 50px 10px 10px;
+    color: rgb(61, 61, 61);
+}
+
+.bank_icon_x {
+    padding: 50px 10px 10px;
+    color: rgb(143, 143, 143);
+}
+
+.step {
+    padding: 20px 0;
+}
+
+.other_page_link {
+    margin: 40px 24px 10px;
+    padding: 0.5em 2em;
+    background: #eaeef0;
+    border: none;
+    border-radius: .5rem;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, 0.253);
+}
+
+.other_page_link:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+                -2px -2px 4px rgba(255, 255, 255, .4),
+                2px 2px 2px rgba(255, 255, 255, .05),
+                2px 2px 4px rgba(0, 0, 0, .1);
+}
+.other_page_link:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset -2px -2px 4px rgba(255, 255, 255, .5),
+                inset 2px 2px 2px rgba(255, 255, 255, .075),
+                inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+@media screen and (max-width: 415px) {
+    .bank_item {
+        padding: 0;
+    }
+
+    .bank_imgs {
+        width: 90px;
+        height: auto;
+    }
+
+    .bank_flow {
+        padding: 10px;
+        margin: 30px auto;
+        width: 85%;
+    }
+    .bank_buy_text {
+        font-size: 16px;
+    }
+    .buy_step_whole {
+        width: 90%;
+        padding: 10px 0 30px;
+    }
+    .bank_typeform {
+        margin: 0 auto;
+        text-align: center;
+        height: 300px;
+        width: auto;
+        background: none !important;
+    }    
+    .bank_2_text {
+        width: 70%;
+    }
+    .other_page_link {
+        margin: 20px 24px 0px;
+        padding: 0.3em 1.2em;
+        transition: .2s ease-in-out;
+        box-shadow: -3px -3px 14px rgba(255, 255, 255, .7),
+                    -3px -3px 10px rgba(255, 255, 255, .5),
+                    3px 3px 8px rgba(255, 255, 255, .075),
+                    3px 3px 10px rgba(0, 0, 0, 0.253);
+    }
+    .links {
+        margin-bottom: 22px;
+    }
+}

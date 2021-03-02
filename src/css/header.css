@@ -1,0 +1,114 @@
+.header_nav {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-color: #3b3c3fe5;
+    transition: .6s;
+    z-index: -1;
+    position: fixed;
+}
+
+/* ナビゲーションの非表示にさせておく */
+.move {
+    top: -100vh;
+}
+
+.header_nav li {
+    margin: 30px auto 0;
+    text-align: left;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    width: 50%;
+    color: #fff;
+}
+
+.menu_btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    /* top: 10px; */
+    /* top: 46px; */
+    top: 76px;
+    width: 62px;
+    height:60px;
+    text-align: center;
+}
+
+.menu_btn::before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #716767;
+    position: absolute;
+    top: 30px;
+    right: 19px;
+    transition:all .3s;
+}
+
+.menu_btn::after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #716767;
+    position: absolute;
+    top: 30px;
+    right: 19px;
+    transition:all .3s;
+}
+
+.menu_btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #716767;
+    position: absolute;
+    top: 30px;
+    right: 19px;
+    transition:all .3s;
+}
+
+.menu_btn::before {
+    margin-top: 8px;
+}
+
+.menu_btn::after {
+    margin-top: -8px;
+}
+
+/* バツ印のスタイル */
+.menu_btn.active::before {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
+}
+
+.menu_btn.active span {
+    opacity: 0;
+}
+
+.menu_btn.active::after {
+    transform: translateY(8px) rotate(45deg);
+    background-color: white;
+}
+
+ul {
+    margin-top: 100px;
+    padding: 0px 0 70px;
+}
+
+.header_na, .menu_btn {
+    display: none;
+}
+
+@media screen and (max-width: 946px) {
+    .header_nav {
+        z-index: 0;
+    }
+    .header_na, .menu_btn {
+        display: block;
+    }
+}

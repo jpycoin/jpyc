@@ -1,0 +1,49 @@
+{
+    "name": "jpyc2",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "cross-env NODE_ENV=development && react-scripts start",
+        "build": "cross-env NODE_ENV=production && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-brands-svg-icons": "^5.15.1",
+        "@fortawesome/free-regular-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@react-pdf/renderer": "^1.6.12",
+        "@typeform/embed": "^0.34.0",
+        "copy-webpack-plugin": "^7.0.0",
+        "cross-env": "^7.0.3",
+        "firebase": "^8.2.4",
+        "json-utils": "^0.1.0",
+        "node-sass": "^4.14.1",
+        "postcss-cli": "^8.3.1",
+        "postcss-modules": "^4.0.0",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-ga": "^3.3.0",
+        "react-helmet": "^6.1.0",
+        "react-pdf": "^5.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-router-hash-link": "^2.3.1",
+        "react-scripts": "^3.4.1",
+        "web-vitals": "^1.0.1"
+    }
+}

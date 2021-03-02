@@ -1,0 +1,53 @@
+.member-main {
+    padding-top: 26px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.member-section-title {
+    color: rgb(61, 61, 61);
+    font-size: 26px;
+}
+
+.person-img {
+    border-radius: 50%;
+    width: 180px;
+}
+
+.member_name {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.person-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+}
+
+.team-people, .adviser-people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person {
+    /* margin: 0 auto; */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.member-team .person:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 415px) {
+    .member-main {
+        padding-top: 50px;
+    }
+}

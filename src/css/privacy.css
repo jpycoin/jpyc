@@ -1,0 +1,24 @@
+.privacy-page-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.privacy-main {
+    width: 86%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.privacy-text {
+    color: rgb(43, 42, 42);
+    padding: 0 20px 20px 20px;
+}
+.privacy-text p {
+    font-size: 16px;
+}
+
+.privacy-remarks {
+    color: rgb(43, 42, 42);
+    padding: 10px 0 20px;
+}

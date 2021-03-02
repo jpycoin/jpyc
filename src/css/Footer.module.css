@@ -1,0 +1,92 @@
+footer {
+    background-color: #2F2F34;
+    /* background-color: #6E9887;
+    background-color: #53917E; */
+    color: white;
+    padding: 45px 20px 10px;
+    width: auto;
+    text-align: center;
+}
+
+.footer_top {
+    display: flex;
+    justify-content:space-around;
+}
+
+.side {
+    flex-basis: 50%;
+}
+
+.inner_side1 {
+    text-align: right;
+    margin-right: 10%;
+}
+
+.inner_side2 {
+    text-align: left;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+
+.inner_side1 div {
+    display: inline-block;
+    text-align: left;
+}
+
+.inner_side2 div {
+    display: inline-block;
+    text-align: left;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+}
+
+.icon_twitter {
+    vertical-align: top;
+    width: 25px;
+    padding-right: 5px;
+    padding-top: 4px;
+}
+.icon_linkedin {
+    vertical-align: top;
+    width: 30px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+.icon_uniswap {
+    vertical-align: top;
+    width: 25px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+.icon{
+    width: 25px;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.img_p {
+    display: inline !important;
+}
+
+.footer_right_item {
+    color: white;
+}
+
+.footer_link {
+    word-break:break-all;
+    color: white;
+    text-decoration: underline;
+}
+.contract_address {
+    word-break: break-all;
+}
+
+@media screen and (max-width: 415px) {
+    p {
+        font-size: 14px;
+    }
+}

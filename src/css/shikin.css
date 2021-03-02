@@ -1,0 +1,47 @@
+
+.page-title {
+    margin-top: 60px;
+}
+
+.shikin_main {
+    margin: 82px auto 0;
+    padding: 30px 0 50px;
+    text-align: center;
+}
+
+.shikin_table, .shikin_table td, .shikin_table th {
+    margin: 0 auto;
+    width: 60%;
+    border: black 1px solid;
+    border-collapse: collapse;
+    color: rgb(34, 34, 34);
+}
+
+.shikin_table {
+    margin-top: 40px;
+}
+
+.shikin_table td {
+    padding: 20px 40px 20px;
+    text-align: left;
+}
+
+.shikin_table th {
+    background-color: #dfe4e9;
+    padding: 0;
+    width: 40%;
+}
+
+.privacy-main {
+    text-align: left;
+}
+
+@media screen and (max-width: 415px) {
+    .shikin_table {
+        width: 86%;
+    }
+
+    .page-title {
+        margin-top: 100px;
+    }
+}
