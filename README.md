@@ -2,6 +2,10 @@
 
 We issued JPYC, a stable coin linked to JPY, which is treated as a prepaid payment instrument. Although legally a prepaid payment instrument, it is issued by ERC20. When purchasing or using JPYC, anyone can use it for 1 JPYC = 1 yen. It is possible to trade freely via DEX.
 
+[JPYC Web](https://jpyc.jp/)
+
+[0x2370f9d504c7a6E775bf6E14B3F12846b594cD53(EtherScan)](https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
