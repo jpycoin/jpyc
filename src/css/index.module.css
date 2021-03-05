@@ -461,6 +461,128 @@ button, a {
     box-shadow: none;
 }
 
+/* tax */
+.tax {
+    margin: 0px auto 0px;
+    padding: 30px 0 50px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.tax_title {
+    color: #333;
+    flex: none;
+    font-size: 32px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1.4;
+    margin: 39px auto 40px;
+    padding: 0px;
+    text-align: center;
+    width: 770px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.tax_people {
+    align-content: center;
+    align-items: center;
+    border-bottom: 0px solid #b08383;
+    border-left: 0px solid #b08383;
+    border-radius: 0px;
+    border-right: 0px solid #b08383;
+    border-top: 0px solid #b08383;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+
+.tax_people_img {
+    border-radius: 50%;
+    width: 160px;
+    height: auto;
+    max-width: 160px;
+    flex-basis: 30%;
+    border: rgb(97, 97, 97) solid 1px;
+}
+
+.tax_center {
+    flex-basis: 40%;
+}
+
+.tax_name {
+    color: #333;
+    flex: none;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1.4;
+    text-align: left;
+    width: 265px;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.tax_description {
+    color: #333;
+    flex: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    line-height: 1.4;
+    margin: 11px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.tax_description_2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 11px 0 0 0 ;
+    padding: 0;
+}
+
+.tax_button {
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#1f6dff,#31caaa);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 2px 4px #8396a3;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+    flex-basis: 30%;
+    height: 50px;
+    justify-content: center;
+    margin: 16px 0 0;
+    width: 220px;
+    max-width: 250px;
+    line-height: 1.4;
+    text-align: center;
+    outline: none;
+}
+
+.tax_button:active {
+    -webkit-transform: translate(0,2px);
+    -moz-transform: translate(0,2px);
+    transform: translate(0,2px);
+    box-shadow: none;
+}
+
 @media screen and (max-width: 1248px) {
     .contact {
         margin: 0 auto;
@@ -493,6 +615,17 @@ button, a {
     }
     .contact_center button {
         margin: 10px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .tax_people {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0 40px;
+    }  
+    .tax_title {
+        font-size: 24px;
     }
 }
 

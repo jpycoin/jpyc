@@ -13,6 +13,8 @@ import eth from '../image/eth.png';
 import btc from '../image/btc.png';
 import jpyc2 from '../image/jpyc2.png';
 import { Link } from 'react-router-dom';
+import ido from '../image/people/Ido.jpg';
+import hint from '../image/hint.png';
 
 class ScrollToTopOnMount extends React.Component {
     componentDidMount(prevProps) {
@@ -123,6 +125,29 @@ const index = () => {
                         </div>
                     </section>
                 </div>
+
+                <section className={styles.tax}>
+                    <p className={styles.tax_title}>暗号資産やJPYCに詳しい税理士はこちら</p>
+                    <div className={styles.tax_people}>
+                        <img src={ido} className={styles.tax_people_img} alt="Hironori Ido"/>
+                        <div className={styles.tax_center}>
+                            <p className={styles.tax_name}>井堂 裕功</p>
+                            <p className={styles.tax_description}>Quantum Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。JPYCの買取、JPYCによる納税の相談にも対応している。</p>
+                        </div>
+                        <a href="https://ido-office.com/contact" target="__blank">
+                            <button className={styles.tax_button}>お問い合わせはこちら</button>
+                        </a>
+                    </div>
+                    <div className={styles.tax_people}>
+                        <img src={hint} className={styles.tax_people_img} alt="member"/>
+                        <div className={styles.tax_center}>
+                            <p className={styles.tax_description_2}>JPYCでの納税に詳しい税理士を募集しています</p>
+                        </div>
+                        <Link to="/company">
+                            <button className={styles.tax_button}>運営に連絡する</button>
+                        </Link>
+                    </div>
+                </section>
                 
             </main>
             <Footer />

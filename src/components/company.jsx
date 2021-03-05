@@ -6,7 +6,6 @@ import Header from './Header';
 import styles from '../css/bank.module.css';
 import '../css/use.css';
 import jpyc from '../image/logo2.png';
-import { Link } from 'react-router-dom';
 import * as typeformEmbed from '@typeform/embed';
 
 class ScrollToTopOnMount extends React.Component {
@@ -43,12 +42,6 @@ const Company = () => {
             <main className={styles.bank_main}>
                 <img src={jpyc} className={styles.bank_jpyc_img} alt="jpyc" />
                 <div className={styles.bank_buy_text}>法人の方：JPYCについて問い合わせる</div>
-
-                <div className={styles.links}>
-                    <Link to="/individual">
-                        <button className={styles.other_page_link}>個人の方はこちら</button>
-                    </Link>
-                </div>
 
                 <div className={styles.buy_step_whole}>
                     <div className={styles.buy_card}>
