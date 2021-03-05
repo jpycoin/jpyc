@@ -1,5 +1,8 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
 main {
-    /* margin-top: 82px; */
     margin-top: 118px;
     background-color: #f5f9fd;
 }
@@ -29,7 +32,6 @@ button, a {
 }
 
 .index_top p {
-    font-family:inherit;
     font-size: 30px;
     letter-spacing: 0.5px;
     line-height: 45px;
@@ -518,7 +520,6 @@ button, a {
 .tax_name {
     color: #333;
     flex: none;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     height: auto;
@@ -532,7 +533,6 @@ button, a {
 .tax_description {
     color: #333;
     flex: none;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     height: auto;
