@@ -3,7 +3,6 @@
 import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
-import { Link } from 'react-router-dom'
 import Harasawa from '../image/people/Harasawa.png'
 import Ido from '../image/people/Ido.jpg';
 import Ito from '../image/people/Ito.jpg'
@@ -39,25 +38,25 @@ const Member = () => {
                             <img src={Okabe} alt="person" className="person-img" />
                             <p className="member_name">Noritaka Okabe</p>
                             <p>CEO</p>
-                            <a href="https://www.linkedin.com/in/noritakaokabe/" className="person-link" target="__href"></a>
+                            <a href="https://www.linkedin.com/in/noritakaokabe/" className="person-link" target="__href" rel="external"></a>
                         </div>
                         <div className="person">
                             <img src={Harasawa} alt="person" className="person-img" />
                             <p className="member_name">Yosui Harasawa</p>
                             <p>COO</p>
-                            <a href="https://www.linkedin.com/in/yosui-harasawa-a47b6b158/" className="person-link" target="__href"></a>
+                            <a href="https://www.linkedin.com/in/yosui-harasawa-a47b6b158/" className="person-link" target="__href" rel="external"></a>
                         </div>
                         <div className="person">
                             <img src={Ito} alt="person" className="person-img" />
                             <p className="member_name">Yohei Ito</p>
                             <p>Engineer</p>
-                            <a href="https://www.linkedin.com/in/itoyohei/" className="person-link" target="__href"></a>
+                            <a href="https://www.linkedin.com/in/itoyohei/" className="person-link" target="__href" rel="external"></a>
                         </div>
                         <div className="person">
                             <img src={Ono} alt="person" className="person-img" />
                             <p className="member_name">Hanae Ono</p>
                             <p>Engineer</p>
-                            <a href="https://www.linkedin.com/in/HanaeOno/" className="person-link" target="__href"></a>
+                            <a href="https://www.linkedin.com/in/HanaeOno/" className="person-link" target="__href" rel="external"></a>
                         </div>
                     </div>
                 </section>

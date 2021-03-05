@@ -14,7 +14,7 @@ const index = () => {
             <div className={styles.header_wrapper} id="header_wrapper">
                 <div className={styles.address_alert} id="address_alert">
                     <p>【注意】JPYC購入時に入力するETHアドレスは「取引所のアドレス」ではなく「個人用ウォレット」のアドレスからお願いします。個人用ウォレットの作成方法は
-                        <a href="https://note.com/ocurima/n/n29e1fd7ecbdd" rel="noopener" target="_blank">
+                        <a href="https://note.com/ocurima/n/n29e1fd7ecbdd" target="_blank" rel="noopener noreferrer">
                             こちら
                         </a>
                     </p>
@@ -34,7 +34,7 @@ const index = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="menu_btn" id="menu_btn" href="">
+                    <a className="menu_btn" id="menu_btn" href="/">
                         <span className="line"></span>
                     </a>
                     <div className={styles.header_right}>
