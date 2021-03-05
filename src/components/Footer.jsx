@@ -8,8 +8,10 @@ import {HashLink} from 'react-router-hash-link';
 import uniswap from '../image/uniswap.png';
 import github from '../image/github.png';
 import facebook from '../image/facebook.png';
-import linkedin from '../image/linkedin.png'
-import twitter from '../image/twitter.png'
+import linkedin from '../image/linkedin.png';
+import twitter from '../image/twitter.png';
+import quickswap from '../image/quickswap.png';
+import honeyswap from '../image/honeyswap.svg';
 
 const Footer = () => {
     return (
@@ -27,21 +29,27 @@ const Footer = () => {
                             <p><a href="https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" className={styles.footer_link}>Etherscan</a></p>
                             <p><a href="https://note.com/ocurima/m/mf80a9d72984a" target="__blank" className={styles.footer_link}>JPYC Magazine</a></p>
                             <p className={styles.contract_address}>コントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53</p>
-                            <p>
+                            <p className={styles.icon_wrapper}>
                                 <a href="https://twitter.com/jpy_coin"  target="__blank">
-                                    <img src={twitter} alt="twitter" className={styles.icon_twitter} />
+                                    <img src={twitter} alt="twitter" className={styles.icon} />
                                 </a>
                                 <a href="https://www.facebook.com/japancryptoassetmarket" target="__blank">
                                     <img src={facebook} alt="facebook" className={styles.icon} />
                                 </a>
                                 <a href="https://www.linkedin.com/company/japancryptoassetmarket/about/" target="__blank">
-                                    <img src={linkedin} alt="linkedin" className={styles.icon_linkedin} />
+                                    <img src={linkedin} alt="linkedin" className={styles.icon} />
                                 </a>
                                 <a href="https://github.com/jpycoin" target="__blank">
                                     <img src={github} alt="github" className={styles.icon} />
                                 </a>
                                 <a href="https://info.uniswap.org/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank">
-                                    <img src={uniswap} alt="uniswap" className={styles.icon_uniswap}/>
+                                    <img src={uniswap} alt="uniswap" className={styles.icon}/>
+                                </a>
+                                <a href="https://info.quickswap.exchange/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c" target="__blank">
+                                    <img src={quickswap} alt="uniswap" className={styles.icon}/>
+                                </a>
+                                <a href="https://info.honeyswap.org/token/0x417602f4fbdd471a431ae29fb5fe0a681964c11b" target="__blank">
+                                    <img src={honeyswap} alt="uniswap" className={styles.icon}/>
                                 </a>
                             </p>
                         </div>

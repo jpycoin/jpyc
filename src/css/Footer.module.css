@@ -44,28 +44,15 @@ footer {
     max-width: 150px;
 }
 
-.icon_twitter {
-    vertical-align: top;
-    width: 25px;
-    padding-right: 5px;
-    padding-top: 4px;
+.icon_wrapper {
+    padding-top: 8px;
 }
-.icon_linkedin {
-    vertical-align: top;
-    width: 30px;
-    padding-right: 5px;
-    padding-top: 1px;
-}
-.icon_uniswap {
-    vertical-align: top;
-    width: 25px;
-    padding-right: 5px;
-    padding-top: 1px;
-}
+
 .icon{
-    width: 25px;
-    vertical-align: top;
-    padding-right: 5px;
+    width: 22px;
+    vertical-align: middle;
+    padding-right: 16px;
+    padding-top: 10px;
 }
 
 .img_p {
@@ -77,9 +64,11 @@ footer {
 }
 
 .footer_link {
+    border-bottom: white solid 1px;
+    padding-bottom: 1px;
     word-break:break-all;
     color: white;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .contract_address {
     word-break: break-all;
