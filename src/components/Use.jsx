@@ -75,8 +75,10 @@ const Use = () => {
                             <div className={styles.step}>
                                 <p className={styles.bank_style_title}>Step2 JPYC送金</p>
                                 <div>
-                                    <p>下記ETHアドレスへ送金ください</p>
-                                    <div className="bank_2_text">0xAf38B7A0351aFA69F04d287cEdEb39bd5454469C（jpyc.eth）</div>
+                                    <p>現在、Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。<br />
+                                        いずれのネットワークの場合でも下記アドレスへ購入額分を送金ください。</p>
+                                    <p className="bank_2_text">0xAf38B7A0351aFA69F04d287cEdEb39bd5454469C</p>
+                                    <p>※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。</p>
                                 </div>
                             </div>
                             <div className={styles.step}>

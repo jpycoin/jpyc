@@ -71,8 +71,10 @@ const Use = () => {
                             <div className={styles.step}>
                                 <p className={styles.bank_style_title}>Step2 ETH送金</p>
                                 <div>
-                                    <p>フォームで送信されたメールアドレスへ、レート換算したETHの額をお伝え致します。<br />フォームで送信された送金元ETHアドレスより、下記ETHアドレスへETHをお送りください。</p>
-                                    <div className="bank_2_text">0xAf38B7A0351aFA69F04d287cEdEb39bd5454469C（jpyc.eth）</div>
+                                    <p>Step１のフォームで送信されたメールアドレスへ、レート換算したETHの額をお伝え致します。<br />フォームで送信された送金元ETHアドレスより、下記ETHアドレスへETHをお送りください。</p>
+                                    <div className="bank_2_text">0xAf38B7A0351aFA69F04d287cEdEb39bd5454469C</div>
+                                    <p>※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。
+                                        <br />※現在Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。いずれのネットワークの場合でも、Step１のフォームで送信された送金先アドレスより、上記のアドレスへETHをお送りください。</p>
                                 </div>
                             </div>
                             <div className={styles.step}>
