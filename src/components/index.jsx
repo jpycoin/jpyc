@@ -132,7 +132,7 @@ const index = () => {
                         <img src={ido} className={styles.tax_people_img} alt="Hironori Ido"/>
                         <div className={styles.tax_center}>
                             <p className={styles.tax_name}>井堂 裕功</p>
-                            <p className={styles.tax_description}>Quantum Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。JPYCの買取、JPYCによる納税の相談にも対応している。</p>
+                            <p className={styles.tax_description}>Quantum Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。暗号資産による納税も開始。</p>
                         </div>
                         <a href="https://ido-office.com/contact" target="__blank">
                             <button className={styles.tax_button}>お問い合わせはこちら</button>
