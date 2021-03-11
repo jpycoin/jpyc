@@ -12,6 +12,7 @@ import linkedin from '../image/linkedin.png';
 import twitter from '../image/twitter.png';
 import quickswap from '../image/quickswap.png';
 import honeyswap from '../image/honeyswap.svg';
+import pancake from '../image/pancake.png';
 
 const Footer = () => {
     return (
@@ -46,10 +47,13 @@ const Footer = () => {
                                     <img src={uniswap} alt="uniswap" className={styles.icon}/>
                                 </a>
                                 <a href="https://info.quickswap.exchange/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c" target="__blank">
-                                    <img src={quickswap} alt="uniswap" className={styles.icon}/>
+                                    <img src={quickswap} alt="quickswap" className={styles.icon}/>
                                 </a>
                                 <a href="https://info.honeyswap.org/token/0x417602f4fbdd471a431ae29fb5fe0a681964c11b" target="__blank">
-                                    <img src={honeyswap} alt="uniswap" className={styles.icon}/>
+                                    <img src={honeyswap} alt="honeyswap" className={styles.icon}/>
+                                </a>
+                                <a href="https://pancakeswap.info/token/0x64ddff6b63adcc70d7581ff51a874b4af399e488" target="__blank">
+                                    <img src={pancake} alt="pancake" className={`${styles.icon} ${styles.icon_circle}`}/>
                                 </a>
                             </p>
                         </div>

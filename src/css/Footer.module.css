@@ -51,8 +51,12 @@ footer {
 .icon{
     width: 22px;
     vertical-align: middle;
-    padding-right: 16px;
-    padding-top: 10px;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.icon_circle {
+    border-radius: 50%;
 }
 
 .img_p {
