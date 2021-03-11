@@ -8,6 +8,11 @@ footer {
     text-align: center;
 }
 
+.copy button {
+    padding: 2px !important;
+}
+
+
 .footer_top {
     display: flex;
     justify-content:space-around;

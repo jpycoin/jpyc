@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 
-import React from 'react';
+import React, { useState }  from 'react';
 import styles from '../css/Footer.module.css';
 import logo from '../image/logo-white.png';
 import { Link } from 'react-router-dom';
@@ -13,8 +13,19 @@ import twitter from '../image/twitter.png';
 import quickswap from '../image/quickswap.png';
 import honeyswap from '../image/honeyswap.svg';
 import pancake from '../image/pancake.png';
+import IconButton      from '@material-ui/core/IconButton';
+import InputAdornment  from '@material-ui/core/InputAdornment';
+import AssignmentIcon  from '@material-ui/icons/Assignment';
+import Tooltip         from '@material-ui/core/Tooltip';
+import CopyToClipBoard from 'react-copy-to-clipboard';
+
 
 const Footer = () => {
+    const [openTip_ETH, setOpenTip_ETH] = useState(false);
+    const [openTip_Matic, setOpenTip_Matic] = useState(false);
+    const [openTip_xDai, setOpenTip_xDai] = useState(false);
+    const [openTip_BSC, setOpenTip_BSC] = useState(false);
+
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_top}>
@@ -29,7 +40,78 @@ const Footer = () => {
                             <p>105-0011<br />東京都港区芝公園4-8-12 猫来坊2階</p>
                             <p><a href="https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" className={styles.footer_link}>Etherscan</a></p>
                             <p><a href="https://note.com/ocurima/m/mf80a9d72984a" target="__blank" className={styles.footer_link}>JPYC Magazine</a></p>
-                            <p className={styles.contract_address}>コントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53</p>
+                            <p className={styles.contract_address}>ETHメインネットコントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53
+                                <InputAdornment className={styles.copy}>
+                                    <Tooltip
+                                        open={openTip_ETH}
+                                        onClose={() => setOpenTip_ETH(false)}
+                                        disableHoverListener
+                                        title='Copied!'
+                                    >
+                                    <CopyToClipBoard text={'0x2370f9d504c7a6e775bf6e14b3f12846b594cd53'}>
+                                        <IconButton
+                                        onClick={() => setOpenTip_ETH(true)}
+                                        >
+                                        <AssignmentIcon color="primary" />
+                                        </IconButton> 
+                                    </CopyToClipBoard>
+                                    </Tooltip>
+                                </InputAdornment>
+                            </p>
+                            <p className={styles.contract_address}>Maticコントラクトアドレス：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
+                                <InputAdornment className={styles.copy}>
+                                    <Tooltip
+                                        open={openTip_Matic}
+                                        onClose={() => setOpenTip_Matic(false)}
+                                        disableHoverListener
+                                        title='Copied!'
+                                    >
+                                    <CopyToClipBoard text={'0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c'}>
+                                        <IconButton
+                                        onClick={() => setOpenTip_Matic(true)}
+                                        >
+                                        <AssignmentIcon color="primary" />
+                                        </IconButton> 
+                                    </CopyToClipBoard>
+                                    </Tooltip>
+                                </InputAdornment>
+                            </p>
+                            <p className={styles.contract_address}>xDaiコントラクトアドレス：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                                <InputAdornment className={styles.copy}>
+                                    <Tooltip
+                                        open={openTip_xDai}
+                                        onClose={() => setOpenTip_xDai(false)}
+                                        disableHoverListener
+                                        title='Copied!'
+                                    >
+                                    <CopyToClipBoard text={'0x417602f4fbdd471a431ae29fb5fe0a681964c11b'}>
+                                        <IconButton
+                                        onClick={() => setOpenTip_xDai(true)}
+                                        >
+                                        <AssignmentIcon color="primary" />
+                                        </IconButton> 
+                                    </CopyToClipBoard>
+                                    </Tooltip>
+                                </InputAdornment>
+                            </p>
+                            <p className={styles.contract_address}>xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
+                                <InputAdornment className={styles.copy}>
+                                    <Tooltip
+                                        open={openTip_BSC}
+                                        onClose={() => setOpenTip_BSC(false)}
+                                        disableHoverListener
+                                        title='Copied!'
+                                    >
+                                    <CopyToClipBoard text={'0x64ddff6b63adcc70d7581ff51a874b4af399e488'}>
+                                        <IconButton
+                                        onClick={() => setOpenTip_BSC(true)}
+                                        >
+                                        <AssignmentIcon color="primary" />
+                                        </IconButton> 
+                                    </CopyToClipBoard>
+                                    </Tooltip>
+                                </InputAdornment>
+                            </p>
                             <p className={styles.icon_wrapper}>
                                 <a href="https://twitter.com/jpy_coin"  target="__blank">
                                     <img src={twitter} alt="twitter" className={styles.icon} />
