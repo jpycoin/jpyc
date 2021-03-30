@@ -60,6 +60,13 @@ footer {
     margin-top: 10px;
 }
 
+.icon_metamask {
+    width: 22px;
+    vertical-align: middle;
+    margin-right: 16px;
+    margin-top: 0px;
+}
+
 .icon_circle {
     border-radius: 50%;
 }

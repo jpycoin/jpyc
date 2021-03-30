@@ -13,18 +13,42 @@ import twitter from '../image/twitter.png';
 import quickswap from '../image/quickswap.png';
 import honeyswap from '../image/honeyswap.svg';
 import pancake from '../image/pancake.png';
+import metamask from '../image/metamask.svg';
 import IconButton      from '@material-ui/core/IconButton';
 import InputAdornment  from '@material-ui/core/InputAdornment';
 import AssignmentIcon  from '@material-ui/icons/Assignment';
 import Tooltip         from '@material-ui/core/Tooltip';
 import CopyToClipBoard from 'react-copy-to-clipboard';
 
-
 const Footer = () => {
     const [openTip_ETH, setOpenTip_ETH] = useState(false);
     const [openTip_Matic, setOpenTip_Matic] = useState(false);
     const [openTip_xDai, setOpenTip_xDai] = useState(false);
     const [openTip_BSC, setOpenTip_BSC] = useState(false);
+
+    const tokenDecimals = 18;
+    const tokenImage = "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png";
+
+    const addToken = async (tokenAddress, tokenSymbol) => {
+        if (!window.ethereum) return;
+
+        try {
+            await window.ethereum.request({
+                method: 'wallet_watchAsset',
+                params: {
+                    type: "ERC20",
+                    options: {
+                        address: tokenAddress,
+                        symbol: tokenSymbol,
+                        decimals: tokenDecimals,
+                        image: tokenImage
+                    }
+                }
+            })
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     return (
         <footer className={styles.footer}>
@@ -57,6 +81,15 @@ const Footer = () => {
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken(process.env.REACT_APP_ETH_JPYC_CONTRACT_ADDRESS, process.env.REACT_APP_JPYC_SYMBOL)}>
+                                        <img
+                                            src={metamask} 
+                                            alt="metamask" 
+                                            className={styles.icon_metamask} 
+                                        />
+                                    </IconButton>
+                                </InputAdornment>
                             </p>
                             <p className={styles.contract_address}>Maticコントラクトアドレス：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
                                 <InputAdornment className={styles.copy}>
@@ -75,6 +108,15 @@ const Footer = () => {
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken(process.env.REACT_APP_MATIC_JPYC_CONTRACT_ADDRESS, process.env.REACT_APP_JPYC_SYMBOL)}>
+                                        <img
+                                            src={metamask} 
+                                            alt="metamask" 
+                                            className={styles.icon_metamask} 
+                                        />
+                                    </IconButton>
+                                </InputAdornment>
                             </p>
                             <p className={styles.contract_address}>xDaiコントラクトアドレス：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
                                 <InputAdornment className={styles.copy}>
@@ -92,6 +134,15 @@ const Footer = () => {
                                         </IconButton> 
                                     </CopyToClipBoard>
                                     </Tooltip>
+                                </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken(process.env.REACT_APP_XDAI_JPYC_CONTRACT_ADDRESS, process.env.REACT_APP_JPYC_SYMBOL)}>
+                                        <img
+                                            src={metamask} 
+                                            alt="metamask" 
+                                            className={styles.icon_metamask} 
+                                        />
+                                    </IconButton>
                                 </InputAdornment>
                             </p>
                             <p className={styles.contract_address}>xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
