@@ -18,6 +18,8 @@ import InputAdornment  from '@material-ui/core/InputAdornment';
 import AssignmentIcon  from '@material-ui/icons/Assignment';
 import Tooltip         from '@material-ui/core/Tooltip';
 import CopyToClipBoard from 'react-copy-to-clipboard';
+import coinmarketcap from '../image/coinmarketcap.png';
+import medium from '../image/medium.png';
 
 
 const Footer = () => {
@@ -136,6 +138,12 @@ const Footer = () => {
                                 </a>
                                 <a href="https://pancakeswap.info/token/0x64ddff6b63adcc70d7581ff51a874b4af399e488" target="__blank">
                                     <img src={pancake} alt="pancake" className={`${styles.icon} ${styles.icon_circle}`}/>
+                                </a>
+                                <a href="https://coinmarketcap.com/currencies/jpycoin/" target="__blank">
+                                    <img src={coinmarketcap} alt="coinmarketcap" className={`${styles.icon} ${styles.icon}`}/>
+                                </a>
+                                <a href="https://medium.com/@jpyc-blog" target="__blank">
+                                    <img src={medium} alt="medium" className={`${styles.icon} ${styles.icon}`}/>
                                 </a>
                             </p>
                         </div>
