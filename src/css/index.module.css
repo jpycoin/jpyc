@@ -185,6 +185,63 @@ button, a {
     line-height: 1.4;
 }
 
+/* multichain */
+.multichain {
+    text-align: center;
+}
+
+.multichain_top {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+.multichain_top .multichain_label {
+    background: #C2D1FF;
+    border-radius: 25px;
+    padding: 7px 20px;
+}
+
+.multichain_top .multichain_label p {
+    font-size: 13px;
+    color: #2529FF;
+    margin: 0;
+}
+
+.multichain_top h3 {
+    margin: 0;
+}
+
+.multichain_top .multichain_br {
+    display: none;
+}
+
+.multichain_item ul {
+    width: 44%;
+    margin: 4% auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.multichain_item ul li {
+    list-style: none;
+}
+
+.multichain_item ul li a .multichain_img {
+    width: 100px;
+}
+
+.multichain_item ul li a .multichain_sp_br {
+    display: none;
+}
+
+.multichain_item ul li a p {
+    color: #525252;
+}
+
 /* join */
 .join, .buy {
     align-content: center;
@@ -583,7 +640,35 @@ button, a {
     box-shadow: none;
 }
 
+@media screen and (max-width: 1650px) {
+    /* multichain */
+    .multichain_top {
+        width: 65%;
+    }
+
+    .multichain_item ul {
+        width: 57%;
+    }
+}
+
 @media screen and (max-width: 1248px) {
+    /* multichain */
+    .multichain_top {
+        width: 80%;
+    }
+
+    .multichain_top .multichain_label {
+        margin: 12.5px 0;
+    }
+
+    .multichain_top .multichain_br {
+        display: block;
+    }
+
+    .multichain_item ul {
+        width: 58%;
+    }
+
     .contact {
         margin: 0 auto;
     }
@@ -656,6 +741,23 @@ button, a {
 }
 
 @media screen and (max-width: 887px) {
+    /* multichain */
+    .multichain_top {
+        width: 80%;
+    }
+
+    .multichain_item ul {
+        width: 67%;
+    }
+
+    .multichain_item ul li a .multichain_img {
+        width: 70px;
+    }
+
+    .multichain_item ul li a p {
+        font-size: 12px;
+    }
+
     .inner_join {
         display: block;
         text-align: center;
@@ -664,6 +766,45 @@ button, a {
 }
 
 @media screen and (max-width: 609px) {
+    /* multichain */
+    .multichain_top {
+        width: 75%;
+        display: block;
+    }
+
+    .multichain_top .multichain_label {
+        width: 68px;
+    }
+
+    .multichain_top .multichain_label p {
+        font-size: 11px;
+    }
+
+    .multichain_top h3 {
+        margin: 2% 0 8%;
+        /* text-align: left; */
+    }
+
+    .multichain_top .multichain_br {
+        display: none;
+    }
+
+    .multichain_item ul {
+        width: 70%;
+    }
+
+    .multichain_item ul li a .multichain_img {
+        width: 50px;
+    }
+
+    .multichain_item ul li a .multichain_sp_br {
+        display: block;
+    }
+
+    .multichain_item ul li a p {
+        font-size: 10px;
+    }
+
     .join {
         height: auto;
         margin: 0;

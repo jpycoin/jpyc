@@ -15,6 +15,9 @@ import jpyc2 from '../image/jpyc2.png';
 import { Link } from 'react-router-dom';
 import ido from '../image/people/Ido.jpg';
 import hint from '../image/hint.png';
+import ETHBlack from '../image/eth-black.svg';
+import Polygon from '../image/polygon.svg';
+import xDai from '../image/xdai.svg';
 
 class ScrollToTopOnMount extends React.Component {
     componentDidMount(prevProps) {
@@ -72,6 +75,37 @@ const index = () => {
                                 <p>JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）上での取引に利用可能です。</p>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                <section className={styles.multichain} id="multichain">
+                    <div className={styles.multichain_top}>
+                        <div className={styles.multichain_label}>
+                            <p>開発者向け</p>
+                        </div>
+                        <h3>JPYCはマルチチェーン対応しており、<br class={styles.multichain_br} />様々なプロダクトにサポート可能です。</h3>
+                    </div>
+                    <div className={styles.multichain_item}>
+                        <ul>
+                            <li>
+                                <a href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" rel="noopener" target="_blank">
+                                    <img src={ETHBlack} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
+                                    <p>Ethereum <br className={styles.multichain_sp_br} />Mainnet</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://explorer-mainnet.maticvigil.com/address/0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c/transactions" rel="noopener" target="_blank">
+                                    <img src={Polygon} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
+                                    <p>Polygon<br />(Matic Network)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blockscout.com/xdai/mainnet/address/0x417602f4fbdd471A431Ae29fB5fe0A681964C11b/transactions" rel="noopener" target="_blank">
+                                    <img src={xDai} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
+                                    <p>xDai</p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </section>
 
