@@ -34,7 +34,7 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th>電話番号</th>
-                        <td>07041054162</td>
+                        <td>070-4105-4162</td>
                     </tr>
                     <tr>
                         <th>電話応対時間</th>
