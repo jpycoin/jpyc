@@ -1,15 +1,15 @@
 {
   "common": {
-    "buyJPYC": "JPYCを購入する",
-    "useJPYC": "JPYCを使う",
-    "JPYCIs": "JPYCとは",
-    "community": "コミュニティ",
-    "contact": "お問い合わせ"
+    "buyJPYC": "Purchase JPYC",
+    "useJPYC": "Use JPYC",
+    "JPYCIs": "What is JPYC",
+    "community": "Community",
+    "contact": "Contact"
   },
   "header": {
     "alert": {
-      "description": "【注意】JPYC購入時に入力するETHアドレスは「取引所のアドレス」ではなく「個人用ウォレット」のアドレスからお願いします。個人用ウォレットの作成方法は",
-      "descriptionMarked": "こちら"
+      "description": "【Note】When purchasing JPYC, please enter your ETH address from your \"personal wallet\" address, not your \"exchange address\". You can learn how to create your own wallet from ",
+      "descriptionMarked": "here"
     }
   },
   "footer": {
@@ -35,7 +35,7 @@
       }
     },
     "innerArea": {
-      "subText": "日本円ステーブルコインの「JPYC」を誰でも簡単に日本円で購入できるようになりました",
+      "subText": "日本円ステーブルコインの「JPYC」を誰でも簡単に日本円で購入できるようになりました"
     },
     "feature": {
       "mainText": "JPYCの特徴",

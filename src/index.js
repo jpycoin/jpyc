@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserHistory } from "history";
+import './i18n';
 
 const { NODE_ENV } = process.env;
 
