@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 translation: translationJA
               }
             },
-            detection: detectorOptions,
             react: {
               wait: true,
             }
