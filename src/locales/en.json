@@ -13,7 +13,7 @@
     }
   },
   "footer": {
-    "companyAddress": "4-8-12 Nekoraibo 2F, Shibakoen, Minato-city, Tokyo",
+    "companyAddress": "4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
     "ETHAddress": "ETH Mainnet Contract Address",
     "MaticAddress": "Matic Contract Address",
     "xDaiAddress": "xDai Contract Address",
@@ -41,7 +41,7 @@
       "mainText": "JPYC Features",
       "first": {
         "mainText": "The First Japanese Yen Stablecoin in Japan",
-        "subText": "JPYC (JPYCoin) is the first Japanese Yen Stablecoin in Japan utilizing blockchain technology (ERC20). It runs on the Ethereum mainnet and can be used to buy and sell goods at 1 JPYC = 1 yen at all times.It can be used as a Japanese Yen denominated coin in your wallet, such as Metamask, or in the secondary market, such as Uniswap."
+        "subText": "JPYC (JPYCoin) is the first Japanese Yen Stablecoin in Japan utilizing blockchain technology (ERC20). It runs on the Ethereum mainnet and can be used to buy and sell goods at 1 JPYC = 1 yen at all times.It can be used as a Japanese Yen denominated coin in your wallet, such as Metamask, or in the secondary distribution market, such as Uniswap."
       },
       "second": {
         "mainText": "Ligal Liquidation of JPYC (JPYCoin)",
@@ -96,269 +96,160 @@
       } 
     }
   },
-  "buy": {
-    "subText": "In which currency do you want to purchase JPYC?",
-    "button": {
-      "withJPY": "with Japanese Yen",
-      "withCrypto": "with BTC or ETH"
-    },
-    "popup": {
-      "mainText": "Please select a payment method.",
-      "button": {
-        "JPY": {
-          "bank": "Bank Transfer",
-          "credit": {
-            "first": "Credit Card",
-            "second": "（under preparation）"
-          }
-        },
-        "crypto": {
-          "BTC": "（under preparation）"
-        }
-      }
-    }
-  },
-  "bank": {
-    "mainText": "Purchase JPYC（決済方法：銀行振込）",
-    "flowTop": {
-      "mainText": "JPYC受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": "銀行振込",
-      "third": "JPYCを受け取る"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 銀行振込",
-        "subText": "下記銀行口座にご購入金額をお振り込みください",
-        "description": {
-          "first": "銀行名：GMOあおぞらネット銀行（金融機関コード0310）",
-          "second": "支店名：法人第二営業部(102)",
-          "third": "口座の種類：普通預金",
-          "fourth": "口座番号：1108585",
-          "fifth": "口座名義：ニホンアンゴウシサンイチバ（カ　ＪＰＹＣトリヒキヨウ"
-        }
-      },
-      "third": {
-        "mainText": "Step3 JPYCを受け取る",
-        "subText": "翌営業日までにご指定のETHアドレス宛にJPYCが送金されます。"
-      }
-    }
-  },
-  "buyFromETH": {
-    "mainText": "JPYCを購入する（決済方法：ETH）",
-    "flowTop": {
-      "mainText": "JPYC受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": "ETH送金",
-      "third": "JPYCを受け取る"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 ETH送金",
-        "subText": {
-          "first": "Step１のフォームで送信されたメールアドレスへ、レート換算したETHの額をお伝え致します。",
-          "second": "※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。",
-          "third": "※現在Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。いずれのネットワークの場合でも、Step１のフォームで送信された送金先アドレスより、上記のアドレスへETHをお送りください。"
-        }
-      },
-      "third": {
-        "mainText": "Step3 JPYCを受け取る",
-        "subText": "翌営業日までにご指定のETHアドレス宛にJPYCが送金されます。"
-      }
-    }
-  },
-  "use": {
-    "mainText": "JPYCでAmazonの商品を購入する",
-    "flowTop": {
-      "mainText": "商品受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": {
-        "first": "JPYC送金",
-        "second": "(別途手数料として",
-        "third": "ETHが必要です)"
-      },
-      "third": "商品到着"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 JPYC送金",
-        "subText": {
-          "first": "現在、Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。",
-          "second": "いずれのネットワークの場合でも下記アドレスへ購入額分を送金ください。",
-          "third": "※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。"
-        }
-      },
-      "third": {
-        "mainText": "Step3 商品が到着",
-        "subText": {
-          "first": "フォームに記入されたご住所に商品が到着します。",
-          "second": "翌営業日までに商品を発送致します。"
-        }
-      }
-    }
-  },
   "company": {
-    "mainText": "法人の方：JPYCについて問い合わせる"
+    "mainText": "For Coporations：Inquire about JPYC"
   },
   "shikinKessai": {
-    "mainText": "資金決済法に基づく表示",
+    "mainText": "Indication based on Payment Services Act",
     "table": {
       "first": {
-        "left": "前払式支払手段の名称",
-        "right": "JPY Coin（単位：JPYC）"
+        "left": "Name of Prepaid Payment Instrument",
+        "right": "JPY Coin（Unit: JPYC）"
       },
       "second": {
-        "left": "発行事業者",
-        "right": "日本暗号資産市場株式会社"
+        "left": "Issuing Firm",
+        "right": "Japan Crypto Asset Market, inc."
       },
       "third": {
-        "left": "支払可能金額等",
-        "right": "上限はございません。"
+        "left": "Payabout amount, etc.",
+        "right": "No upper limit."
       },
       "fourth": {
-        "left": "有効期間",
-        "right": "期限はありません。"
+        "left": "Period of Validity",
+        "right": "No limitation."
       },
       "fifth": {
-        "left": "お問い合わせ先",
+        "left": "For Inquiries",
         "right": {
-          "first": "日本暗号資産市場株式会社",
-          "second": "所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊2階",
-          "third": "法人の方",
-          "fourth": "一般の方"
+          "first": "Japan Crypto Asset Market, inc.",
+          "second": "Address: 〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
+          "third": "For Corporations",
+          "fourth": "For the Public"
         }
       },
       "sixth": {
-        "left": "使用場所",
+        "left": "Usage",
         "right": {
-          "first": "Amazon",
-          "second": "などECサイトで販売されている商品を当社にて代理購入することができます。商品ご購入は",
-          "third": "こちら",
-          "fourth": "をご覧ください。"
+          "first": "Like ",
+          "second": ", you can purchase products sold on the EC site via our proxy purchase. Please click ",
+          "third": "here",
+          "fourth": " to purchase products."
         }
       },
       "seventh": {
-        "left": "利用上の注意",
+        "left": "Notes on Use",
         "right": {
-          "first": "・原則として JPYC の払戻しはいたしません。",
-          "second": "但し、当社が有償ポイントサービスの提供を終了（廃止）する場合は、この限りではありません。この場合、払戻し実施時に有効に残存するJPYCを、1 JPYC = 1 円に基づいて日本円で計算した額を払い戻します。",
-          "third": "・１JPYCあたりの二次流通価格は、為替や経済情勢の影響等により、変動する可能性があります。"
+          "first": "- In principle, JPYC will not be refunded.",
+          "second": "However, this shall not apply in the event that the Company terminates (discontinues) the provision of the paid point service. In this case, the JPYC remaining in effect at the time of the refund will be refunded in Japanese yen, calculated on the basis of 1 JPYC = 1 yen.",
+          "third": "- The secondary distribution price per JPYC may fluctuate due to the influence of exchange rates and economic conditions."
         }
       },
       "eighth": {
-        "left": "未使用残高の確認方法",
+        "left": "How to Check Unused Balance",
         "right": {
-          "first": "または、ご自身のウォレット（",
-          "second": "など）よりご確認できます。"
+          "first": "You can check from ",
+          "second": " or your own wallet (e.g. ",
+          "third": ")."
         }
       }
     }
   },
   "law": {
-    "mainText": "特定商取引法に基づく表示",
+    "mainText": "Indication based on Specified Commerial Transaction Act",
     "table": {
       "first": {
-        "left": "販売業者名",
-        "right": "日本暗号資産市場株式会社"
+        "left": "Name of Distributor",
+        "right": "Japan Crypto Asset Market, inc."
       },
       "second": {
-        "left": "所在地",
-        "right": "〒105-0011 東京都港区芝公園4-8-12 猫来坊2階"
+        "left": "Address",
+        "right": "〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo"
       },
       "third": {
-        "left": "電話番号",
-        "right": "070-4105-4162"
+        "left": "Phone Number",
+        "right": "(+81) 70-4105-4162"
       },
       "fourth": {
-        "left": "電話応対時間",
+        "left": "Telephone Response Time",
         "right": {
-          "first": "電話応対時間  平日　午前10時～午後7時00分まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "Weekday, 10:00 a.m. to 7:00 p.m. (except for year-end and New Year Holidays)",
+          "second": "*Please contact us by email if your inquiry is outside of this.*"
         }
       },
       "fifth": {
-        "left": "メールアドレス"
+        "left": "Email Address"
       },
       "sixth": {
-        "left": "代表者",
-        "right": "代表取締役社長 岡部典孝"
+        "left": "CEO",
+        "right": "Noritaka Okabe"
       },
       "seventh": {
-        "left": "お問い合わせ",
+        "left": "Contact",
         "right": {
-          "first": "法人の方",
-          "second": "一般の方"
+          "first": "For Corporations",
+          "second": "For the Public"
         }
       },
       "eighth": {
-        "left": "ウェブサイトURL"
+        "left": "Website URL"
       },
       "ninth": {
-        "left": "申込みの有効期限",
-        "right": "このウェブサイトが表示されている限り"
+        "left": "Effective Date of Application",
+        "right": "As long as this website is visible."
       },
       "tenth": {
-        "left": "お支払い方法",
-        "right": "クレジットカード"
+        "left": "Payment Method",
+        "right": "Credit Card"
       },
       "eleventh": {
-        "left": "商品代金以外の必要料金",
-        "right": "・銀行振込手数料"
+        "left": "Required Fees other than the Product Price",
+        "right": "- Bank Transfer Fee"
       },
       "twelfth": {
-        "left": "お支払い金額について",
+        "left": "About the Amount to be Paid",
         "right": {
-          "first": "・銀行振込の場合",
-          "second": "表示価格 + 振込手数料のお支払いになります。",
-          "third": "※JPYCをお客様に送金する際のGAS代（送信手数料）は頂いておりません。",
-          "fourth": "※JPYCは前払式支払手段のため非課税です。"
+          "first": "- In case of bank transfer",
+          "second": "You will be asked to pay the listed price and bank transfer fee.",
+          "third": "*We do not charge a GAS fee (transaction fee) when sending JPYC to our customers.*",
+          "fourth": "*JPYC is exempt from taxation because it is a Prepaid Payment Instrument.*"
         }
       },
       "thirteenth": {
-        "left": "引き渡し期間",
-        "right": "お客様のご入金を確認後、翌営業日までにご指定のETHアドレス宛に送金致します。"
+        "left": "Handover Period",
+        "right": "After confirming the payment of the customers, we will remit the funds to your designated ETH address by the next business day."
       },
       "fourteenth": {
-        "left": "返品について",
-        "right": "返品不可"
+        "left": "Return Policy",
+        "right": "Returning Products are not allowed."
       }
     }
   },
   "privacyPolicy": {
-    "mainText": "プライバシーポリシー",
-    "subText": "当社では「個人情報保護方針」に基づき個人情報の適切な保護に取り組んでいます。当社が事業の用に供するために取得し、または保有する個人情報について、本規定（以下「本ポリシー」と言います。）を定め以下の通り適切に取り扱います。",
+    "mainText": "Privacy Policy",
+    "subText": "We are committed to the appropriate protection of personal information in accordance with our \"Personal Information Protection Policy\". We have established the following rules (hereinafter referred to as \"this Policy\") for the handling of personal information that we obtain or retain for the purpose of our business. The Company will handle such information appropriately as follows.",
     "first": {
-      "mainText": "（1）お客様から提供される情報",
-      "subText": "・氏名（フリガナを含む）、住所、電話番号（携帯電話番号・ファクシミリ番号を含む）、電子メールアドレス、携帯メールアドレス、会社名・団体名、勤務先所在地、その他連絡先に関する情報、ニックネーム、生年月日、性別など、お客様から当社に提供される一切の情報"
+      "mainText": "1. Information provided by the Customer",
+      "subText": "- Any and all information provided the Customer to the Company, such as name, address, phone number (including cell phone number and fax number), email address, mobile email address, name of company or organization, location of workspace, other contact information, nickname, date of birth, gender, etc."
     },
     "second": {
-      "mainText": "（2）本サービスの利用に関連して取得される情報",
+      "mainText": "2. Information obtained in connection with the use of this Service",
       "subText": {
-        "first": "・お客様が当社が提供する商品の入札・購入、プレゼント応募、その他の取引を申し込まれた場合の、お客様を識別できる情報と紐づいた状態での取引履歴に関する情報",
-        "second": "・当社からのメールマガジンなどの購読状況に関する情報",
-        "third": "・電話や電子メールその他の手段により、当社に質問した、アンケートやキャンペーンに参加した、掲示板を利用した、又は本サービスを評価するなどを行った場合の、その発言あるいは記載内容に関する情報"
+        "first": "- Information regarding the transaction history linked to the information that can be used to identify the Customer, in the event that the Customer applies to bid on or purchase a product offered by the Company, apply for a gift, or engage in any other transaction",
+        "second": "- Information regarding subscriptions to email newsletters and other communications from the Company",
+        "third": "- Information related to the statements or contents of questions asked to the Company, participation in questionnaires or campaigns, use of bulletin boards, or evaluation of the Service by phone, email, or other means."
       }
     },
     "third": {
-      "mainText": "（3）アクセスしたことを契機として機械的に取得される情報",
+      "mainText": "3. Information obtained mechanically as a result of access",
       "subText": {
-        "first": "・お客様のコンピュータがインターネットに接続するときに使用されるIPアドレス、携帯端末の機体識別に関する情報",
-        "second": "・当社の運営するウェブサイトにアクセスしたことを契機として取得された、お使いのブラウザの種類・バージョン、オペレーティングシステム、プラットフォームなどのほか、お客様の閲覧されたページ(URL)、閲覧した日時、表示又は検索された商品などに関する情報",
-        "third": "・上記のほか、クッキー(cookie)やウェブビーコン(web beacon)の技術を使用して取得したアクセス 情報など、お客様が当社の本サービスを利用されるごとに、自動的に収集・保管される情報"
+        "first": "- IP address used when the Customer's computer connects to the Internet, and information regarding the identification of the mobile device.",
+        "second": "- Information about the type and version of the Customer's browser, operating system, platform, etc., as well as the page (URL) the Customer viewed, the date and time the Customer viewed it, and the products the Customer viewed or searched for, which are obtained by accessing the website operated by the Company.",
+        "third": "- In addition to the above, information that is automatically collected and stored each time the Customer use the Company's Services, such as access information obtained through the use of cookies and web beacon technology."
       }
     }
   },
   "member": {
-    "team": "チーム",
-    "advisor": "アドバイザー"
+    "team": "Team",
+    "advisor": "Advisor"
   }
 }

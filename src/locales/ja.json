@@ -96,116 +96,6 @@
       } 
     }
   },
-  "buy": {
-    "subText": "どの通貨でJPYCを購入しますか？",
-    "button": {
-      "withJPY": "日本円で購入する",
-      "withCrypto": "BTC・ETHで購入する"
-    },
-    "popup": {
-      "mainText": "お支払い方法を選択してください",
-      "button": {
-        "JPY": {
-          "bank": "銀行振込",
-          "credit": {
-            "first": "クレジットカード",
-            "second": "（準備中）"
-          }
-        },
-        "crypto": {
-          "BTC": "（準備中）"
-        }
-      }
-    }
-  },
-  "bank": {
-    "mainText": "JPYCを購入する（決済方法：銀行振込）",
-    "flowTop": {
-      "mainText": "JPYC受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": "銀行振込",
-      "third": "JPYCを受け取る"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 銀行振込",
-        "subText": "下記銀行口座にご購入金額をお振り込みください",
-        "description": {
-          "first": "銀行名：GMOあおぞらネット銀行（金融機関コード0310）",
-          "second": "支店名：法人第二営業部(102)",
-          "third": "口座の種類：普通預金",
-          "fourth": "口座番号：1108585",
-          "fifth": "口座名義：ニホンアンゴウシサンイチバ（カ　ＪＰＹＣトリヒキヨウ"
-        }
-      },
-      "third": {
-        "mainText": "Step3 JPYCを受け取る",
-        "subText": "翌営業日までにご指定のETHアドレス宛にJPYCが送金されます。"
-      }
-    }
-  },
-  "buyFromETH": {
-    "mainText": "JPYCを購入する（決済方法：ETH）",
-    "flowTop": {
-      "mainText": "JPYC受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": "ETH送金",
-      "third": "JPYCを受け取る"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 ETH送金",
-        "subText": {
-          "first": "Step１のフォームで送信されたメールアドレスへ、レート換算したETHの額をお伝え致します。",
-          "second": "※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。",
-          "third": "※現在Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。いずれのネットワークの場合でも、Step１のフォームで送信された送金先アドレスより、上記のアドレスへETHをお送りください。"
-        }
-      },
-      "third": {
-        "mainText": "Step3 JPYCを受け取る",
-        "subText": "翌営業日までにご指定のETHアドレス宛にJPYCが送金されます。"
-      }
-    }
-  },
-  "use": {
-    "mainText": "JPYCでAmazonの商品を購入する",
-    "flowTop": {
-      "mainText": "商品受け取りまでの流れ",
-      "first": "フォームを入力",
-      "second": {
-        "first": "JPYC送金",
-        "second": "(別途手数料として",
-        "third": "ETHが必要です)"
-      },
-      "third": "商品到着"
-    },
-    "flowBottom": {
-      "first": {
-        "mainText": "Step1 フォーム入力"
-      },
-      "second": {
-        "mainText": "Step2 JPYC送金",
-        "subText": {
-          "first": "現在、Ethereumメインネット、Polygon（Matic）メインネット、xDaiメインネットのネットワークに対応しています。",
-          "second": "いずれのネットワークの場合でも下記アドレスへ購入額分を送金ください。",
-          "third": "※Ethereumメインネットの場合は、「jpyc.eth」のENSが利用可能です。"
-        }
-      },
-      "third": {
-        "mainText": "Step3 商品が到着",
-        "subText": {
-          "first": "フォームに記入されたご住所に商品が到着します。",
-          "second": "翌営業日までに商品を発送致します。"
-        }
-      }
-    }
-  },
   "company": {
     "mainText": "法人の方：JPYCについて問い合わせる"
   },
@@ -240,7 +130,7 @@
       "sixth": {
         "left": "使用場所",
         "right": {
-          "first": "Amazon",
+          "first": "",
           "second": "などECサイトで販売されている商品を当社にて代理購入することができます。商品ご購入は",
           "third": "こちら",
           "fourth": "をご覧ください。"
@@ -257,8 +147,9 @@
       "eighth": {
         "left": "未使用残高の確認方法",
         "right": {
-          "first": "または、ご自身のウォレット（",
-          "second": "など）よりご確認できます。"
+          "first": "",
+          "second": "、またはご自身のウォレット（",
+          "third": "など）よりご確認できます。"
         }
       }
     }
@@ -281,7 +172,7 @@
       "fourth": {
         "left": "電話応対時間",
         "right": {
-          "first": "電話応対時間  平日　午前10時～午後7時00分まで（年末・年始を除く）",
+          "first": "平日　午前10時～午後7時00分まで（年末・年始を除く）",
           "second": "※受付時間外の場合は、メールにてお問い合わせください。"
         }
       },

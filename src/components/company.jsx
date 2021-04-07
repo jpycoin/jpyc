@@ -41,7 +41,7 @@ const Company = () => {
             <Header autofocus/>
             <main className={styles.bank_main}>
                 <img src={jpyc} className={styles.bank_jpyc_img} alt="jpyc" />
-                <div className={styles.bank_buy_text}>法人の方：JPYCについて問い合わせる</div>
+                <div className={styles.bank_buy_text} data-i18n="company.mainText">法人の方：JPYCについて問い合わせる</div>
 
                 <div className={styles.buy_step_whole}>
                     <div className={styles.buy_card}>

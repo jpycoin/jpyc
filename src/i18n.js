@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   
   i18n
-    .use(HttpApi)
     .use(LanguageDetector)
     .use(initReactI18next)
     .init(
@@ -51,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         (e, t) => {
             if (e) return console.log('something went wrong loading', e);
             dataI18n.forEach((elem) => {
-                elem.innerHTML = t(elem.dataset.i18n);
+                elem.textContent = t(elem.dataset.i18n);
             });
         }
     );
