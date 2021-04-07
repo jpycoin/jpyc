@@ -1,18 +1,19 @@
 // eslint-disable-next-line
 
 import React from "react";
-import people from "../image/people.png";
-import people2 from "../image/people2.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Header from './Header';
 import styles from '../css/index.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// images
+import people from "../image/people.png";
+import people2 from "../image/people2.png";
 import jpyc from '../image/jpyc.png';
 import jpy from '../image/jpy.png';
 import eth from '../image/eth.png';
 import btc from '../image/btc.png';
 import jpyc2 from '../image/jpyc2.png';
-import { Link } from 'react-router-dom';
 import ido from '../image/people/Ido.jpg';
 import hint from '../image/hint.png';
 import ETHBlack from '../image/eth-black.svg';
@@ -88,19 +89,19 @@ const index = () => {
                     <div className={styles.multichain_item}>
                         <ul>
                             <li>
-                                <a href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" rel="noopener" target="_blank">
+                                <a href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="_blank"　rel="noopener noreferrer">
                                     <img src={ETHBlack} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
                                     <p>Ethereum <br className={styles.multichain_sp_br} />Mainnet</p>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://explorer-mainnet.maticvigil.com/address/0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c/transactions" rel="noopener" target="_blank">
+                                <a href="https://explorer-mainnet.maticvigil.com/address/0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c/transactions" target="_blank"　rel="noopener noreferrer">
                                     <img src={Polygon} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
                                     <p>Polygon<br />(Matic Network)</p>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://blockscout.com/xdai/mainnet/address/0x417602f4fbdd471A431Ae29fB5fe0A681964C11b/transactions" rel="noopener" target="_blank">
+                                <a href="https://blockscout.com/xdai/mainnet/address/0x417602f4fbdd471A431Ae29fB5fe0A681964C11b/transactions"　target="_blank"　rel="noopener noreferrer">
                                     <img src={xDai} alt='Ethereumのロゴ' className={styles.multichain_img} id="JPYC" />
                                     <p>xDai</p>
                                 </a>
