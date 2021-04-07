@@ -1,6 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import HttpApi from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './locales/en.json';
 import translationJA from './locales/ja.json';
@@ -28,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             fallbackLng: () => {
               const lang = window.navigator.language;
-              if (lang == 'ja') {
+              if (lang === 'ja') {
                 return ['ja'];
               } else {
                 return ['en'];
@@ -42,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 translation: translationJA
               }
             },
+            detection: detectorOptions,
             react: {
               wait: true,
             }
