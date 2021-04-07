@@ -42,7 +42,7 @@ const Footer = () => {
                             <p>105-0011<br /><span data-i18n="footer.companyAddress">東京都港区芝公園4-8-12 猫来坊2階</span></p>
                             <p><a href="https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" className={styles.footer_link}>Etherscan</a></p>
                             <p><a href="https://note.com/ocurima/m/mf80a9d72984a" target="__blank" className={styles.footer_link}>JPYC Magazine</a></p>
-                            <p className={styles.contract_address} data-i18n="footer.ETHAddress">ETHメインネットコントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53
+                            <p className={styles.contract_address}><span data-i18n="footer.ETHAddress">ETHメインネットコントラクトアドレス</span>：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_ETH}
@@ -60,7 +60,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.MaticAddress">Maticコントラクトアドレス：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
+                            <p className={styles.contract_address}><span data-i18n="footer.MaticAddress">Maticコントラクトアドレス</span>：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_Matic}
@@ -78,7 +78,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.xDaiAddress">xDaiコントラクトアドレス：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                            <p className={styles.contract_address}><span data-i18n="footer.xDaiAddress">xDaiコントラクトアドレス</span>：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_xDai}
@@ -96,7 +96,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.xDaiOnBSCAddress">xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
+                            <p className={styles.contract_address}><span data-i18n="footer.xDaiOnBSCAddress">xDai on BSCコントラクトアドレス</span>：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_BSC}
