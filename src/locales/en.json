@@ -13,113 +13,113 @@
     }
   },
   "footer": {
-    "companyAddress": "東京都港区芝公園4-8-12 猫来坊2階",
-    "ETHAddress": "ETHメインネットコントラクトアドレス",
-    "MaticAddress": "Maticコントラクトアドレス",
-    "xDaiAddress": "xDaiコントラクトアドレス",
-    "xDaiOnBSCAddress": "xDai on BSCコントラクトアドレス",
-    "member": "メンバー",
-    "jaWP": "ホワイトペーパー（日本語）",
-    "enWP": "ホワイトペーパー（英語）",
-    "JIP": "JPYC-インセンティブ提供プログラム（JIP）",
-    "FAQ": "JPYCについてよくあるご質問（FAQ）",
-    "PaymentServicesAct": "資金決済法に基づく表示",
-    "SpecifiedCommercialTransactionAct": "特定商取引法に基づく表示",
-    "PrivacyPolicy": "プライバシーポリシー"
+    "companyAddress": "4-8-12 Nekoraibo 2F, Shibakoen, Minato-city, Tokyo",
+    "ETHAddress": "ETH Mainnet Contract Address",
+    "MaticAddress": "Matic Contract Address",
+    "xDaiAddress": "xDai Contract Address",
+    "xDaiOnBSCAddress": "xDai on BSC Contract Address",
+    "member": "Member",
+    "jaWP": "White Paper（Japanese）",
+    "enWP": "White Paper（English）",
+    "JIP": "JPYC-Incentive Program（JIP）",
+    "FAQ": "Frequently Asked Questions about JPYC（FAQ）",
+    "PaymentServicesAct": "Indication based on Payment Services Act",
+    "SpecifiedCommercialTransactionAct": "Indication based on Specified Commerial Transaction Act",
+    "PrivacyPolicy": "Privacy Policy"
   },
   "index": {
     "heroArea": {
       "mainText": {
-        "first": "JPYC：世界を牽引する",
-        "second": "日本円ステーブルコイン"
+        "first": "JPYC：Japansese Yen Stablecoin",
+        "second": "Leading the World"
       }
     },
     "innerArea": {
-      "subText": "日本円ステーブルコインの「JPYC」を誰でも簡単に日本円で購入できるようになりました"
+      "subText": "Anyone can now easily purchase \"JPYC\", the Japanese Yen Stablecoin, in Japanese yen."
     },
     "feature": {
-      "mainText": "JPYCの特徴",
+      "mainText": "JPYC Features",
       "first": {
-        "mainText": "日本初の日本円ステーブルコイン（ERC20）",
-        "subText": "JPYC（JPYCoin）は日本初のブロックチェーン技術（ERC20）を活用した日本円ステーブルコインです。イーサリアムのメインネットで動いており、常に1 JPYC = 1円で物品の売買に利用可能です。メタマスクなど、お持ちのウォレットやUniswapなどの二次流通市場で日本円建てのコインとして使うことができます。"
+        "mainText": "The First Japanese Yen Stablecoin in Japan",
+        "subText": "JPYC (JPYCoin) is the first Japanese Yen Stablecoin in Japan utilizing blockchain technology (ERC20). It runs on the Ethereum mainnet and can be used to buy and sell goods at 1 JPYC = 1 yen at all times.It can be used as a Japanese Yen denominated coin in your wallet, such as Metamask, or in the secondary market, such as Uniswap."
       },
       "second": {
-        "mainText": "JPYC（JPYCoin）の法的整理",
-        "subText": "JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）上での取引に利用可能です。"
+        "mainText": "Ligal Liquidation of JPYC (JPYCoin)",
+        "subText": "JPYC is a currency-denominated asset that can be purchased and used at any time at a rate of 1 JPYC = 1 yen, and is a Prepaid Payment Instrument for Own Business under the Payment Services Act. It is not a crypto asset. On the other hand, it can be used for transactions on Ethereum (Mainnet) because it adopts ERC20, the standard for Ethereum."
       }
     },
     "multichain": {
-      "label": "開発者向け",
+      "label": "For Developers",
       "mainText": {
-        "first": "JPYCはマルチチェーン対応しており、",
-        "second": "様々なプロダクトにサポート可能です。"
+        "first": "JPYC is multi-chain compatible, and ",
+        "second": "it can support a variety of products."
       }
     },
     "community": {
-      "subText": "JPYCは個人・企業問わず素晴らしい発想力、行動力を持つ方々と日本発のトークンエコシステムの開発とその発展に挑戦します。あなたのアイデアを形にするために、JPYCコミュニティに参加しませんか？",
-      "button": "JPYCコミュニティに応募する"
+      "subText": "JPYC is a community of individuals and companies with great ideas and the ability to take action, working together to develop and expand the token ecosystem from Japan. Why don't you join the JPYC community to give shape to your ideas?",
+      "button": "Apply for JYPC Community"
     },
     "useArea": {
-      "subText": "JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。",
-      "button": "AmazonでJPYCを使う"
+      "subText": "JPYC always allows you to enjoy trading with goods at 1 JPYC = 1 yen.",
+      "button": "Use JPYC on Amazon"
     },
     "contact": {
-      "button": "問い合わせる",
+      "button": "Contact",
       "first": {
-        "title": "一般の方へ",
-        "mainText": "なにかお困りのことはありませんか？",
-        "subText": "JPYCは日本初の試みであり、疑問点がいくつも生まれるかもしれませんが、私たちがサポートいたします。頻度が多いものについては「よくある質問」にまとめますのでもう少々お待ち下さい。"
+        "title": "For the Public",
+        "mainText": "Is there anything you need help with?",
+        "subText": "JPYC is the first of its kind in Japan, and you may have a number of questions, but we're here to help. About the frequently asked questions, please wait a little longer, as we will summarize in the FAQ."
       },
       "second": {
-        "title": "法人の方へ",
-        "mainText": "御社のビジネスをJPYCによって加速させませんか？",
-        "subText": "JPYCは、適法に発行されているERC20プリペイドコインです。ブロックチェーンを活用した決済、ブロックチェーンを活用した財務健全性の向上や新規ユーザーの獲得などが期待できます。"
+        "title": "For Corporations",
+        "mainText": "Why not accelerate your business wit JPYC?",
+        "subText": "JPYC is an ERC20 prepaid coin that has been legally issued. It is expected to improve financial health and attract new users through blockchain-based payments and blockchain."
       }
     },
     "swapICB": {
-      "mainText": "JPYCとICBの交換について",
-      "subText": "JPYCとICBは1 JPYC = 1 ICBの割合で交換可能です。Gas代のみご負担いただきますが、ICBを既に保有されている方はJPYCに交換することが可能です。",
-      "button": "ICBをJPYCに交換する"
+      "mainText": "About the Exchange of JPYC and ICB",
+      "subText": "JPYC and ICB can be exchanged in the ratio of 1 JPYC = 1 ICB, and those who already have ICB can exchange it to JPYC, though only the gas fee will be charged.",
+      "button": "Exchange ICB to JPYC"
     },
     "tax": {
-      "mainText": "暗号資産やJPYCに詳しい税理士はこちら",
+      "mainText": "Our Tax Accountants Familiar with Crypto Assets and JPYC",
       "person": {
         "first": {
-          "name": "井堂 裕功",
-          "description": "Quantum Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。暗号資産による納税も開始。",
-          "button": "お問い合わせはこちら"
+          "name": "Hironori Ido",
+          "description": "Director of Quantum Accounting, inc. He has signed advisory contracts with several venture companies, and provides advisory services in accounting and taxation, and also examines the accounting and taxation of crypto assets on a daily basis. He has also started to deal with paying taxes with crypto assets.",
+          "button": "Contact"
         }
       },
       "wanted": {
-        "mainText": "JPYCでの納税に詳しい税理士を募集しています",
-        "button": "運営に連絡する"
+        "mainText": "We are looking for a tax accountant who is familiar with tax payment in JPYC",
+        "button": "Contact"
       } 
     }
   },
   "buy": {
-    "subText": "どの通貨でJPYCを購入しますか？",
+    "subText": "In which currency do you want to purchase JPYC?",
     "button": {
-      "withJPY": "日本円で購入する",
-      "withCrypto": "BTC・ETHで購入する"
+      "withJPY": "with Japanese Yen",
+      "withCrypto": "with BTC or ETH"
     },
     "popup": {
-      "mainText": "お支払い方法を選択してください",
+      "mainText": "Please select a payment method.",
       "button": {
         "JPY": {
-          "bank": "銀行振込",
+          "bank": "Bank Transfer",
           "credit": {
-            "first": "クレジットカード",
-            "second": "（準備中）"
+            "first": "Credit Card",
+            "second": "（under preparation）"
           }
         },
         "crypto": {
-          "BTC": "（準備中）"
+          "BTC": "（under preparation）"
         }
       }
     }
   },
   "bank": {
-    "mainText": "JPYCを購入する（決済方法：銀行振込）",
+    "mainText": "Purchase JPYC（決済方法：銀行振込）",
     "flowTop": {
       "mainText": "JPYC受け取りまでの流れ",
       "first": "フォームを入力",
