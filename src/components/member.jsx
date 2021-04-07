@@ -32,7 +32,7 @@ const Member = () => {
             <Header />
             <main className="member-main">
                 <section className="member-team">
-                    <h2 className="member-section-title" data-i18n="member.team">チーム</h2>
+                    <h2 className="member-section-title">チーム</h2>
                     <div className="team-people">
                         <div className="person">
                             <img src={Okabe} alt="person" className="person-img" />
@@ -61,7 +61,7 @@ const Member = () => {
                     </div>
                 </section>
                 <section>
-                    <h2 className="member-section-title" data-i18n="member.advisor">アドバイザー</h2>
+                    <h2 className="member-section-title">アドバイザー</h2>
                     <div className="adviser-people">
                         <div className="person">
                             <img src={Muraguchi} alt="person" className="person-img" />

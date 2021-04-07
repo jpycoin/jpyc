@@ -39,10 +39,10 @@ const Footer = () => {
                                     <img src={logo} alt="ロゴ" className={styles.logo} />
                                 </Link>
                             </p>
-                            <p>105-0011<br /><span data-i18n="footer.companyAddress">東京都港区芝公園4-8-12 猫来坊2階</span></p>
+                            <p>105-0011<br />東京都港区芝公園4-8-12 猫来坊2階</p>
                             <p><a href="https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" className={styles.footer_link}>Etherscan</a></p>
                             <p><a href="https://note.com/ocurima/m/mf80a9d72984a" target="__blank" className={styles.footer_link}>JPYC Magazine</a></p>
-                            <p className={styles.contract_address} data-i18n="footer.ETHAddress">ETHメインネットコントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53
+                            <p className={styles.contract_address}>ETHメインネットコントラクトアドレス：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_ETH}
@@ -60,7 +60,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.MaticAddress">Maticコントラクトアドレス：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
+                            <p className={styles.contract_address}>Maticコントラクトアドレス：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_Matic}
@@ -78,7 +78,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.xDaiAddress">xDaiコントラクトアドレス：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                            <p className={styles.contract_address}>xDaiコントラクトアドレス：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_xDai}
@@ -96,7 +96,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address} data-i18n="footer.xDaiOnBSCAddress">xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
+                            <p className={styles.contract_address}>xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
                                 <InputAdornment className={styles.copy}>
                                     <Tooltip
                                         open={openTip_BSC}
@@ -153,44 +153,44 @@ const Footer = () => {
                     <div className={styles.inner_side2}>
                         <div>
                             <p>
-                                <HashLink className={styles.footer_right_item} to="/#feature" data-i18n="common.JPYCIs">JPYCとは</HashLink>
+                                <HashLink className={styles.footer_right_item} to="/#feature">JPYCとは</HashLink>
                             </p>
                             <p>
-                                <HashLink className={styles.footer_right_item} to="/#join" data-i18n="common.community">コミュニティ</HashLink>
+                                <HashLink className={styles.footer_right_item} to="/#join">コミュニティ</HashLink>
                             </p>
                             <p> 
-                                <HashLink className={styles.footer_right_item} to="/#contact" data-i18n="common.contact">お問い合わせ</HashLink>
+                                <HashLink className={styles.footer_right_item} to="/#contact">お問い合わせ</HashLink>
                             </p>
                             <p>
-                                <HashLink to="/use" className={styles.footer_right_item} data-i18n="common.useJPYC">JPYCを使う</HashLink>
+                                <HashLink to="/use" className={styles.footer_right_item}>JPYCを使う</HashLink>
                             </p>
                             <p>
-                                <Link to="/buy" className={styles.footer_right_item} data-i18n="common.buyJPYC">JPYCを購入する</Link>
+                                <Link to="/buy" className={styles.footer_right_item}>JPYCを購入する</Link>
                             </p>
                             <p>
-                                <Link to="/member" className={styles.footer_right_item} data-i18n="footer.member">メンバー</Link>
+                                <Link to="/member" className={styles.footer_right_item}>メンバー</Link>
                             </p>
                             <p>
-                                <a href="./white-paper.pdf" target="__blank"　className={styles.footer_right_item} data-i18n="footer.jaWP">ホワイトペーパー（日本語）</a>
+                                <a href="./white-paper.pdf" target="__blank"　className={styles.footer_right_item}>ホワイトペーパー（日本語）</a>
                             </p>
                             <p>
-                                <a href="./white-paper-en.pdf" target="__blank"　className={styles.footer_right_item} data-i18n="footer.enWP">White-Paper（English）</a>
+                                <a href="./white-paper-en.pdf" target="__blank"　className={styles.footer_right_item}>White-Paper（English）</a>
                             </p>
                             <p>
-                                <a href="./jip.pdf" target="__blank"　className={styles.footer_right_item} data-i18n="footer.JIP">JPYC-インセンティブ提供プログラム（JIP）</a>
+                                <a href="./jip.pdf" target="__blank"　className={styles.footer_right_item}>JPYC-インセンティブ提供プログラム（JIP）</a>
                             </p>
                             <p>
-                                <a href="./faq.pdf" target="__blank"　className={styles.footer_right_item} data-i18n="footer.FAQ">JPYC についてよくあるご質問（FAQ）</a>
+                                <a href="./faq.pdf" target="__blank"　className={styles.footer_right_item}>JPYC についてよくあるご質問（FAQ）</a>
                             </p>
                             <br />
                             <p>
-                                <Link to="shikin_kessai"　className={styles.footer_right_item} data-i18n="footer.PaymentServicesAct">資金決済法に基づく表示</Link>
+                                <Link to="shikin_kessai"　className={styles.footer_right_item}>資金決済法に基づく表示</Link>
                             </p>
                             <p>
-                                <Link to="law" className={styles.footer_right_item} data-i18n="footer.SpecifiedCommercialTransactionAct">特定商取引法に基づく表示</Link>
+                                <Link to="law" className={styles.footer_right_item}>特定商取引法に基づく表示</Link>
                             </p>
                             <p>
-                                <Link to="privacy-policy" className={styles.footer_right_item} data-i18n="footer.PrivacyPolicy">プライバシーポリシー</Link>
+                                <Link to="privacy-policy" className={styles.footer_right_item}>プライバシーポリシー</Link>
                             </p>
                         </div>
                     </div>
