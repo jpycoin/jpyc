@@ -35,28 +35,32 @@ const Member = () => {
                     <h2 className="member-section-title" data-i18n="member.team">チーム</h2>
                     <div className="team-people">
                         <div className="person">
-                            <img src={Okabe} alt="person" className="person-img" />
-                            <p className="member_name">Noritaka Okabe</p>
-                            <p>CEO</p>
-                            <a href="https://www.linkedin.com/in/noritakaokabe/" className="person-link" target="_blank" rel="noopener noreferrer external"></a>
+                            <a href="https://www.linkedin.com/in/noritakaokabe/" className="person-link" target="_blank" rel="noopener noreferrer external">
+                                <img src={Okabe} alt="person" className="person-img" />
+                                <p className="member_name">Noritaka Okabe</p>
+                                <p>CEO</p>
+                            </a>
                         </div>
                         <div className="person">
-                            <img src={Harasawa} alt="person" className="person-img" />
-                            <p className="member_name">Yosui Harasawa</p>
-                            <p>COO</p>
-                            <a href="https://www.linkedin.com/in/yosui-harasawa-a47b6b158/" className="person-link" target="_blank" rel="noopener noreferrer external"></a>
+                            <a href="https://www.linkedin.com/in/yosui-harasawa-a47b6b158/" className="person-link" target="_blank" rel="noopener noreferrer external">
+                                <img src={Harasawa} alt="person" className="person-img" />
+                                <p className="member_name">Yosui Harasawa</p>
+                                <p>COO</p>
+                            </a>
                         </div>
                         <div className="person">
-                            <img src={Ito} alt="person" className="person-img" />
-                            <p className="member_name">Yohei Ito</p>
-                            <p>Engineer</p>
-                            <a href="https://www.linkedin.com/in/itoyohei/" className="person-link" target="_blank" rel="noopener noreferrer external"></a>
+                            <a href="https://www.linkedin.com/in/itoyohei/" className="person-link" target="_blank" rel="noopener noreferrer external">
+                                <img src={Ito} alt="person" className="person-img" />
+                                <p className="member_name">Yohei Ito</p>
+                                <p>Engineer</p>
+                            </a>
                         </div>
                         <div className="person">
-                            <img src={Ono} alt="person" className="person-img" />
-                            <p className="member_name">Hanae Ono</p>
-                            <p>Engineer</p>
-                            <a href="https://www.linkedin.com/in/HanaeOno/" className="person-link" target="_blank" rel="noopener noreferrer external"></a>
+                            <a href="https://www.linkedin.com/in/HanaeOno/" className="person-link" target="_blank" rel="noopener noreferrer external">
+                                <img src={Ono} alt="person" className="person-img" />
+                                <p className="member_name">Hanae Ono</p>
+                                <p>Engineer</p>
+                            </a>
                         </div>
                     </div>
                 </section>
