@@ -13,7 +13,10 @@ jobs:
         run: yarn install
       # - name: Run test
       #   run: yarn test
-      - run: yarn build
+      - name: Run build
+        run: |
+          echo "REACT_APP_GOOGLE_ANALYTICS_SECRET=${GOOGLE_ANALYTICS_SECRET} >> .env"
+          yarn build
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
