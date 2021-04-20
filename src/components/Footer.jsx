@@ -126,7 +126,7 @@ const Footer = () => {
                                 <a href="https://t.me/jpycjcam" target="__blank">
                                     <img src={telegram} alt="telegram" className={styles.icon}/>
                                 </a>
-                                <a href="https://discord.gg/V68b4VGY" target="__blank">
+                                <a href="https://discord.com/invite/6ANJkvM7Sa" target="__blank">
                                     <img src={discord} alt="discord" className={styles.icon} />
                                 </a>
                                 <a href="https://www.linkedin.com/company/japancryptoassetmarket/about/" target="__blank">
