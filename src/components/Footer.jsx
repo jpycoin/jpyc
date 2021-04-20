@@ -20,6 +20,8 @@ import Tooltip         from '@material-ui/core/Tooltip';
 import CopyToClipBoard from 'react-copy-to-clipboard';
 import coinmarketcap from '../image/coinmarketcap.png';
 import medium from '../image/medium.png';
+import discord from '../image/discord.png';
+import telegram from '../image/telegram.png'
 
 
 const Footer = () => {
@@ -115,11 +117,17 @@ const Footer = () => {
                                 </InputAdornment>
                             </p>
                             <p className={styles.icon_wrapper}>
-                                <a href="https://twitter.com/jpy_coin"  target="__blank">
+                                <a className="japanese_popup" href="https://twitter.com/jpy_coin"  target="__blank">
                                     <img src={twitter} alt="twitter" className={styles.icon} />
                                 </a>
-                                <a href="https://www.facebook.com/japancryptoassetmarket" target="__blank">
+                                <a onMouseOver href="https://www.facebook.com/japancryptoassetmarket" target="__blank">
                                     <img src={facebook} alt="facebook" className={styles.icon} />
+                                </a>
+                                <a href="https://t.me/jpycjcam" target="__blank">
+                                    <img src={telegram} alt="telegram" className={styles.icon}/>
+                                </a>
+                                <a href="https://discord.gg/V68b4VGY" target="__blank">
+                                    <img src={discord} alt="discord" className={styles.icon} />
                                 </a>
                                 <a href="https://www.linkedin.com/company/japancryptoassetmarket/about/" target="__blank">
                                     <img src={linkedin} alt="linkedin" className={styles.icon} />

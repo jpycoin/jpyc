@@ -1,90 +1,89 @@
 footer {
-    background-color: #2F2F34;
-    /* background-color: #6E9887;
+  background-color: #2f2f34;
+  /* background-color: #6E9887;
     background-color: #53917E; */
-    color: white;
-    padding: 45px 20px 10px;
-    width: auto;
-    text-align: center;
+  color: white;
+  padding: 45px 20px 10px;
+  width: auto;
+  text-align: center;
 }
 
 .copy button {
-    padding: 2px !important;
+  padding: 2px !important;
 }
 
-
 .footer_top {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .side {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .inner_side1 {
-    text-align: right;
-    margin-right: 10%;
+  text-align: right;
+  margin-right: 10%;
 }
 
 .inner_side2 {
-    text-align: left;
-    margin-left: 10%;
-    padding-bottom: 30px;
+  text-align: left;
+  margin-left: 10%;
+  padding-bottom: 30px;
 }
 
 .inner_side1 div {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .inner_side2 div {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .logo {
-    width: auto;
-    height: auto;
-    max-width: 150px;
+  width: auto;
+  height: auto;
+  max-width: 150px;
 }
 
 .icon_wrapper {
-    padding-top: 8px;
+  padding-top: 8px;
 }
 
-.icon{
-    width: 22px;
-    vertical-align: middle;
-    margin-right: 16px;
-    margin-top: 10px;
+.icon {
+  width: 22px;
+  vertical-align: middle;
+  margin-right: 16px;
+  margin-top: 10px;
 }
 
 .icon_circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .img_p {
-    display: inline !important;
+  display: inline !important;
 }
 
 .footer_right_item {
-    color: white;
+  color: white;
 }
 
 .footer_link {
-    border-bottom: white solid 1px;
-    padding-bottom: 1px;
-    word-break:break-all;
-    color: white;
-    /* text-decoration: underline; */
+  border-bottom: white solid 1px;
+  padding-bottom: 1px;
+  word-break: break-all;
+  color: white;
+  /* text-decoration: underline; */
 }
 .contract_address {
-    word-break: break-all;
+  word-break: break-all;
 }
 
 @media screen and (max-width: 415px) {
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 }
