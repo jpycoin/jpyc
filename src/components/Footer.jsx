@@ -159,6 +159,9 @@ const Footer = () => {
                             <p>
                                 <HashLink className={styles.footer_right_item} to="/#join" data-i18n="common.community">コミュニティ</HashLink>
                             </p>
+                            <p>
+                                <HashLink className={styles.footer_right_item} to="/#grant" data-i18n="common.grant">JPYC Grant</HashLink>
+                            </p>
                             <p> 
                                 <HashLink className={styles.footer_right_item} to="/#contact" data-i18n="common.contact">お問い合わせ</HashLink>
                             </p>

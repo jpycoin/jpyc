@@ -4,6 +4,7 @@
     "useJPYC": "JPYCを使う",
     "JPYCIs": "JPYCとは",
     "community": "コミュニティ",
+    "grant": "JPYC Grant",
     "contact": "お問い合わせ"
   },
   "header": {
@@ -63,6 +64,10 @@
     "useArea": {
       "subText": "JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。",
       "button": "AmazonでJPYCを使う"
+    },
+    "grant": {
+      "subText": "JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大 1,000,000 JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。",
+      "button": "JPYCエコシステムに貢献する"
     },
     "contact": {
       "button": "問い合わせる",

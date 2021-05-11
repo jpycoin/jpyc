@@ -40,6 +40,7 @@ const index = () => {
                     <div className={styles.header_right}>
                         <HashLink to="/#feature" className={`${styles.header_right_item} ${styles.header_right_text}`} data-i18n="common.JPYCIs">JPYCとは</HashLink>
                         <HashLink to="/#join" className={`${styles.header_right_item} ${styles.header_right_text}`} data-i18n="common.community">コミュニティ</HashLink>
+                        <HashLink to="/#grant" className={`${styles.header_right_item} ${styles.header_right_text}`} data-i18n="common.grant">Grant</HashLink>
                         <HashLink to="/#contact" className={`${styles.header_right_item} ${styles.header_right_text} ${styles.contact}`} data-i18n="common.contact">お問い合わせ</HashLink>
                         <div className={`${styles.header_right_item} ${styles.header_button}`}>
                             <Link to="/use">
