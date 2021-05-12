@@ -127,6 +127,15 @@ const index = () => {
                     </Link>
                 </section>
 
+                <section className={styles.grant} id="grant">
+                    <div className={styles.inner_grant}>
+                        <p className={styles.grant_text} data-i18n="index.grant.subText">JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大 1,000,000 JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。</p>
+                        <Link to="/grant">
+                            <button className={styles.grant_button} data-i18n="index.grant.button"></button>
+                        </Link>
+                    </div>
+                </section>
+
                 <section className={styles.contact} id="contact">
                     <div className={styles.contact_item}>
                         <p className={styles.contact_title} data-i18n="index.contact.first.title">一般の方へ</p>

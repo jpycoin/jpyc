@@ -26,6 +26,7 @@ function App() {
               <Route exact path='/member' component={member} />
               <Route exact path='/Use' render={() => (window.location = "https://app.jpyc.jp/purchase")} />
               <Route exact path='/buy' render={() => (window.location = "https://app.jpyc.jp/buy")} />
+              <Route exact path="/grant" render={() => (window.location = "https://jpycgrant.studio.site")} />
               <Route exact component={index} />
         </Switch>
       </BrowserRouter>

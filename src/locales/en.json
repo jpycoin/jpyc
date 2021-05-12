@@ -4,6 +4,7 @@
     "useJPYC": "Use JPYC",
     "JPYCIs": "What is JPYC",
     "community": "Community",
+    "grant": "JPYC Grant",
     "contact": "Contact"
   },
   "header": {
@@ -63,6 +64,10 @@
     "useArea": {
       "subText": "JPYC always allows you to enjoy trading with goods at 1 JPYC = 1 yen.",
       "button": "Use JPYC on Amazon"
+    },
+    "grant": {
+      "subText": "JPYC Grant provides up to 1,000,000 JPYC to individuals and corporations based on their contribution to the ecosystem. Please fill out the form with the requested information to begin the JPYC Grant review process.",
+      "button": "Contribute to the JPYC ecosystem"
     },
     "contact": {
       "button": "Contact",
