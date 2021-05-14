@@ -1116,7 +1116,7 @@ a {
     margin: 30px auto;
   }
   .feature {
-    height: 660px;
+    height: 740px;
     padding: 20px 0 0;
   }
   .feature_center {
@@ -1208,7 +1208,9 @@ a {
     flex-direction: column;
     height: 440px;
   }
-
+  .feature {
+    height: 800px;
+  }
   .buy_coins_inner img {
     width: 40px;
   }
