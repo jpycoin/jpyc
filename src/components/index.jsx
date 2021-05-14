@@ -131,7 +131,7 @@ const index = () => {
                     <div className={styles.inner_grant}>
                         <p className={styles.grant_text} data-i18n="index.grant.subText">JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大 1,000,000 JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。</p>
                         <Link to="/grant">
-                            <button className={styles.grant_button} data-i18n="index.grant.button"></button>
+                            <button className={styles.grant_button} data-i18n="index.grant.button">JPYCエコシステムに貢献する</button>
                         </Link>
                     </div>
                 </section>

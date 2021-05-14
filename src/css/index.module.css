@@ -847,6 +847,12 @@ a {
     text-align: center;
     box-sizing: border-box;
   }
+
+  .inner_grant {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 609px) {
@@ -910,6 +916,29 @@ a {
     padding: 30px;
   }
   .join_button {
+    margin: 0;
+  }
+  .grant {
+    height: auto;
+    margin: 0;
+  }
+  .grant_text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    flex-direction: row;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+    height: auto;
+    width: 80%;
+  }
+  .inner_grant {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+  }
+  .grant_button {
     margin: 0;
   }
   .use p {
@@ -1087,7 +1116,7 @@ a {
     margin: 30px auto;
   }
   .feature {
-    height: 660px;
+    height: 740px;
     padding: 20px 0 0;
   }
   .feature_center {
@@ -1110,6 +1139,18 @@ a {
     justify-content: none;
   }
   .join_text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: left;
+    flex-direction: row;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: 90%;
+  }
+  .grant_text {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.6;
@@ -1167,7 +1208,9 @@ a {
     flex-direction: column;
     height: 440px;
   }
-
+  .feature {
+    height: 800px;
+  }
   .buy_coins_inner img {
     width: 40px;
   }
@@ -1183,6 +1226,10 @@ a {
 }
 @media screen and (max-width: 280px) {
   .join_button {
+    font-size: 12px;
+  }
+
+  .grant_button {
     font-size: 12px;
   }
   .contact_center button {
