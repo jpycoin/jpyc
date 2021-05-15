@@ -128,7 +128,7 @@ const Footer = () => {
                                 <a href="https://github.com/jpycoin" target="__blank">
                                     <img src={github} alt="github" className={styles.icon} />
                                 </a>
-                                <a href="https://info.uniswap.org/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank">
+                                <a href="https://info.uniswap.org/#/tokens/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank">
                                     <img src={uniswap} alt="uniswap" className={styles.icon}/>
                                 </a>
                                 <a href="https://info.quickswap.exchange/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c" target="__blank">
