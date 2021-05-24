@@ -90,10 +90,14 @@
     "tax": {
       "mainText": "Our Tax Accountants Familiar with Crypto Assets and JPYC",
       "person": {
+        "button": "Contact",
         "first": {
           "name": "Hironori Ido",
-          "description": "Director of Quantum Accounting, inc. He has signed advisory contracts with several venture companies, and provides advisory services in accounting and taxation, and also examines the accounting and taxation of crypto assets on a daily basis. He has also started to deal with paying taxes with crypto assets.",
-          "button": "Contact"
+          "description": "Director of Quantum Accounting, inc. He has signed advisory contracts with several venture companies, and provides advisory services in accounting and taxation, and also examines the accounting and taxation of crypto assets on a daily basis. He has also started to deal with paying taxes with crypto assets."
+        },
+        "second": {
+          "name": "Ota Yohei",
+          "description": "Engaged in auditing and M&A related business at a major audit firm. After that, he worked at REVIC (Regional Economic Revitalization Initiative Corporation), a public-private fund, where he was involved in supporting the revitalization of small and medium-sized companies. Currently, he is an independent consultant and advisor to a blockchain venture. He continues to conduct research while owning crypto assets, and can provide support from the perspective of individual investors and companies owning crypto assets."
         }
       },
       "wanted": {
