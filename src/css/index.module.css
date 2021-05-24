@@ -646,9 +646,9 @@ a {
 }
 
 .tax_people_img {
-  border-radius: 50%;
   width: 160px;
   height: 160px;
+  border-radius: 50%;
   object-fit: cover;
   max-width: 160px;
   border: rgb(97, 97, 97) solid 1px;
