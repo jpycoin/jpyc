@@ -15,6 +15,7 @@ import eth from '../image/eth.png';
 import btc from '../image/btc.png';
 import jpyc2 from '../image/jpyc2.png';
 import ido from '../image/people/Ido.jpg';
+import ohta from '../image/people/Ohta.jpg';
 import hint from '../image/hint.png';
 import ETHBlack from '../image/eth-black.svg';
 import Polygon from '../image/polygon.svg';
@@ -179,7 +180,17 @@ const index = () => {
                             <p className={styles.tax_description} data-i18n="index.tax.person.first.description">Quantum Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。暗号資産による納税も開始。</p>
                         </div>
                         <a href="https://ido-office.com/contact" target="__blank">
-                            <button className={styles.tax_button} data-i18n="index.tax.person.first.button">お問い合わせはこちら</button>
+                            <button className={styles.tax_button} data-i18n="index.tax.person.button">お問い合わせはこちら</button>
+                        </a>
+                    </div>
+                    <div className={styles.tax_people}>
+                        <img src={ohta} className={styles.tax_people_img} alt="Ota Yohei"/>
+                        <div className={styles.tax_center}>
+                            <p className={styles.tax_name} data-i18n="index.tax.person.second.name">太田 陽平</p>
+                            <p className={styles.tax_description} data-i18n="index.tax.person.second.description">大手監査法人で監査業務・M&amp;A関連業務に従事。その後官民ファンドのREVIC（地域経済活性化支援機構）にて中小企業の再生支援業務に従事する。現在は独立し、コンサルティング等を行うほか、ブロックチェーン系ベンチャーの顧問にも就任している。自身も暗号資産を保有しながら、リサーチを継続しており、個人投資家・暗号資産保有企業の目線に立った支援が可能。</p>
+                        </div>
+                        <a href="https://wakaba-tax.tokyo" target="__blank">
+                            <button className={styles.tax_button} data-i18n="index.tax.person.button">お問い合わせはこちら</button>
                         </a>
                     </div>
                     <div className={styles.tax_people}>

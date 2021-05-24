@@ -646,11 +646,11 @@ a {
 }
 
 .tax_people_img {
-  border-radius: 50%;
   width: 160px;
-  height: auto;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
   max-width: 160px;
-  flex-basis: 30%;
   border: rgb(97, 97, 97) solid 1px;
 }
 
