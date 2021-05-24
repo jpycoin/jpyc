@@ -27,10 +27,7 @@ const index = () => {
                     <div className="header_nav move" id="header_nav">
                         <ul>
                             <li>
-                                <Link to="/buy" className={styles.nav_item} data-i18n="common.buyJPYC">JPYCを購入する</Link>
-                            </li>
-                            <li>
-                                <Link to="/use" className={styles.nav_item} data-i18n="common.useJPYC">JPYCを使う</Link>
+                                <Link to="/buy" className={styles.nav_item} data-i18n="common.JPYCApps">JPYC Apps</Link>
                             </li>
                         </ul>
                     </div>
@@ -43,13 +40,8 @@ const index = () => {
                         <HashLink to="/#grant" className={`${styles.header_right_item} ${styles.header_right_text}`} data-i18n="common.grant">Grant</HashLink>
                         <HashLink to="/#contact" className={`${styles.header_right_item} ${styles.header_right_text} ${styles.contact}`} data-i18n="common.contact">お問い合わせ</HashLink>
                         <div className={`${styles.header_right_item} ${styles.header_button}`}>
-                            <Link to="/use">
-                                <button className={styles.use_jpyc} data-i18n="common.useJPYC">JPYCをつかう</button>
-                            </Link>
-                        </div>
-                        <div className={`${styles.header_right_item} ${styles.header_button}`}>
                             <Link to="/buy">
-                                <button className={styles.buy_jpyc} data-i18n="common.buyJPYC">JPYCを購入する</button>
+                                <button className={styles.buy_jpyc} data-i18n="common.JPYCApps">JPYC Apps</button>
                             </Link>
                         </div>
                     </div>

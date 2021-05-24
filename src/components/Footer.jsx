@@ -157,6 +157,9 @@ const Footer = () => {
                                 <HashLink className={styles.footer_right_item} to="/#feature" data-i18n="common.JPYCIs">JPYCとは</HashLink>
                             </p>
                             <p>
+                                <Link to="/buy" className={styles.footer_right_item} data-i18n="common.JPYCApps">JPYC Apps</Link>
+                            </p>
+                            <p>
                                 <HashLink className={styles.footer_right_item} to="/#join" data-i18n="common.community">コミュニティ</HashLink>
                             </p>
                             <p>
@@ -164,12 +167,6 @@ const Footer = () => {
                             </p>
                             <p> 
                                 <HashLink className={styles.footer_right_item} to="/#contact" data-i18n="common.contact">お問い合わせ</HashLink>
-                            </p>
-                            <p>
-                                <HashLink to="/use" className={styles.footer_right_item} data-i18n="common.useJPYC">JPYCを使う</HashLink>
-                            </p>
-                            <p>
-                                <Link to="/buy" className={styles.footer_right_item} data-i18n="common.buyJPYC">JPYCを購入する</Link>
                             </p>
                             <p>
                                 <Link to="/member" className={styles.footer_right_item} data-i18n="footer.member">メンバー</Link>

@@ -561,7 +561,9 @@ a {
 .soon_text {
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
   color: #ffffff;
   font-weight: bold;
   font-size: 40px;
