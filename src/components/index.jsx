@@ -122,7 +122,8 @@ const index = () => {
                 </div>
 
                 <section className={styles.use}>
-                    <p data-i18n="index.useArea.subText">JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。</p>
+                    <p className={styles.useText} data-i18n="index.useArea.subText">JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。</p>
+                    <p className={styles.useAreaHelpText} data-i18n="index.useArea.useHelpText">※ お酒など免許が必要な代理購入には対応していません。</p>
                     <Link to="/use">
                         <button data-i18n="index.useArea.button">AmazonでJPYCを使う</button>
                     </Link>
