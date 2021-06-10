@@ -65,7 +65,8 @@
     },
     "useArea": {
       "subText": "JPYC always allows you to enjoy trading with goods at 1 JPYC = 1 yen.",
-      "button": "Use JPYC on Amazon"
+      "button": "Use JPYC on Amazon",
+      "useHelpText": "* We do not support proxy purchases that require a license, such as alcohol."
     },
     "grant": {
       "subText": "JPYC Grant provides up to 1,000,000 JPYC to individuals and corporations based on their contribution to the ecosystem. Please fill out the form with the requested information to begin the JPYC Grant review process.",

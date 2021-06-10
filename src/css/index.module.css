@@ -323,14 +323,14 @@ a {
   background: #444444;
   flex-direction: column;
   flex-wrap: nowrap;
-  height: 274px;
+  height: 337px;
   justify-content: center;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
   display: flex;
 }
-.use p {
+.useText {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
@@ -370,6 +370,14 @@ a {
   -moz-transform: translate(0, 2px);
   transform: translate(0, 2px);
   box-shadow: none;
+}
+
+.useAreaHelpText {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  max-width: 80%;
 }
 
 /* grant */
@@ -943,7 +951,7 @@ a {
   .grant_button {
     margin: 0;
   }
-  .use p {
+  .useText {
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
@@ -1198,7 +1206,6 @@ a {
   }
   .soon_text {
     top: 40%;
-    left: 33%;
     color: #ffffff;
     font-weight: bold;
     font-size: 22px;

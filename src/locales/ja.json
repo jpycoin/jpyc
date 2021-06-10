@@ -65,7 +65,8 @@
     },
     "useArea": {
       "subText": "JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。",
-      "button": "AmazonでJPYCを使う"
+      "button": "AmazonでJPYCを使う",
+      "useHelpText": "※ お酒などのライセンスが必要な代理購入は受け付けておりません。"
     },
     "grant": {
       "subText": "JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大 1,000,000 JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。",
