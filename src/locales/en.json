@@ -121,7 +121,7 @@
       },
       "second": {
         "left": "Issuing Firm",
-        "right": "Japan Crypto Asset Market, inc."
+        "right": "JPYC, inc."
       },
       "third": {
         "left": "Payabout amount, etc.",
@@ -134,7 +134,7 @@
       "fifth": {
         "left": "For Inquiries",
         "right": {
-          "first": "Japan Crypto Asset Market, inc.",
+          "first": "JPYC, inc.",
           "second": "Address: 〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
           "third": "For Corporations",
           "fourth": "For the Public"
@@ -172,7 +172,7 @@
     "table": {
       "first": {
         "left": "Name of Distributor",
-        "right": "Japan Crypto Asset Market, inc."
+        "right": "JPYC, inc."
       },
       "second": {
         "left": "Address",
