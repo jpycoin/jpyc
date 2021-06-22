@@ -29,7 +29,7 @@ const Company = () => {
     }
 
     useEffect(() => {
-        typeformEmbed.makeWidget(typeformRef.current, 'https://9m2388521uo.typeform.com/to/A6kb23Pb', {
+        typeformEmbed.makeWidget(typeformRef.current, 'https://jpyc.typeform.com/to/A6kb23Pb?typeform-embed=embed-widget&typeform-source=localhost&typeform-medium=embed-sdk&embed-opacity=0&typeform-embed-id=9g6zh', {
             opacity: 0,
             shareGoogleAnalyticsInstance: isProduction(),
         })

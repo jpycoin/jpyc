@@ -45,13 +45,13 @@ const shikin_kessai = () => {
                         <td>
                             <span data-i18n="shikinKessai.table.fifth.right.first">日本暗号資産市場株式会社</span><br /><span data-i18n="shikinKessai.table.fifth.right.second">所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊2階</span><br />
                             <Link to="/company" data-i18n="shikinKessai.table.fifth.right.third">法人の方</Link><br />
-                            <Link to="/individual" data-i18n="shikinKessai.table.fifth.right.fourth">一般の方</Link>
+                            <a href="https://jpyc.channel.io/" target="_blank" rel="noopener noreferrer" data-i18n="shikinKessai.table.fifth.right.fourth">一般の方</a>
                         </td>
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.sixth.right.first"></span><a href="https://www.amazon.co.jp/" target="__blank">Amazon</a><span data-i18n="shikinKessai.table.sixth.right.second">などECサイトで販売されている商品を当社にて代理購入することができます。商品ご購入は</span><Link to="/use" data-i18n="shikinKessai.table.sixth.right.third">こちら</Link><span data-i18n="shikinKessai.table.sixth.right.fourth">をご覧ください。</span>
+                            <span data-i18n="shikinKessai.table.sixth.right.first"></span><span data-i18n="shikinKessai.table.sixth.right.second">ECサイトで販売されている商品を当社にて代理購入することができます。商品ご購入は</span><Link to="/use" data-i18n="shikinKessai.table.sixth.right.third">こちら</Link><span data-i18n="shikinKessai.table.sixth.right.fourth">をご覧ください。</span>
                         </td>
                     </tr>
                     <tr>
