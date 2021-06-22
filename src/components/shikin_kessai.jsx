@@ -30,7 +30,7 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.second.left">発行事業者</th>
-                        <td data-i18n="shikinKessai.table.second.right">日本暗号資産市場株式会社</td>
+                        <td data-i18n="shikinKessai.table.second.right">JPYC株式会社</td>
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.third.left">支払可能金額等</th>
@@ -43,7 +43,7 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="shikinKessai.table.fifth.left">お問い合わせ先</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.fifth.right.first">日本暗号資産市場株式会社</span><br /><span data-i18n="shikinKessai.table.fifth.right.second">所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊2階</span><br />
+                            <span data-i18n="shikinKessai.table.fifth.right.first">JPYC株式会社</span><br /><span data-i18n="shikinKessai.table.fifth.right.second">所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊2階</span><br />
                             <Link to="/company" data-i18n="shikinKessai.table.fifth.right.third">法人の方</Link><br />
                             <a href="https://jpyc.channel.io/" target="_blank" rel="noopener noreferrer" data-i18n="shikinKessai.table.fifth.right.fourth">一般の方</a>
                         </td>

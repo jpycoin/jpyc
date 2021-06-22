@@ -26,7 +26,7 @@ const shikin_kessai = () => {
                 <table className="shikin_table">
                     <tr>
                         <th data-i18n="law.table.first.left">販売業者名</th>
-                        <td data-i18n="law.table.first.right">日本暗号資産市場株式会社</td>
+                        <td data-i18n="law.table.first.right">JPYC株式会社</td>
                     </tr>
                     <tr>
                         <th data-i18n="law.table.second.left">所在地</th>
