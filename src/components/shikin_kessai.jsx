@@ -34,7 +34,10 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.third.left">支払可能金額等</th>
-                        <td data-i18n="shikinKessai.table.third.right">上限はございません。</td>
+                        <td>
+                            <span data-i18n="shikinKessai.table.third.right.first">1JPYCは、1円に相当します。</span><br /><br />
+                            <span data-i18n="shikinKessai.table.third.right.second">保有できる上限はありません</span>
+                        </td>
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.fourth.left">有効期間</th>
@@ -51,19 +54,23 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.sixth.right.first"></span><span data-i18n="shikinKessai.table.sixth.right.second">ECサイトで販売されている商品を当社にて代理購入することができます。商品ご購入は</span><Link to="/use" data-i18n="shikinKessai.table.sixth.right.third">こちら</Link><span data-i18n="shikinKessai.table.sixth.right.fourth">をご覧ください。</span>
+                            <span data-i18n="shikinKessai.table.sixth.right"></span>
                         </td>
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.seventh.left">利用上の注意</th>
-                        <td><span data-i18n="shikinKessai.table.seventh.right.first">・原則として JPYC の払戻しはいたしません。</span><br />
-                            <span data-i18n="shikinKessai.table.seventh.right.second">但し、当社が有償ポイントサービスの提供を終了（廃止）する場合は、この限りではありません。この場合、払戻し実施時に有効に残存するJPYCを、1 JPYC = 1 円に基づいて日本円で計算した額を払い戻します。</span><br />
-                            <span data-i18n="shikinKessai.table.seventh.right.third">・１JPYCあたりの二次流通価格は、為替や経済情勢の影響等により、変動する可能性があります。</span>
+                        <td>
+                            <span data-i18n="shikinKessai.table.seventh.right.first">・資金決済に関する法律に基づき払戻しが認められる場合を除き、払戻しはできません。</span><br /><br />
+                            <span data-i18n="shikinKessai.table.seventh.right.second">・現在、JPYCは、UniswapやQuickswapを始めとした分散型取引所（以下、DEX）において取引をされていますが、当社は、DEXの運営に一切関与しておらず、二次流通価格を何ら保証するものではありません。</span>
                         </td>
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.eighth.left">未使用残高の確認方法</th>
                         <td><span data-i18n="shikinKessai.table.eighth.right.first"></span><a href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank">Etherscan</a><span data-i18n="shikinKessai.table.eighth.right.second">または、ご自身のウォレット（</span><a href="https://metamask.io/" target="__blank">metamask</a><span data-i18n="shikinKessai.table.eighth.right.third">など）よりご確認できます。</span></td>
+                    </tr>
+                    <tr>
+                        <th data-i18n="shikinKessai.table.ninth.left"></th>
+                        <td><Link to="/privacy-policy"><span data-i18n="shikinKessai.table.ninth.right"></span></Link></td>
                     </tr>
                 </table>
             </main>

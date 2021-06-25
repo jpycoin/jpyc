@@ -8,6 +8,8 @@ import index from './components/index';
 import company from './components/company';
 import privacyPolicy from './components/privacy-policy';
 import law from './components/law';
+import law2 from './components/law2';
+import law3 from './components/law3';
 import shikin_kessai from './components/shikin_kessai';
 import member from './components/member';
 
@@ -21,7 +23,9 @@ function App() {
               <Route exact path='/' component={index} />
               <Route exact path='/company' component={company} />
               <Route exact path='/shikin_kessai' component={shikin_kessai} />
-              <Route exact path='/law' component={law} />
+              <Route exact path='/law/gift' component={law} />
+              <Route exact path='/law/shopping' component={law2} />
+              <Route exact path='/law/shop' component={law3} />
               <Route exact path='/privacy-policy' component={privacyPolicy} />
               <Route exact path='/member' component={member} />
               <Route exact path='/Use' render={() => (window.location = "https://app.jpyc.jp/shopping")} />

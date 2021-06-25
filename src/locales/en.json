@@ -237,30 +237,6 @@
       }
     }
   },
-  "privacyPolicy": {
-    "mainText": "Privacy Policy",
-    "subText": "We are committed to the appropriate protection of personal information in accordance with our \"Personal Information Protection Policy\". We have established the following rules (hereinafter referred to as \"this Policy\") for the handling of personal information that we obtain or retain for the purpose of our business. The Company will handle such information appropriately as follows.",
-    "first": {
-      "mainText": "1. Information provided by the Customer",
-      "subText": "- Any and all information provided the Customer to the Company, such as name, address, phone number (including cell phone number and fax number), email address, mobile email address, name of company or organization, location of workspace, other contact information, nickname, date of birth, gender, etc."
-    },
-    "second": {
-      "mainText": "2. Information obtained in connection with the use of this Service",
-      "subText": {
-        "first": "- Information regarding the transaction history linked to the information that can be used to identify the Customer, in the event that the Customer applies to bid on or purchase a product offered by the Company, apply for a gift, or engage in any other transaction",
-        "second": "- Information regarding subscriptions to email newsletters and other communications from the Company",
-        "third": "- Information related to the statements or contents of questions asked to the Company, participation in questionnaires or campaigns, use of bulletin boards, or evaluation of the Service by phone, email, or other means."
-      }
-    },
-    "third": {
-      "mainText": "3. Information obtained mechanically as a result of access",
-      "subText": {
-        "first": "- IP address used when the Customer's computer connects to the Internet, and information regarding the identification of the mobile device.",
-        "second": "- Information about the type and version of the Customer's browser, operating system, platform, etc., as well as the page (URL) the Customer viewed, the date and time the Customer viewed it, and the products the Customer viewed or searched for, which are obtained by accessing the website operated by the Company.",
-        "third": "- In addition to the above, information that is automatically collected and stored each time the Customer use the Company's Services, such as access information obtained through the use of cookies and web beacon technology."
-      }
-    }
-  },
   "member": {
     "team": "Team",
     "advisor": "Advisor"
