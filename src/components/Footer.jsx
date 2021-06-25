@@ -208,13 +208,19 @@ const Footer = () => {
                             </p>
                             <br />
                             <p>
-                                <Link to="shikin_kessai"　className={styles.footer_right_item} data-i18n="footer.PaymentServicesAct">資金決済法に基づく表示</Link>
+                                <Link to="/shikin_kessai"　className={styles.footer_right_item} data-i18n="footer.PaymentServicesAct">資金決済法に基づく表示</Link>
                             </p>
                             <p>
-                                <Link to="law" className={styles.footer_right_item} data-i18n="footer.SpecifiedCommercialTransactionAct">特定商取引法に基づく表示</Link>
+                                <Link to="/law/gift" className={styles.footer_right_item} data-i18n="footer.SpecifiedCommercialTransactionAct1">特定商取引法に基づく表示（JPYCギフト交換）</Link>
                             </p>
                             <p>
-                                <Link to="privacy-policy" className={styles.footer_right_item} data-i18n="footer.PrivacyPolicy">プライバシーポリシー</Link>
+                                <Link to="/law/shopping" className={styles.footer_right_item} data-i18n="footer.SpecifiedCommercialTransactionAct2">特定商取引法に基づく表示（JPYCショッピング）</Link>
+                            </p>
+                            <p>
+                                <Link to="/law/shop" className={styles.footer_right_item} data-i18n="footer.SpecifiedCommercialTransactionAct3">特定商取引法に基づく表示（JPYC販売所）</Link>
+                            </p>
+                            <p>
+                                <Link to="/privacy-policy" className={styles.footer_right_item} data-i18n="footer.PrivacyPolicy">プライバシーポリシー</Link>
                             </p>
                         </div>
                     </div>
