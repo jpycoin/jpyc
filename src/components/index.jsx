@@ -74,7 +74,8 @@ const index = () => {
                             </div>
                             <div className={styles.feature_center}>
                                 <h3 data-i18n="index.feature.second.mainText">JPYC（JPYCoin）の法的整理</h3>
-                                <p data-i18n="index.feature.second.subText">JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム上での取引に利用可能です。</p>
+                                <p data-i18n="index.feature.second.subText">JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）等※での取引に利用可能です。</p>
+                                <p data-i18n="index.feature.second.note">※対応チェーンは以下の通り</p>
                             </div>
                         </div>
                     </div>

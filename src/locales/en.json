@@ -49,7 +49,8 @@
       },
       "second": {
         "mainText": "Ligal Liquidation of JPYC (JPYCoin)",
-        "subText": "JPYC is a currency-denominated asset that can be purchased and used at any time at a rate of 1 JPYC = 1 yen, and is a Prepaid Payment Instrument for Own Business under the Payment Services Act. It is not a crypto asset. On the other hand, it can be used for transactions on Ethereum (Mainnet) because it adopts ERC20, the standard for Ethereum."
+        "subText": "JPYC is a currency-denominated asset that can be purchased and used at any time at a rate of 1 JPYC = 1 yen, and is a Prepaid Payment Instrument for Own Business under the Payment Services Act. It is not a crypto asset. On the other hand, it can be used for transactions on Ethereum (Mainnet) and other platforms* because it adopts ERC20, the standard for Ethereum.",
+        "note": "Supported chains are as follows"
       }
     },
     "multichain": {
