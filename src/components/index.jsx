@@ -145,7 +145,7 @@ const index = () => {
                         <div className={styles.contact_center}>
                             <h3 data-i18n="index.contact.first.mainText">なにかお困りのことはありませんか？</h3>
                             <p data-i18n="index.contact.first.subText">JPYCは日本初の試みであり、疑問点がいくつも生まれるかもしれませんが、私たちがサポートいたします。頻度が多いものについては「よくある質問」にまとめますのでもう少々お待ち下さい。</p>
-                            <a href="https://jpyc.channel.io/" target="__href"><button data-i18n="index.contact.button">問い合わせる</button></a>
+                            <a href="https://jpyc-support.freshdesk.com/support/tickets/new" target="__href"><button data-i18n="index.contact.button">問い合わせる</button></a>
                         </div>
                         <img src={people} className={styles.contact_image} alt="" />
                     </div>

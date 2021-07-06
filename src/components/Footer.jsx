@@ -226,7 +226,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p><small>&copy; 2021 Japan Crypto Asset Market Inc.</small></p>
+            <p><small>&copy; 2021 JPYC Inc.</small></p>
         </footer>
     );
 };
