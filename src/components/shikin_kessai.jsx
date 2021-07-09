@@ -54,7 +54,9 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.sixth.right"></span>
+                            <span data-i18n="shikinKessai.table.sixth.right.first"></span>
+                            <br /><br />
+                            <span data-i18n="shikinKessai.table.sixth.right.second"></span>
                         </td>
                     </tr>
                     <tr>
