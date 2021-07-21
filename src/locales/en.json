@@ -138,7 +138,7 @@
         "left": "For Inquiries",
         "right": {
           "first": "JPYC, inc.",
-          "second": "Address: 〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
+          "second": "Address: 〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo",
           "third": "For Corporations",
           "fourth": "For the Public"
         }
@@ -179,7 +179,7 @@
       },
       "second": {
         "left": "Address",
-        "right": "〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo"
+        "right": "〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo"
       },
       "third": {
         "left": "Phone Number",
