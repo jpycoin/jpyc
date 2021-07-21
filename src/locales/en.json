@@ -28,7 +28,9 @@
     "JIP": "JPYC-Incentive Program（JIP）",
     "FAQ": "Frequently Asked Questions about JPYC（FAQ）",
     "PaymentServicesAct": "Indication based on Payment Services Act",
-    "SpecifiedCommercialTransactionAct": "Indication based on Specified Commerial Transaction Act",
+    "SpecifiedCommercialTransactionAct1": "Indication based on Specified Commerial Transaction Act（JPYC Gift Exchange）",
+    "SpecifiedCommercialTransactionAct2": "Indication based on Specified Commerial Transaction Act（JPYC Shopping）",
+    "SpecifiedCommercialTransactionAct3": "Indication based on Specified Commerial Transaction Act（JPYC Sales Office）",
     "PrivacyPolicy": "Privacy Policy"
   },
   "index": {
