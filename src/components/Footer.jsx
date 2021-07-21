@@ -42,7 +42,7 @@ const Footer = () => {
                                 </Link>
                             </p>
                             <p><a href="https://jcam.co.jp/"　target="__blank" className={styles.footer_link}><span data-i18n="footer.companyHp">会社概要（運営会社）</span></a></p>
-                            <p>105-0011<br /><span data-i18n="footer.companyAddress">東京都港区芝公園4-8-12 猫来坊2階</span></p>
+                            <p>105-0011<br /><span data-i18n="footer.companyAddress">東京都港区芝公園4-8-12 猫来坊</span></p>
                             <p><a href="https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" className={styles.footer_link}>Etherscan</a></p>
                             <p><a href="https://note.com/ocurima/m/mf80a9d72984a" target="__blank" className={styles.footer_link}>JPYC Magazine</a></p>
                             <p className={styles.contract_address}><span data-i18n="footer.ETHAddress">ETHメインネットコントラクトアドレス</span>：<br />0x2370f9d504c7a6e775bf6e14b3f12846b594cd53

@@ -46,7 +46,8 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="shikinKessai.table.fifth.left">お問い合わせ先</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.fifth.right.first">JPYC株式会社</span><br /><span data-i18n="shikinKessai.table.fifth.right.second">所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊2階</span><br />
+                            <span data-i18n="shikinKessai.table.fifth.right.first">JPYC株式会社</span><br /><br />
+                            <span data-i18n="shikinKessai.table.fifth.right.second">所在地：〒105-0011 東京都港区芝公園4-8-12 猫来坊</span><br /><br />
                             <Link to="/company" data-i18n="shikinKessai.table.fifth.right.third">法人の方</Link><br />
                             <a href="https://jpyc.channel.io/" target="_blank" rel="noopener noreferrer" data-i18n="shikinKessai.table.fifth.right.fourth">一般の方</a>
                         </td>
@@ -54,9 +55,9 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
                         <td>
-                            <span data-i18n="shikinKessai.table.sixth.right.first"></span>
+                            <span data-i18n="shikinKessai.table.sixth.right.first">・自社サイトで利用可</span>
                             <br /><br />
-                            <span data-i18n="shikinKessai.table.sixth.right.second"></span>
+                            <span data-i18n="shikinKessai.table.sixth.right.second">・ECサイト等でのショッピング＋Vプリカギフト交換に利用できます</span>
                         </td>
                     </tr>
                     <tr>
@@ -72,7 +73,7 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="shikinKessai.table.ninth.left"></th>
-                        <td><Link to="/privacy-policy"><span data-i18n="shikinKessai.table.ninth.right"></span></Link></td>
+                        <td><Link to="/privacy-policy"><span data-i18n="shikinKessai.table.ninth.right">プライバシーポリシーをご確認ください。</span></Link></td>
                     </tr>
                 </table>
             </main>

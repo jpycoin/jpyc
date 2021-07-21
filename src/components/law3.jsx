@@ -34,7 +34,7 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="law3.table.third.left">所在地</th>
-                        <td data-i18n="law3.table.third.right">〒105-0011 東京都港区芝公園4-8-12 猫来坊2階</td>
+                        <td data-i18n="law3.table.third.right">〒105-0011 東京都港区芝公園4-8-12 猫来坊</td>
                     </tr>
                     <tr>
                         <th data-i18n="law3.table.fourth.left">電話番号</th>

@@ -121,7 +121,7 @@ const shikin_kessai = () => {
                         <div className="privacy-text">
                             <p data-i18n="privacyPolicy.eleventh.subText.first">当社のプライバシーポリシーに関する、ご意見、ご質問、苦情の申出その他ユーザー情報の取扱いに関するお問い合わせは、以下の窓口にご連絡ください。</p>
                             <br />
-                            <p data-i18n="privacyPolicy.eleventh.subText.second">住所：東京都港区芝公園4-8-12 猫来坊2階</p>
+                            <p data-i18n="privacyPolicy.eleventh.subText.second">住所：東京都港区芝公園4-8-12 猫来坊</p>
                             <p data-i18n="privacyPolicy.eleventh.subText.third">JPYC株式会社</p>
                             <p data-i18n="privacyPolicy.eleventh.subText.fourth">連絡先：jpyc_support@jcam.co.jp</p>
                         </div>

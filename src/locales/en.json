@@ -16,7 +16,7 @@
   },
   "footer": {
     "companyHp": "Company Profile",
-    "companyAddress": "4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
+    "companyAddress": "4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo",
     "ETHAddress": "ETH Mainnet Contract Address",
     "MaticAddress": "Matic Contract Address",
     "xDaiAddress": "xDai Contract Address",
@@ -28,7 +28,9 @@
     "JIP": "JPYC-Incentive Program（JIP）",
     "FAQ": "Frequently Asked Questions about JPYC（FAQ）",
     "PaymentServicesAct": "Indication based on Payment Services Act",
-    "SpecifiedCommercialTransactionAct": "Indication based on Specified Commerial Transaction Act",
+    "SpecifiedCommercialTransactionAct1": "Indication based on Specified Commerial Transaction Act（JPYC Gift Exchange）",
+    "SpecifiedCommercialTransactionAct2": "Indication based on Specified Commerial Transaction Act（JPYC Shopping）",
+    "SpecifiedCommercialTransactionAct3": "Indication based on Specified Commerial Transaction Act（JPYC Sales Office）",
     "PrivacyPolicy": "Privacy Policy"
   },
   "index": {
@@ -136,7 +138,7 @@
         "left": "For Inquiries",
         "right": {
           "first": "JPYC, inc.",
-          "second": "Address: 〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo",
+          "second": "Address: 〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo",
           "third": "For Corporations",
           "fourth": "For the Public"
         }
@@ -177,7 +179,7 @@
       },
       "second": {
         "left": "Address",
-        "right": "〒105-0011 4-8-12 Nekoraibo 2F, Shibakoen, Minato Ward, Tokyo"
+        "right": "〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo"
       },
       "third": {
         "left": "Phone Number",
