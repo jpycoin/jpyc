@@ -12,7 +12,6 @@ import linkedin from '../image/linkedin.png';
 import twitter from '../image/twitter.png';
 import quickswap from '../image/quickswap.png';
 import honeyswap from '../image/honeyswap.svg';
-import pancake from '../image/pancake.png';
 import IconButton      from '@material-ui/core/IconButton';
 import InputAdornment  from '@material-ui/core/InputAdornment';
 import AssignmentIcon  from '@material-ui/icons/Assignment';
@@ -20,15 +19,12 @@ import Tooltip         from '@material-ui/core/Tooltip';
 import CopyToClipBoard from 'react-copy-to-clipboard';
 import coinmarketcap from '../image/coinmarketcap.png';
 import medium from '../image/medium.png';
-import mochiswap from '../image/mochiswap.png';
 
 
 const Footer = () => {
     const [openTip_ETH, setOpenTip_ETH] = useState(false);
     const [openTip_Matic, setOpenTip_Matic] = useState(false);
     const [openTip_xDai, setOpenTip_xDai] = useState(false);
-    const [openTip_BSC, setOpenTip_BSC] = useState(false);
-    const [openTip_Harmony, setOpenTip_Harmony] = useState(false);
 
     return (
         <footer className={styles.footer}>
@@ -58,7 +54,7 @@ const Footer = () => {
                                         onClick={() => setOpenTip_ETH(true)}
                                         >
                                         <AssignmentIcon color="primary" />
-                                        </IconButton> 
+                                        </IconButton>
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
@@ -76,7 +72,7 @@ const Footer = () => {
                                         onClick={() => setOpenTip_Matic(true)}
                                         >
                                         <AssignmentIcon color="primary" />
-                                        </IconButton> 
+                                        </IconButton>
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
@@ -94,43 +90,7 @@ const Footer = () => {
                                         onClick={() => setOpenTip_xDai(true)}
                                         >
                                         <AssignmentIcon color="primary" />
-                                        </IconButton> 
-                                    </CopyToClipBoard>
-                                    </Tooltip>
-                                </InputAdornment>
-                            </p>
-                            <p className={styles.contract_address}><span data-i18n="footer.xDaiOnBSCAddress">xDai on BSCコントラクトアドレス</span>：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
-                                <InputAdornment className={styles.copy}>
-                                    <Tooltip
-                                        open={openTip_BSC}
-                                        onClose={() => setOpenTip_BSC(false)}
-                                        disableHoverListener
-                                        title='Copied!'
-                                    >
-                                    <CopyToClipBoard text={'0x64ddff6b63adcc70d7581ff51a874b4af399e488'}>
-                                        <IconButton
-                                        onClick={() => setOpenTip_BSC(true)}
-                                        >
-                                        <AssignmentIcon color="primary" />
-                                        </IconButton> 
-                                    </CopyToClipBoard>
-                                    </Tooltip>
-                                </InputAdornment>
-                            </p>
-                            <p className={styles.contract_address}><span data-i18n="footer.HarmonyAddress">Harmonyコントラクトアドレス</span>：<br />0xe112b5f917e882033084f64615fb9a3B37e617Bb
-                                <InputAdornment className={styles.copy}>
-                                    <Tooltip
-                                        open={openTip_Harmony}
-                                        onClose={() => setOpenTip_Harmony(false)}
-                                        disableHoverListener
-                                        title='Copied!'
-                                    >
-                                    <CopyToClipBoard text={'0xe112b5f917e882033084f64615fb9a3B37e617Bb'}>
-                                        <IconButton
-                                        onClick={() => setOpenTip_Harmony(true)}
-                                        >
-                                        <AssignmentIcon color="primary" />
-                                        </IconButton> 
+                                        </IconButton>
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
@@ -157,12 +117,6 @@ const Footer = () => {
                                 <a href="https://info.honeyswap.org/token/0x417602f4fbdd471a431ae29fb5fe0a681964c11b" target="__blank">
                                     <img src={honeyswap} alt="honeyswap" className={styles.icon}/>
                                 </a>
-                                <a href="https://one.mochiswap.io/#/swap?outputCurrency=0xe112b5f917e882033084f64615fb9a3B37e617Bb" target="__blank">
-                                    <img src={mochiswap} alt="mochiswap" className={styles.icon}/>
-                                </a>
-                                <a href="https://pancakeswap.info/token/0x64ddff6b63adcc70d7581ff51a874b4af399e488" target="__blank">
-                                    <img src={pancake} alt="pancake" className={`${styles.icon} ${styles.icon_circle}`}/>
-                                </a>
                                 <a href="https://coinmarketcap.com/currencies/jpycoin/" target="__blank">
                                     <img src={coinmarketcap} alt="coinmarketcap" className={`${styles.icon} ${styles.icon}`}/>
                                 </a>
@@ -188,7 +142,7 @@ const Footer = () => {
                             <p>
                                 <HashLink className={styles.footer_right_item} to="/#grant" data-i18n="common.grant">JPYC Grant</HashLink>
                             </p>
-                            <p> 
+                            <p>
                                 <HashLink className={styles.footer_right_item} to="/#contact" data-i18n="common.contact">お問い合わせ</HashLink>
                             </p>
                             <p>
