@@ -83,7 +83,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                                 <InputAdornment className={styles.copy}>
-                                    <IconButton onClick={() => addToken('0x2370f9d504c7a6e775bf6e14b3f12846b594cd53', process.env.REACT_APP_JPYC_SYMBOL)}>
+                                    <IconButton onClick={() => addToken('0x2370f9d504c7a6e775bf6e14b3f12846b594cd53', 'JPYC')}>
                                         <img
                                             src={metamask}
                                             alt="metamask"
@@ -110,7 +110,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                                 <InputAdornment className={styles.copy}>
-                                    <IconButton onClick={() => addToken('0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c', process.env.REACT_APP_JPYC_SYMBOL)}>
+                                    <IconButton onClick={() => addToken('0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c', 'JPYC')}>
                                         <img
                                             src={metamask}
                                             alt="metamask"
@@ -137,7 +137,7 @@ const Footer = () => {
                                     </Tooltip>
                                 </InputAdornment>
                                 <InputAdornment className={styles.copy}>
-                                    <IconButton onClick={() => addToken('0x417602f4fbdd471a431ae29fb5fe0a681964c11b', process.env.REACT_APP_JPYC_SYMBOL)}>
+                                    <IconButton onClick={() => addToken('0x417602f4fbdd471a431ae29fb5fe0a681964c11b', 'JPYC')}>
                                         <img
                                             src={metamask}
                                             alt="metamask"
