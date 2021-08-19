@@ -146,24 +146,6 @@ const Footer = () => {
                                     </IconButton>
                                 </InputAdornment>
                             </p>
-                            <p className={styles.contract_address}>xDai on BSCコントラクトアドレス：<br />0x64ddff6b63adcc70d7581ff51a874b4af399e488
-                                <InputAdornment className={styles.copy}>
-                                    <Tooltip
-                                        open={openTip_BSC}
-                                        onClose={() => setOpenTip_BSC(false)}
-                                        disableHoverListener
-                                        title='Copied!'
-                                    >
-                                    <CopyToClipBoard text={'0x64ddff6b63adcc70d7581ff51a874b4af399e488'}>
-                                        <IconButton
-                                        onClick={() => setOpenTip_BSC(true)}
-                                        >
-                                        <AssignmentIcon color="primary" />
-                                        </IconButton>
-                                    </CopyToClipBoard>
-                                    </Tooltip>
-                                </InputAdornment>
-                            </p>
                             <p className={styles.icon_wrapper}>
                                 <a href="https://twitter.com/jpy_coin"  target="__blank">
                                     <img src={twitter} alt="twitter" className={styles.icon} />
