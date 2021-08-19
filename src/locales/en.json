@@ -1,0 +1,247 @@
+{
+  "common": {
+    "buyJPYC": "Purchase JPYC",
+    "useJPYC": "Use JPYC",
+    "JPYCApps": "JPYC Apps",
+    "JPYCIs": "What is JPYC",
+    "community": "Community",
+    "grant": "JPYC Grant",
+    "contact": "Contact"
+  },
+  "header": {
+    "alert": {
+      "description": "【Note】When purchasing JPYC, please enter your ETH address from your \"personal wallet\" address, not your \"exchange address\". You can learn how to create your own wallet from ",
+      "descriptionMarked": "here"
+    }
+  },
+  "footer": {
+    "companyHp": "Company Profile",
+    "companyAddress": "4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo",
+    "ETHAddress": "ETH Mainnet Contract Address",
+    "MaticAddress": "Matic Contract Address",
+    "xDaiAddress": "xDai Contract Address",
+    "xDaiOnBSCAddress": "xDai on BSC Contract Address",
+    "HarmonyAddress": "Harmony Contract Address",
+    "member": "Member",
+    "jaWP": "White Paper（Japanese）",
+    "enWP": "White Paper（English）",
+    "JIP": "JPYC-Incentive Program（JIP）",
+    "FAQ": "Frequently Asked Questions about JPYC（FAQ）",
+    "PaymentServicesAct": "Indication based on Payment Services Act",
+    "SpecifiedCommercialTransactionAct1": "Indication based on Specified Commerial Transaction Act（JPYC Gift Exchange）",
+    "SpecifiedCommercialTransactionAct2": "Indication based on Specified Commerial Transaction Act（JPYC Shopping）",
+    "SpecifiedCommercialTransactionAct3": "Indication based on Specified Commerial Transaction Act（JPYC Sales Office）",
+    "PrivacyPolicy": "Privacy Policy"
+  },
+  "index": {
+    "heroArea": {
+      "mainText": {
+        "first": "JPYC：Japansese Yen Stablecoin",
+        "second": "Leading the World"
+      }
+    },
+    "innerArea": {
+      "subText": "Anyone can now easily purchase \"JPYC\", the Japanese Yen Stablecoin, in Japanese yen."
+    },
+    "feature": {
+      "mainText": "JPYC Features",
+      "first": {
+        "mainText": "The First Japanese Yen Stablecoin in Japan",
+        "subText": "JPYC (JPYCoin) is the first Japanese Yen Stablecoin in Japan utilizing blockchain technology (ERC20). It runs on the Ethereum mainnet and can be used to buy and sell goods at 1 JPYC = 1 yen at all times.It can be used as a Japanese Yen denominated coin in your wallet, such as Metamask, or in the secondary distribution market, such as Uniswap."
+      },
+      "second": {
+        "mainText": "Ligal Liquidation of JPYC (JPYCoin)",
+        "subText": "JPYC is a currency-denominated asset that can be purchased and used at any time at a rate of 1 JPYC = 1 yen, and is a Prepaid Payment Instrument for Own Business under the Payment Services Act. It is not a crypto asset. On the other hand, it can be used for transactions on Ethereum (Mainnet) and other platforms* because it adopts ERC20, the standard for Ethereum.",
+        "note": "Supported chains are as follows"
+      }
+    },
+    "multichain": {
+      "label": "For Developers",
+      "mainText": {
+        "first": "JPYC is multi-chain compatible, and ",
+        "second": "it can support a variety of products."
+      }
+    },
+    "community": {
+      "subText": "JPYC is a community of individuals and companies with great ideas and the ability to take action, working together to develop and expand the token ecosystem from Japan. Why don't you join the JPYC community to give shape to your ideas?",
+      "button": "Apply for JYPC Community"
+    },
+    "useArea": {
+      "subText": "JPYC always allows you to enjoy trading with goods at 1 JPYC = 1 yen.",
+      "button": "Use JPYC on EC site",
+      "useHelpText": "* We do not support proxy purchases that require a license, such as alcohol."
+    },
+    "grant": {
+      "subText": "JPYC Grant provides up to 1,000,000 JPYC to individuals and corporations based on their contribution to the ecosystem. Please fill out the form with the requested information to begin the JPYC Grant review process.",
+      "button": "Contribute to the JPYC ecosystem"
+    },
+    "contact": {
+      "button": "Contact",
+      "first": {
+        "title": "For the Public",
+        "mainText": "Is there anything you need help with?",
+        "subText": "JPYC is the first of its kind in Japan, and you may have a number of questions, but we're here to help. About the frequently asked questions, please wait a little longer, as we will summarize in the FAQ."
+      },
+      "second": {
+        "title": "For Corporations",
+        "mainText": "Why not accelerate your business wit JPYC?",
+        "subText": "JPYC is an ERC20 prepaid coin that has been legally issued. It is expected to improve financial health and attract new users through blockchain-based payments and blockchain."
+      }
+    },
+    "swapICB": {
+      "mainText": "About the Exchange of JPYC and ICB",
+      "subText": "JPYC and ICB can be exchanged in the ratio of 1 JPYC = 1 ICB, and those who already have ICB can exchange it to JPYC, though only the gas fee will be charged.",
+      "button": "Exchange ICB to JPYC"
+    },
+    "tax": {
+      "mainText": "Our Tax Accountants Familiar with Crypto Assets and JPYC",
+      "person": {
+        "button": "Contact",
+        "first": {
+          "name": "Hironori Ido",
+          "description": "Director of Quantum Accounting, inc. He has signed advisory contracts with several venture companies, and provides advisory services in accounting and taxation, and also examines the accounting and taxation of crypto assets on a daily basis. He has also started to deal with paying taxes with crypto assets."
+        },
+        "second": {
+          "name": "Ota Yohei",
+          "description": "Engaged in auditing and M&A related business at a major audit firm. After that, he worked at REVIC (Regional Economic Revitalization Initiative Corporation), a public-private fund, where he was involved in supporting the revitalization of small and medium-sized companies. Currently, he is an independent consultant and advisor to a blockchain venture. He continues to conduct research while owning crypto assets, and can provide support from the perspective of individual investors and companies owning crypto assets."
+        }
+      },
+      "wanted": {
+        "mainText": "We are looking for a tax accountant who is familiar with tax payment in JPYC",
+        "button": "Contact"
+      } 
+    }
+  },
+  "company": {
+    "mainText": "For Coporations：Inquire about JPYC"
+  },
+  "shikinKessai": {
+    "mainText": "Indication based on Payment Services Act",
+    "table": {
+      "first": {
+        "left": "Name of Prepaid Payment Instrument",
+        "right": "JPY Coin（Unit: JPYC）"
+      },
+      "second": {
+        "left": "Issuing Firm",
+        "right": "JPYC, inc."
+      },
+      "third": {
+        "left": "Payabout amount, etc.",
+        "right": "No upper limit."
+      },
+      "fourth": {
+        "left": "Period of Validity",
+        "right": "No limitation."
+      },
+      "fifth": {
+        "left": "For Inquiries",
+        "right": {
+          "first": "JPYC, inc.",
+          "second": "Address: 〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo",
+          "third": "For Corporations",
+          "fourth": "For the Public"
+        }
+      },
+      "sixth": {
+        "left": "Usage",
+        "right": {
+          "first": "Like ",
+          "second": ", you can purchase products sold on the EC site via our proxy purchase. Please click ",
+          "third": "here",
+          "fourth": " to purchase products."
+        }
+      },
+      "seventh": {
+        "left": "Notes on Use",
+        "right": {
+          "first": "- In principle, JPYC will not be refunded.",
+          "second": "However, this shall not apply in the event that the Company terminates (discontinues) the provision of the paid point service. In this case, the JPYC remaining in effect at the time of the refund will be refunded in Japanese yen, calculated on the basis of 1 JPYC = 1 yen.",
+          "third": "- The secondary distribution price per JPYC may fluctuate due to the influence of exchange rates and economic conditions."
+        }
+      },
+      "eighth": {
+        "left": "How to Check Unused Balance",
+        "right": {
+          "first": "You can check from ",
+          "second": " or your own wallet (e.g. ",
+          "third": ")."
+        }
+      }
+    }
+  },
+  "law": {
+    "mainText": "Indication based on Specified Commerial Transaction Act",
+    "table": {
+      "first": {
+        "left": "Name of Distributor",
+        "right": "JPYC, inc."
+      },
+      "second": {
+        "left": "Address",
+        "right": "〒105-0011 4-8-12 Nekoraibo, Shibakoen, Minato Ward, Tokyo"
+      },
+      "third": {
+        "left": "Phone Number",
+        "right": "(+81) 70-4105-4162"
+      },
+      "fourth": {
+        "left": "Telephone Response Time",
+        "right": {
+          "first": "Weekday, 10:00 a.m. to 7:00 p.m. (except for year-end and New Year Holidays)",
+          "second": "*Please contact us by email if your inquiry is outside of this.*"
+        }
+      },
+      "fifth": {
+        "left": "Email Address"
+      },
+      "sixth": {
+        "left": "CEO",
+        "right": "Noritaka Okabe"
+      },
+      "seventh": {
+        "left": "Contact",
+        "right": {
+          "first": "For Corporations",
+          "second": "For the Public"
+        }
+      },
+      "eighth": {
+        "left": "Website URL"
+      },
+      "ninth": {
+        "left": "Effective Date of Application",
+        "right": "As long as this website is visible."
+      },
+      "tenth": {
+        "left": "Payment Method",
+        "right": "Credit Card"
+      },
+      "eleventh": {
+        "left": "Required Fees other than the Product Price",
+        "right": "- Bank Transfer Fee"
+      },
+      "twelfth": {
+        "left": "About the Amount to be Paid",
+        "right": {
+          "first": "- In case of bank transfer",
+          "second": "You will be asked to pay the listed price and bank transfer fee.",
+          "third": "*We do not charge a GAS fee (transaction fee) when sending JPYC to our customers.*",
+          "fourth": "*JPYC is exempt from taxation because it is a Prepaid Payment Instrument.*"
+        }
+      },
+      "thirteenth": {
+        "left": "Handover Period",
+        "right": "After confirming the payment of the customers, we will remit the funds to your designated ETH address by the next business day."
+      },
+      "fourteenth": {
+        "left": "Return Policy",
+        "right": "Returning Products are not allowed."
+      }
+    }
+  },
+  "member": {
+    "team": "Team",
+    "advisor": "Advisor"
+  }
+}
