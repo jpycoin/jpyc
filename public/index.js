@@ -28,8 +28,6 @@ $(function(){
 		// 影をつけるタイミングを調整
 		var shadowPoints = 32;
 
-		console.log($(window).scrollTop())
-
 		// 影をつける条件分岐
 		if($(window).scrollTop() >= shadowPoints ){
 				$('header').css( "box-shadow", '0px 3px 3px 1px rgba(0, 35, 51, 0.4)');

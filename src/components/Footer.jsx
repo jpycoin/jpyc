@@ -12,6 +12,7 @@ import linkedin from '../image/linkedin.png';
 import twitter from '../image/twitter.png';
 import quickswap from '../image/quickswap.png';
 import honeyswap from '../image/honeyswap.svg';
+import metamask from '../image/metamask.svg';
 import IconButton      from '@material-ui/core/IconButton';
 import InputAdornment  from '@material-ui/core/InputAdornment';
 import AssignmentIcon  from '@material-ui/icons/Assignment';
@@ -20,11 +21,34 @@ import CopyToClipBoard from 'react-copy-to-clipboard';
 import coinmarketcap from '../image/coinmarketcap.png';
 import medium from '../image/medium.png';
 
-
 const Footer = () => {
     const [openTip_ETH, setOpenTip_ETH] = useState(false);
     const [openTip_Matic, setOpenTip_Matic] = useState(false);
     const [openTip_xDai, setOpenTip_xDai] = useState(false);
+
+    const tokenDecimals = 18;
+    const tokenImage = "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png";
+
+    const addToken = async (tokenAddress, tokenSymbol) => {
+        if (!window.ethereum) return;
+
+        try {
+            await window.ethereum.request({
+                method: 'wallet_watchAsset',
+                params: {
+                    type: "ERC20",
+                    options: {
+                        address: tokenAddress,
+                        symbol: tokenSymbol,
+                        decimals: tokenDecimals,
+                        image: tokenImage
+                    }
+                }
+            })
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     return (
         <footer className={styles.footer}>
@@ -58,6 +82,15 @@ const Footer = () => {
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken('0x2370f9d504c7a6e775bf6e14b3f12846b594cd53', 'JPYC')}>
+                                        <img
+                                            src={metamask}
+                                            alt="metamask"
+                                            className={styles.icon_metamask}
+                                        />
+                                    </IconButton>
+                                </InputAdornment>
                             </p>
                             <p className={styles.contract_address}><span data-i18n="footer.MaticAddress">Maticコントラクトアドレス</span>：<br />0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
                                 <InputAdornment className={styles.copy}>
@@ -76,6 +109,15 @@ const Footer = () => {
                                     </CopyToClipBoard>
                                     </Tooltip>
                                 </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken('0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c', 'JPYC')}>
+                                        <img
+                                            src={metamask}
+                                            alt="metamask"
+                                            className={styles.icon_metamask}
+                                        />
+                                    </IconButton>
+                                </InputAdornment>
                             </p>
                             <p className={styles.contract_address}><span data-i18n="footer.xDaiAddress">xDaiコントラクトアドレス</span>：<br />0x417602f4fbdd471a431ae29fb5fe0a681964c11b
                                 <InputAdornment className={styles.copy}>
@@ -93,6 +135,15 @@ const Footer = () => {
                                         </IconButton>
                                     </CopyToClipBoard>
                                     </Tooltip>
+                                </InputAdornment>
+                                <InputAdornment className={styles.copy}>
+                                    <IconButton onClick={() => addToken('0x417602f4fbdd471a431ae29fb5fe0a681964c11b', 'JPYC')}>
+                                        <img
+                                            src={metamask}
+                                            alt="metamask"
+                                            className={styles.icon_metamask}
+                                        />
+                                    </IconButton>
                                 </InputAdornment>
                             </p>
                             <p className={styles.icon_wrapper}>
