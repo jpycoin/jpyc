@@ -22,3 +22,9 @@
     color: rgb(43, 42, 42);
     padding: 10px 0 20px;
 }
+
+/* ふるさと納税のページもほぼ同じ形状なので同じcssを利用する */
+
+.furusato-end {
+    text-align: right;
+}

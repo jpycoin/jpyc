@@ -106,9 +106,9 @@ const shikin_kessai = () => {
                         </div>
                     </div>
                     <div>
-                        <h3 data-i18n="privacyPolicy.ninth.mainText">（9）安全管理措置</h3>
+                        <h3 data-i18n="privacyPolicy.ninth.mainText">（9）個人情報の開示・訂正等</h3>
                         <div className="privacy-text">
-                            <p data-i18n="privacyPolicy.ninth.subText">・個人情報への不正アクセス、紛失、破壊、改ざん及び漏洩等のリスクに対して適切な安全管理措置を講じます。また、個人情報保護規程、個人情報組織を定め、お客さまの個人情報の適切な管理、保護に努めます。</p>
+                            <p data-i18n="privacyPolicy.ninth.subText">・お客さまご自身の個人情報の開示、訂正、利用停止などにつきましては、ご本人であることを確認した上で合理的な範囲で対応させていただきます。</p>
                         </div>
                     </div>
                     <div>
