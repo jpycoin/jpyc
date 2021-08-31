@@ -31,7 +31,8 @@
     "SpecifiedCommercialTransactionAct1": "Indication based on Specified Commerial Transaction Act（JPYC Gift Exchange）",
     "SpecifiedCommercialTransactionAct2": "Indication based on Specified Commerial Transaction Act（JPYC Shopping）",
     "SpecifiedCommercialTransactionAct3": "Indication based on Specified Commerial Transaction Act（JPYC Sales Office）",
-    "PrivacyPolicy": "Privacy Policy"
+    "PrivacyPolicy": "Privacy Policy",
+    "Terms": "JPYC Terms"
   },
   "index": {
     "heroArea": {
@@ -109,7 +110,7 @@
       "wanted": {
         "mainText": "We are looking for a tax accountant who is familiar with tax payment in JPYC",
         "button": "Contact"
-      } 
+      }
     }
   },
   "company": {
