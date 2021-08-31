@@ -227,6 +227,9 @@ const Footer = () => {
                             <p>
                                 <Link to="/privacy-policy" className={styles.footer_right_item} data-i18n="footer.PrivacyPolicy">プライバシーポリシー</Link>
                             </p>
+                            <p>
+                                <Link to="/terms" className={styles.footer_right_item} data-i18n="footer.Terms">利用規約</Link>
+                            </p>
                         </div>
                     </div>
                 </div>
