@@ -13,7 +13,7 @@ import law3 from './components/law3';
 import shikin_kessai from './components/shikin_kessai';
 import member from './components/member';
 import Terms from './components/Terms';
-import furusatoNozei from './components/furusato-nozei';
+import furusatoNozei from './components/hometown-tax-terms';
 
 library.add(fab, fas)
 
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/law/shop" component={law3} />
           <Route exact path="/privacy-policy" component={privacyPolicy} />
           <Route exact path="/terms" component={Terms} />
-          <Route exact path="/furusato-nozei" component={furusatoNozei} />
+          <Route exact path="/terms/hometown-tax" component={furusatoNozei} />
           <Route exact path="/member" component={member} />
           <Route
             exact
