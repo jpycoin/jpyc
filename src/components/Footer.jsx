@@ -230,6 +230,9 @@ const Footer = () => {
                             <p>
                                 <Link to="/terms" className={styles.footer_right_item} data-i18n="footer.Terms">利用規約</Link>
                             </p>
+                            <p>
+                                <Link to="/terms/hometown-tax" className={styles.footer_right_item} data-i18n="footer.furusato-nozei">JPYCふるさと納税利用規約</Link>
+                            </p>
                         </div>
                     </div>
                 </div>
