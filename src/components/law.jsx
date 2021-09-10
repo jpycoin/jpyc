@@ -62,7 +62,7 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="law.table.ninth.left">交換金額</th>
                         <td>
-                            <p  data-i18n="law.table.ninth.right.first">（Vプリカ交換）</p>
+                            <p data-i18n="law.table.ninth.right.first">（Vプリカギフト交換）</p>
                             <p  data-i18n="law.table.ninth.right.second">交換券種：1万円分 、5万円分、10万円分</p>
                         </td>
                     </tr>
@@ -91,8 +91,10 @@ const shikin_kessai = () => {
                     <tr>
                         <th data-i18n="law.table.thirteenth.left">引き渡し期間</th>
                         <td>
-                            <span data-i18n="law.table.thirteenth.right.first">（Vプリカ）</span><br /><br />
-                            <span data-i18n="law.table.thirteenth.right.second">原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大5営業日ほど要する場合があります。</span>
+                            <span data-i18n="law.table.thirteenth.right.first">（Vプリカギフト）</span><br /><br />
+                            <span data-i18n="law.table.thirteenth.right.second">原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大5営業日ほど要する場合があります。</span><br /><br />
+                            <span data-i18n="law.table.thirteenth.right.third">（QUOカードPay）</span><br /><br />
+                            <span data-i18n="law.table.thirteenth.right.fourth">交換券種：1万円分</span>
                         </td>
                     </tr>
                     <tr>
