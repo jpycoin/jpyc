@@ -57,13 +57,15 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="law.table.eighth.left">ウェブサイトURL</th>
-                        <td>https://jpyc.jp</td>
+                        <td>https://jpyc.jp/gift</td>
                     </tr>
                     <tr>
                         <th data-i18n="law.table.ninth.left">交換金額</th>
                         <td>
                             <p data-i18n="law.table.ninth.right.first">（Vプリカギフト交換）</p>
-                            <p  data-i18n="law.table.ninth.right.second">交換券種：1万円分 、5万円分、10万円分</p>
+                            <p data-i18n="law.table.ninth.right.second">交換券種：1万円分 、5万円分、10万円分</p><br />
+                            <p data-i18n="law.table.ninth.right.third">（QUOカードPay）</p>
+                            <p data-i18n="law.table.ninth.right.fourth">交換券種：1万円分</p>
                         </td>
                     </tr>
                     <tr>
@@ -94,7 +96,7 @@ const shikin_kessai = () => {
                             <span data-i18n="law.table.thirteenth.right.first">（Vプリカギフト）</span><br /><br />
                             <span data-i18n="law.table.thirteenth.right.second">原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大5営業日ほど要する場合があります。</span><br /><br />
                             <span data-i18n="law.table.thirteenth.right.third">（QUOカードPay）</span><br /><br />
-                            <span data-i18n="law.table.thirteenth.right.fourth">交換券種：1万円分</span>
+                            <span data-i18n="law.table.thirteenth.right.fourth">原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大2営業日ほど要する場合があります。</span>
                         </td>
                     </tr>
                     <tr>
