@@ -57,7 +57,7 @@ const shikin_kessai = () => {
                     </tr>
                     <tr>
                         <th data-i18n="law.table.eighth.left">ウェブサイトURL</th>
-                        <td>https://jpyc.jp</td>
+                        <td>https://jpyc.jp/gift</td>
                     </tr>
                     <tr>
                         <th data-i18n="law.table.ninth.left">交換金額</th>
