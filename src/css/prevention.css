@@ -1,0 +1,17 @@
+.prevention-page-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.prevention-head {
+  text-align: right;
+  padding-top: 40px;
+}
+
+.prevention-main {
+  width: 86%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  color: #2b2a2a;
+}
