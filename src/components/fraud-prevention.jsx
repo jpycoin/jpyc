@@ -31,7 +31,7 @@ const Prevention = () => {
             </p>
           </div>
           <h2 className="prevention-page-title" data-i18n="prevention.mainText">
-            JPYC利用規約
+            不正利用防止に関するご協力のお願い
           </h2>
           <p className="prevention-text-first" data-i18n="prevention.first">
             日頃は多大なるご愛顧を賜り、誠にありがとうございます。
