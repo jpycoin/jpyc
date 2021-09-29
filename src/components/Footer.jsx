@@ -20,6 +20,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import CopyToClipBoard from "react-copy-to-clipboard";
 import coinmarketcap from "../image/coinmarketcap.png";
 import medium from "../image/medium.png";
+import coingecko from "../image/CoinGecko.png"
 
 const Footer = () => {
   const [openTip_ETH, setOpenTip_ETH] = useState(false);
@@ -274,6 +275,16 @@ const Footer = () => {
                     className={`${styles.icon} ${styles.icon}`}
                   />
                 </a>
+                <a
+                  href="https://www.coingecko.com/en/coins/jpy-coin"
+                  target="__blank"
+                >
+                  <img
+                    src={coingecko}
+                    alt="coingecko"
+                    className={`${styles.icon} ${styles.icon}`}
+                  />
+                </a>
               </p>
             </div>
           </div>
@@ -367,7 +378,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="./faq.pdf"
+                  href="https://jpyc-support.freshdesk.com/support/home"
                   target="__blank"
                   className={styles.footer_right_item}
                   data-i18n="footer.FAQ"
