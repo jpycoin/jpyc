@@ -20,7 +20,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import CopyToClipBoard from "react-copy-to-clipboard";
 import coinmarketcap from "../image/coinmarketcap.png";
 import medium from "../image/medium.png";
-import coingecko from "../image/CoinGecko.png"
+import coingecko from "../image/CoinGecko.png";
 
 const Footer = () => {
   const [openTip_ETH, setOpenTip_ETH] = useState(false);
@@ -313,10 +313,10 @@ const Footer = () => {
               <p>
                 <HashLink
                   className={styles.footer_right_item}
-                  to="/#join"
-                  data-i18n="common.community"
+                  to="/#newsletter"
+                  data-i18n="common.newsletter"
                 >
-                  コミュニティ
+                  ニュースレター
                 </HashLink>
               </p>
               <p>
@@ -336,6 +336,15 @@ const Footer = () => {
                 >
                   お問い合わせ
                 </HashLink>
+              </p>
+              <p>
+                <a
+                  href="https://blog.jpyc.jp/"
+                  className={styles.footer_right_item}
+                  data-i18n="footer.blog"
+                >
+                  JPYC Blog
+                </a>
               </p>
               <p>
                 <Link

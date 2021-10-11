@@ -4,7 +4,7 @@
     "useJPYC": "Use JPYC",
     "JPYCApps": "JPYC Apps",
     "JPYCIs": "What is JPYC",
-    "community": "Community",
+    "newsletter": "News Letter",
     "grant": "JPYC Grant",
     "contact": "Contact"
   },
@@ -34,7 +34,8 @@
     "SpecifiedCommercialTransactionAct3": "Indication based on Specified Commerial Transaction Act（JPYC Sales Office）",
     "PrivacyPolicy": "Privacy Policy",
     "Terms": "JPYC Terms",
-    "furusato-nozei": "Terms of JPYC Hometown tax"
+    "furusato-nozei": "Terms of JPYC Hometown tax",
+    "blog": "JPYC Blog"
   },
   "index": {
     "heroArea": {
@@ -65,9 +66,9 @@
         "second": "it can support a variety of products."
       }
     },
-    "community": {
-      "subText": "JPYC is a community of individuals and companies with great ideas and the ability to take action, working together to develop and expand the token ecosystem from Japan. Why don't you join the JPYC community to give shape to your ideas?",
-      "button": "Apply for JYPC Community"
+    "newsletter": {
+      "subText": "JPYC newsletter picks up what you want to check, such as the researcher's report shared internally and the recent movements of JPYC Co., Ltd., and provides it to all registrants.",
+      "button": "Subscribe"
     },
     "useArea": {
       "subText": "JPYC always allows you to enjoy trading with goods at 1 JPYC = 1 yen.",
