@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .init(
       {
         fallbackLng: () => {
-          const lang = window.navigator.language;
+          // const lang = window.navigator.language;
           // if (lang === 'ja') {
           //   return ['ja'];
           // } else {
