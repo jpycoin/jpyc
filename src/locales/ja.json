@@ -4,7 +4,7 @@
     "useJPYC": "JPYCを使う",
     "JPYCApps": "JPYC Apps",
     "JPYCIs": "JPYCとは",
-    "community": "コミュニティ",
+    "newsletter": "ニュースレター",
     "grant": "JPYC Grant",
     "contact": "お問い合わせ"
   },
@@ -34,7 +34,8 @@
     "SpecifiedCommercialTransactionAct3": "特定商取引法に基づく表示（JPYC販売所）",
     "PrivacyPolicy": "プライバシーポリシー",
     "Terms": "JPYC利用規約",
-    "furusato-nozei": "JPYCふるさと納税利用規約"
+    "furusato-nozei": "JPYCふるさと納税利用規約",
+    "blog": "JPYC Blog"
   },
   "index": {
     "heroArea": {
@@ -65,9 +66,9 @@
         "second": "様々なプロダクトにサポート可能です。"
       }
     },
-    "community": {
-      "subText": "JPYCは個人・企業問わず素晴らしい発想力、行動力を持つ方々と日本発のトークンエコシステムの開発とその発展に挑戦します。あなたのアイデアを形にするために、JPYCコミュニティに参加しませんか？",
-      "button": "JPYCコミュニティに応募する"
+    "newsletter": {
+      "subText": "JPYCニュースレターでは社内で共有されているリサーチャーのレポートやJPYC株式会社の最近の動きなどチェックしておきたい内容をピックアップして、登録者である皆様にご提供するものです。",
+      "button": "購読する"
     },
     "useArea": {
       "subText": "JPYCは常に1 JPYC = 1円で物品との取引をお楽しみいただけます。",
