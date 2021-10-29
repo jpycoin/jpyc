@@ -342,8 +342,10 @@ const Footer = () => {
                   href="https://blog.jpyc.jp/"
                   className={styles.footer_right_item}
                   data-i18n="footer.blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  JPYC Blog
+                  JPYCブログ
                 </a>
               </p>
               <p>
