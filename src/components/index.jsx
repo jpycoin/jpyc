@@ -191,7 +191,7 @@ const index = () => {
               className={styles.join_text}
               data-i18n="index.newsletter.subText"
             >
-              JPYCは個人・企業問わず素晴らしい発想力、行動力を持つ方々と日本発のトークンエコシステムの開発とその発展に挑戦します。あなたのアイデアを形にするために、JPYCコミュニティに参加しませんか？
+              JPYCニュースレターでは社内で共有されているリサーチャーのレポートやJPYC株式会社の最近の動きなどチェックしておきたい内容をピックアップして、登録者である皆様にご提供するものです。
             </p>
             <a
               href="https://blog.jpyc.jp/subscribe_newsletter"
