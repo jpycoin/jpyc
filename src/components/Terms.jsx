@@ -531,7 +531,8 @@ const Terms = () => {
           <div>
             <h3 data-i18n="terms.end.mainText">附則</h3>
             <div className="privacy-text">
-              <p data-i18n="terms.end.subText.first">2021年11月26日制定</p>
+              <p data-i18n="terms.end.subText.first">2021年9月1日制定</p>
+              <p data-i18n="terms.end.subText.second">2021年10月26日改定</p>
             </div>
           </div>
           <div className="furusato-end">以上</div>

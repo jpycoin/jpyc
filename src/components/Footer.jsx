@@ -75,7 +75,8 @@ const Footer = () => {
                 105-0011
                 <br />
                 <span data-i18n="footer.companyAddress">
-                  東京都港区芝公園4-8-12 猫来坊
+                  〒100-0004
+                  東京都千代田区大手町一丁目6番1号　大手町ビル4階　FINOLAB内
                 </span>
               </p>
               <p>
