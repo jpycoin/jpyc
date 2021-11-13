@@ -26,6 +26,7 @@ const Footer = () => {
   const [openTip_ETH, setOpenTip_ETH] = useState(false);
   const [openTip_Matic, setOpenTip_Matic] = useState(false);
   const [openTip_xDai, setOpenTip_xDai] = useState(false);
+  const [openTip_shiden, setOpenTip_shiden] = useState(false);
 
   const tokenDecimals = 18;
   const tokenImage = "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png";
@@ -202,6 +203,45 @@ const Footer = () => {
                     onClick={() =>
                       addToken(
                         "0x417602f4fbdd471a431ae29fb5fe0a681964c11b",
+                        "JPYC"
+                      )
+                    }
+                  >
+                    <img
+                      src={metamask}
+                      alt="metamask"
+                      className={styles.icon_metamask}
+                    />
+                  </IconButton>
+                </InputAdornment>
+              </p>
+              <p className={styles.contract_address}>
+                <span data-i18n="footer.shidenAddress">
+                  Shidenコントラクトアドレス
+                </span>
+                ：<br />
+                0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                <InputAdornment className={styles.copy}>
+                  <Tooltip
+                    open={openTip_shiden}
+                    onClose={() => setOpenTip_shiden(false)}
+                    disableHoverListener
+                    title="Copied!"
+                  >
+                    <CopyToClipBoard
+                      text={"0x735abe48e8782948a37c7765ecb76b98cde97b0f"}
+                    >
+                      <IconButton onClick={() => setOpenTip_shiden(true)}>
+                        <AssignmentIcon color="primary" />
+                      </IconButton>
+                    </CopyToClipBoard>
+                  </Tooltip>
+                </InputAdornment>
+                <InputAdornment className={styles.copy}>
+                  <IconButton
+                    onClick={() =>
+                      addToken(
+                        "0x735abe48e8782948a37c7765ecb76b98cde97b0f",
                         "JPYC"
                       )
                     }

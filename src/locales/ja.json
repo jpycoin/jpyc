@@ -20,6 +20,7 @@
     "ETHAddress": "ETHメインネットコントラクトアドレス",
     "MaticAddress": "Maticコントラクトアドレス",
     "xDaiAddress": "xDaiコントラクトアドレス",
+    "shidenAddress": "Shidenコントラクトアドレス",
     "xDaiOnBSCAddress": "xDai on BSCコントラクトアドレス",
     "HarmonyAddress": "Harmonyコントラクトアドレス",
     "blog": "JPYCブログ",
