@@ -219,7 +219,9 @@ const index = () => {
             ※ お酒など免許が必要な代理購入には対応していません。
           </p>
           <Link to="/use">
-            <button data-i18n="index.useArea.button">AmazonでJPYCを使う</button>
+            <button data-i18n="index.useArea.button">
+              ECサイトでJPYCを使う
+            </button>
           </Link>
         </section>
 
