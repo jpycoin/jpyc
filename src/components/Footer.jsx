@@ -219,7 +219,8 @@ const Footer = () => {
                 <span data-i18n="footer.shidenAddress">
                   Shidenコントラクトアドレス
                 </span>
-                ：<br />
+                ：
+                <br />
                 0x735abe48e8782948a37c7765ecb76b98cde97b0f
                 <InputAdornment className={styles.copy}>
                   <Tooltip
