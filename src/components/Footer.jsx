@@ -219,8 +219,9 @@ const Footer = () => {
                 <span data-i18n="footer.shidenAddress">
                   Shidenコントラクトアドレス
                 </span>
-                ：<br />
-                0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                ：
+                <br />
+                0x735abe48e8782948a37c7765ecb76b98cde97b0f
                 <InputAdornment className={styles.copy}>
                   <Tooltip
                     open={openTip_shiden}
