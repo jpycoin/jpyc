@@ -39,7 +39,7 @@
         "i18next-browser-languagedetector": "^6.1.0",
         "i18next-http-backend": "^1.2.1",
         "json-utils": "^0.1.0",
-        "node-sass": "^4.14.1",
+        "node-sass": "^6.0.1",
         "postcss-cli": "^8.3.1",
         "postcss-modules": "^4.0.0",
         "prop-types": "^15.7.2",
