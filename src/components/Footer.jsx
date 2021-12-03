@@ -401,7 +401,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="./white-paper.pdf"
+                  href="/white-paper.pdf"
                   target="__blank"
                   className={styles.footer_right_item}
                   data-i18n="footer.jaWP"
@@ -411,7 +411,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="./white-paper-en.pdf"
+                  href="/white-paper-en.pdf"
                   target="__blank"
                   className={styles.footer_right_item}
                   data-i18n="footer.enWP"
@@ -421,7 +421,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="./jip.pdf"
+                  href="/jip.pdf"
                   target="__blank"
                   className={styles.footer_right_item}
                   data-i18n="footer.JIP"
