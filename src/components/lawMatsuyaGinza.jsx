@@ -3,7 +3,6 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import { Link } from "react-router-dom";
 import "../css/shikin.css";
 
 class ScrollToTopOnMount extends React.Component {
