@@ -486,6 +486,15 @@ const Footer = () => {
               </p>
               <p>
                 <Link
+                  to="/law/matsuya_ginza"
+                  className={styles.footer_right_item}
+                  data-i18n="footer.SpecifiedCommercialTransactionAct4"
+                >
+                  特定商取引法に基づく表示（松屋銀座）
+                </Link>
+              </p>
+              <p>
+                <Link
                   to="/privacy-policy"
                   className={styles.footer_right_item}
                   data-i18n="footer.PrivacyPolicy"
