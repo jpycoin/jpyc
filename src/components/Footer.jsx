@@ -431,7 +431,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="https://jpyc-support.freshdesk.com/support/home"
+                  href="https://jpyc.gitbook.io/jpyc/jpyc/hajimeni"
                   target="__blank"
                   className={styles.footer_right_item}
                   data-i18n="footer.FAQ"
