@@ -308,7 +308,7 @@ const index = () => {
           </div>
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href="https://forms.gle/6iyajbTfAT2VVW8QA"
           >
             <div className={styles.exchange_right}>
