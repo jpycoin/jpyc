@@ -290,35 +290,37 @@ const index = () => {
           </div>
         </section>
 
-        <div className={styles.comming_soon}>
-          <div className={styles.soon_text}>coming soon</div>
-          <section className={styles.exchange}>
-            <div className={styles.exchange_left}>
-              <h3
-                className={styles.exchange_left_title}
-                data-i18n="index.swapICB.mainText"
-              >
-                JPYCとICBの交換について
-              </h3>
-              <div
-                className={styles.exchange_left_text}
-                data-i18n="index.swapICB.subText"
-              >
-                JPYCとICBは1 JPYC = 1
-                ICBの割合で交換可能です。Gas代のみご負担いただきますが、ICBを既に保有されている方はJPYCに交換することが可能です。
-              </div>
+        <section className={styles.exchange}>
+          <div className={styles.exchange_left}>
+            <h3
+              className={styles.exchange_left_title}
+              data-i18n="index.swapICB.mainText"
+            >
+              JPYCとICBの交換について
+            </h3>
+            <div
+              className={styles.exchange_left_text}
+              data-i18n="index.swapICB.subText"
+            >
+              JPYCとICBは1 JPYC = 1
+              ICBの割合で交換可能です。Gas代のみご負担いただきますが、ICBを既に保有されている方はJPYCに交換することが可能です。
             </div>
+          </div>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://forms.gle/6iyajbTfAT2VVW8QA"
+          >
             <div className={styles.exchange_right}>
               <button
-                disabled
                 className={styles.exchange_button}
                 data-i18n="index.swapICB.button"
               >
                 ICBをJPYCに交換する
               </button>
             </div>
-          </section>
-        </div>
+          </a>
+        </section>
 
         <section className={styles.tax}>
           <p className={styles.tax_title} data-i18n="index.tax.mainText">
