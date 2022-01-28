@@ -86,7 +86,7 @@ const shikin_kessai = () => {
               商品の販売金額（交換金額）
             </th>
             <td data-i18n="law2.table.ninth.right">
-              各ECサイトの商品ページにて表示される価格
+              川根本町購入ページにて表示される価格
             </td>
           </tr>
           <tr>
@@ -98,7 +98,7 @@ const shikin_kessai = () => {
               <br />
               <br />
               <span data-i18n="law2.table.tenth.right.second">
-                配送料（商品を注文したECサイトに準拠します）
+                配送料（商品を注文したサイトに準拠します）
               </span>
             </td>
           </tr>
@@ -134,12 +134,7 @@ const shikin_kessai = () => {
             <th data-i18n="law2.table.thirteenth.left">引き渡し期間</th>
             <td>
               <span data-i18n="law2.table.thirteenth.right.first">
-                （商品購入）
-              </span>
-              <br />
-              <br />
-              <span data-i18n="law2.table.thirteenth.right.second">
-                お客様のご入金を確認後、原則翌営業日まで指定のECサイトにて購入申込します。商品の発送時期は、ECサイトの商品状況に依存します。
+                原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大5営業日ほど要する場合があります。
               </span>
             </td>
           </tr>

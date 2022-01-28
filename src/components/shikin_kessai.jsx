@@ -97,7 +97,7 @@ const shikin_kessai = () => {
               <br />
               <br />
               <span data-i18n="shikinKessai.table.sixth.right.second">
-                ・ECサイト等でのショッピング＋Vプリカギフト交換に利用できます
+                ・ショッピング＋Vプリカギフト交換に利用できます
               </span>
             </td>
           </tr>
