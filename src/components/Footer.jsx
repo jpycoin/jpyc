@@ -421,16 +421,6 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="/jip.pdf"
-                  target="__blank"
-                  className={styles.footer_right_item}
-                  data-i18n="footer.JIP"
-                >
-                  JPYC-インセンティブ提供プログラム（JIP）
-                </a>
-              </p>
-              <p>
-                <a
                   href="https://jpyc.gitbook.io/jpyc/jpyc/hajimeni"
                   target="__blank"
                   className={styles.footer_right_item}
