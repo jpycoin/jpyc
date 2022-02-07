@@ -59,7 +59,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law3.table.sixth.left">メールアドレス</th>
-            <td>admin@jcam.co.jp</td>
+            <td>jpyc_support@jcam.co.jp</td>
           </tr>
           <tr>
             <th data-i18n="law3.table.seventh.left">お問い合わせ</th>
@@ -79,7 +79,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law3.table.eighth.left">ウェブサイトURL</th>
-            <td>https://jpyc.jp</td>
+            <td>https://app.jpyc.jp/</td>
           </tr>
           <tr>
             <th data-i18n="law3.table.ninth.left">前払式支払手段の名称</th>

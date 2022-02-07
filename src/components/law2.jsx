@@ -59,7 +59,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law2.table.sixth.left">メールアドレス</th>
-            <td>admin@jcam.co.jp</td>
+            <td data-i18n="law2.table.sixth.right">admin@jcam.co.jp</td>
           </tr>
           <tr>
             <th data-i18n="law2.table.seventh.left">お問い合わせ</th>

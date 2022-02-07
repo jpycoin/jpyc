@@ -43,7 +43,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law.table.fourth.left">電話番号</th>
-            <td>070-4105-4162</td>
+            <td data-i18n="law.table.fourth.right">070-4105-4162</td>
           </tr>
           <tr>
             <th data-i18n="law.table.fifth.left">電話応対時間</th>
@@ -76,7 +76,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law.table.eighth.left">ウェブサイトURL</th>
-            <td>https://jpyc.jp/gift</td>
+            <td>https://app.jpyc.jp/gift/</td>
           </tr>
           <tr>
             <th data-i18n="law.table.ninth.left">交換金額</th>
