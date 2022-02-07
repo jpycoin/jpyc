@@ -91,9 +91,8 @@ const index = () => {
                   日本初の日本円ステーブルコイン（ERC20）
                 </h3>
                 <p data-i18n="index.feature.first.subText">
-                  JPYC（JPYCoin）は日本初のブロックチェーン技術（ERC20）を活用した日本円ステーブルコインです。イーサリアム上で動いており、常に1
-                  JPYC =
-                  1円で物品の売買に利用可能です。メタマスクなど、お持ちのウォレットやUniswapなどの二次流通市場で日本円建てのコインとして使うことができます。
+                  JPYC（JPYCoin）は日本初のブロックチェーン技術（ERC20）を活用した日本円ステーブルコインです。イーサリアムのメインネットで動いており、常に1
+                  JPYC = 1円で物品の売買に利用可能です。メタマスクなど、お持ちのウォレットやUniswapなどの二次流通市場で日本円建てのコインとして使うことができます。
                 </p>
               </div>
               <div className={styles.feature_center}>
@@ -101,8 +100,7 @@ const index = () => {
                   JPYC（JPYCoin）の法的整理
                 </h3>
                 <p data-i18n="index.feature.second.subText">
-                  JPYCは1 JPYC ＝
-                  1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）等※での取引に利用可能です。
+                  JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）等※での取引に利用可能です。
                 </p>
                 <p data-i18n="index.feature.second.note">
                   ※対応チェーンは以下の通り
@@ -211,10 +209,7 @@ const index = () => {
         <section className={styles.grant} id="grant">
           <div className={styles.inner_grant}>
             <p className={styles.grant_text} data-i18n="index.grant.subText">
-              JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大
-              1,000,000
-              JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC
-              Grantの審査が開始します。
+              JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大1,000,000JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。
             </p>
             <Link to="/grant">
               <button

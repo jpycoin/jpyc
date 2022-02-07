@@ -92,12 +92,12 @@ const shikin_kessai = () => {
             <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
             <td>
               <span data-i18n="shikinKessai.table.sixth.right.first">
-                ・自社サイトで利用可
+                JPYC Apps(https://app.jpyc.jp/)のサイト内で使用することができます。
               </span>
               <br />
               <br />
               <span data-i18n="shikinKessai.table.sixth.right.second">
-                ・ショッピング＋Vプリカギフト交換に利用できます
+              （主な用途：ECサイトで販売されている商品を当社にて代理購入する際の支払い・ギフト券との交換・ふるさと納税等）
               </span>
             </td>
           </tr>
@@ -120,29 +120,20 @@ const shikin_kessai = () => {
             </th>
             <td>
               <span data-i18n="shikinKessai.table.eighth.right.first"></span>
-              <a
-                href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53"
-                target="__blank"
-              >
+              <a href="https://etherscan.io/token/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53" target="__blank" >
                 Etherscan
               </a>
-              <span data-i18n="shikinKessai.table.eighth.right.second">
-                または、ご自身のウォレット（
-              </span>
-              <a href="https://metamask.io/" target="__blank">
-                metamask
-              </a>
-              <span data-i18n="shikinKessai.table.eighth.right.third">
-                など）よりご確認できます。
-              </span>
+              <span data-i18n="shikinKessai.table.eighth.right.second">または、ご自身のウォレット（</span>
+              <a href="https://metamask.io/" target="__blank">metamask</a>
+              <span data-i18n="shikinKessai.table.eighth.right.third">など）よりご確認できます。 </span>
             </td>
           </tr>
           <tr>
-            <th data-i18n="shikinKessai.table.ninth.left"></th>
+            <th data-i18n="shikinKessai.table.ninth.left">約款等</th>
             <td>
               <Link to="/privacy-policy">
                 <span data-i18n="shikinKessai.table.ninth.right">
-                  プライバシーポリシーをご確認ください。
+                  JPYC利用規約及びプライバシーポリシーをご確認ください。
                 </span>
               </Link>
             </td>

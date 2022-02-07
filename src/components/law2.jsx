@@ -32,7 +32,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law2.table.second.left">責任者</th>
-            <td data-i18n="law2.table.second.right">代表取締役社長 岡部典孝</td>
+            <td data-i18n="law2.table.second.right">代表取締役 岡部典孝</td>
           </tr>
           <tr>
             <th data-i18n="law2.table.third.left">所在地</th>
@@ -43,7 +43,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law2.table.fourth.left">電話番号</th>
-            <td data-i18n="law2.table.fourth.right">070-4105-4162</td>
+            <td data-i18n="law2.table.fourth.right">03-6820-0461</td>
           </tr>
           <tr>
             <th data-i18n="law2.table.fifth.left">電話応対時間</th>
@@ -59,7 +59,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law2.table.sixth.left">メールアドレス</th>
-            <td>admin@jcam.co.jp</td>
+            <td data-i18n="law2.table.sixth.right">jpyc_support@jcam.co.jp</td>
           </tr>
           <tr>
             <th data-i18n="law2.table.seventh.left">お問い合わせ</th>
