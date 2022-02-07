@@ -32,7 +32,7 @@ const LawMatsuyaGinza = () => {
           <tr>
             <th data-i18n="lawMatsuyaGinza.table.second.left">責任者</th>
             <td data-i18n="lawMatsuyaGinza.table.second.right">
-              代表取締役社長 岡部典孝
+              代表取締役 岡部典孝
             </td>
           </tr>
           <tr>

@@ -32,7 +32,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law3.table.second.left">責任者</th>
-            <td data-i18n="law3.table.second.right">代表取締役社長 岡部典孝</td>
+            <td data-i18n="law3.table.second.right">代表取締役 岡部典孝</td>
           </tr>
           <tr>
             <th data-i18n="law3.table.third.left">所在地</th>
@@ -43,7 +43,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law3.table.fourth.left">電話番号</th>
-            <td data-i18n="law3.table.fourth.right">070-4105-4162</td>
+            <td data-i18n="law3.table.fourth.right">03-6820-0461</td>
           </tr>
           <tr>
             <th data-i18n="law3.table.fifth.left">電話応対時間</th>
@@ -89,11 +89,10 @@ const shikin_kessai = () => {
             <th data-i18n="law3.table.tenth.left">販売価格</th>
             <td>
               <span data-i18n="law3.table.tenth.right.first">1JPYC＝1円</span>
-              <br />
-              <br />
-              <span data-i18n="law3.table.tenth.right.second">
-                （ただし、最低購入額は1万円）
-              </span>
+              {/* <br />
+              <br /> */}
+              {/* <span data-i18n="law3.table.tenth.right.second">
+              </span> */}
             </td>
           </tr>
           <tr>
@@ -125,6 +124,9 @@ const shikin_kessai = () => {
               <br />
               <br />
               <span data-i18n="law3.table.twelfth.right.second">・ETH送金</span>
+              <br />
+              <br />
+              <span data-i18n="law3.table.twelfth.right.third">・BTC送金</span>
             </td>
           </tr>
           <tr>

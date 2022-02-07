@@ -32,7 +32,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law.table.second.left">責任者</th>
-            <td data-i18n="law.table.second.right">代表取締役社長 岡部典孝</td>
+            <td data-i18n="law.table.second.right">代表取締役 岡部典孝</td>
           </tr>
           <tr>
             <th data-i18n="law.table.third.left">所在地</th>
@@ -43,7 +43,7 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law.table.fourth.left">電話番号</th>
-            <td data-i18n="law.table.fourth.right">070-4105-4162</td>
+            <td data-i18n="law.table.fourth.right">03-6820-0461</td>
           </tr>
           <tr>
             <th data-i18n="law.table.fifth.left">電話応対時間</th>
@@ -99,7 +99,7 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="law.table.eleventh.left">商品代金以外の必要料金</th>
             <td data-i18n="law.table.eleventh.right">
-              ・銀行振込手数料
+              JPYCを弊社に送信する際のネットワーク利用手数料（いわゆるGAS代）
               <br />
               {/* ・仮想通貨決済時のGAS代（送信手数料） */}
             </td>

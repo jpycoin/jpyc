@@ -433,7 +433,8 @@
         "left": "お支払い方法",
         "right": {
           "first": "・銀行振込",
-          "second": "・ETH送金"
+          "second": "・ETH送金",
+          "third": "・BTC送金"
         }
       },
       "thirteenth": {

@@ -92,12 +92,12 @@ const shikin_kessai = () => {
             <th data-i18n="shikinKessai.table.sixth.left">使用場所</th>
             <td>
               <span data-i18n="shikinKessai.table.sixth.right.first">
-                ・自社サイトで利用可
+                JPYC Apps(https://app.jpyc.jp/)のサイト内で使用することができます。
               </span>
               <br />
               <br />
               <span data-i18n="shikinKessai.table.sixth.right.second">
-                ・ショッピング＋Vプリカギフト交換に利用できます
+              （主な用途：ECサイトで販売されている商品を当社にて代理購入する際の支払い・ギフト券との交換・ふるさと納税等）
               </span>
             </td>
           </tr>
