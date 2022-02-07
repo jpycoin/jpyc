@@ -92,34 +92,23 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="law.table.tenth.left">代金以外の必要料金</th>
             <td>
-              <p data-i18n="law.table.tenth.right.first">お支払い方法</p>
-              <p data-i18n="law.table.tenth.right.second">JPYCによる決済</p>
+              <p data-i18n="law.table.tenth.right.first">
+                  JPYCを弊社に送信する際のネットワーク利用手数料（いわゆるGAS代）
+              </p>
             </td>
           </tr>
           <tr>
-            <th data-i18n="law.table.eleventh.left">商品代金以外の必要料金</th>
-            <td data-i18n="law.table.eleventh.right">
-              JPYCを弊社に送信する際のネットワーク利用手数料（いわゆるGAS代）
-              <br />
-              {/* ・仮想通貨決済時のGAS代（送信手数料） */}
-            </td>
+            <th data-i18n="law.table.eleventh.left">お支払い方法</th>
+            <td data-i18n="law.table.eleventh.right">JPYCによる決済</td>
           </tr>
           <tr>
             <th>
-              <span data-i18n="law.table.twelfth.left.first">
-                お支払い金額について
-              </span>
+              <span data-i18n="law.table.twelfth.left.first">支払時期</span><br />
               <br />
-              <br />
-              <span data-i18n="law.table.twelfth.left.second">
-                お申込日から1週間以内にご入金を確認できなかった場合はキャンセルされたものとみなし、購入申込みは取り消させていただきます。
-              </span>
+              <span data-i18n="law.table.twelfth.left.second">申込みの有効期限</span>
             </th>
             <td>
-              <span data-i18n="law.table.twelfth.right.first">
-                弊社より注文確認メール到着後、1週間以内にお支払ください。
-              </span>
-              <br />
+              <span data-i18n="law.table.twelfth.right.first">弊社より注文確認メール到着後、1週間以内にお支払ください。</span><br />
               <br />
               <span data-i18n="law.table.twelfth.right.second">
                 お申込日から1週間以内にご入金を確認できなかった場合はキャンセルされたものとみなし、購入申込みは取り消させていただきます。
@@ -130,21 +119,16 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="law.table.thirteenth.left">引き渡し期間</th>
             <td>
-              <span data-i18n="law.table.thirteenth.right.first">
-                （Vプリカギフト）
-              </span>
-              <br />
+              <span data-i18n="law.table.thirteenth.right.first">（Vプリカギフト）</span><br />
               <br />
               <span data-i18n="law.table.thirteenth.right.second">
                 原則として、お客様のご入金を確認後、翌営業日まで。ただし、在庫状況等により、お客様のご入金確認後から最大5営業日ほど要する場合があります。
               </span>
-              <br />
-              <br />
             </td>
           </tr>
           <tr>
-            <th data-i18n="law.table.fourteenth.left">返品について</th>
-            <td data-i18n="law.table.fourteenth.right">返品不可</td>
+            <th data-i18n="law.table.fourteenth.left">返品・交換・キャンセル</th>
+            <td data-i18n="law.table.fourteenth.right">購入・手続き完了後の返品・交換・キャンセルはお受けできません。</td>
           </tr>
         </table>
       </main>
