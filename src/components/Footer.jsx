@@ -416,7 +416,7 @@ const Footer = () => {
                   className={styles.footer_right_item}
                   data-i18n="footer.enWP"
                 >
-                  White-Paper（English）
+                  White-Paper (English)
                 </a>
               </p>
               <p>
@@ -498,7 +498,7 @@ const Footer = () => {
                   className={styles.footer_right_item}
                   data-i18n="footer.Terms"
                 >
-                  利用規約
+                  JPYC利用規約
                 </Link>
               </p>
               <p>
