@@ -102,12 +102,12 @@ const LawMatsuyaGinza = () => {
             </th>
             <td>
               <span data-i18n="lawMatsuyaGinza.table.tenth.right.first">
-                松屋銀座店頭での商品取り置き当日の午後12時までに、申込みフォームへご入力のうえ、料金をJPYCにてご送信ください。
+                松屋銀座店頭での商品取り置き当日の午後12時までに、申込みフォームへご入力のうえ、料金をJPYCにてお支払ください。
               </span>
               <br />
               <br />
               <span data-i18n="lawMatsuyaGinza.table.tenth.right.second">
-                お取り置き当日午後12時までにフォームへの入力及びJPYCの送信が確認できなかった場合、購入申込みは無効とさせていただきます。
+                お取り置き当日午後12時までにフォームへの入力及びJPYCの受信が確認できなかった場合、申込みは無効とさせていただきます。
               </span>
             </td>
           </tr>

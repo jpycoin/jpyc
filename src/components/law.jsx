@@ -108,10 +108,10 @@ const shikin_kessai = () => {
               <span data-i18n="law.table.twelfth.left.second">申込みの有効期限</span>
             </th>
             <td>
-              <span data-i18n="law.table.twelfth.right.first">弊社より注文確認メール到着後、1週間以内にお支払ください。</span><br />
+              <span data-i18n="law.table.twelfth.right.first">弊社より注文確認メール到着後、1週間以内にJPYCにてお支払ください。</span><br />
               <br />
               <span data-i18n="law.table.twelfth.right.second">
-                お申込日から1週間以内にご入金を確認できなかった場合はキャンセルされたものとみなし、購入申込みは取り消させていただきます。
+                お申込日から1週間以内にJPYCの受信を確認できなかった場合はキャンセルされたものとみなし、申込みは取り消させていただきます。
               </span>
               <br />
             </td>
