@@ -485,6 +485,15 @@ const Footer = () => {
               </p>
               <p>
                 <Link
+                  to="/law/giftee"
+                  className={styles.footer_right_item}
+                  data-i18n="footer.SpecifiedCommercialTransactionAct5"
+                >
+                  特定商取引法に基づく表示（Giftee Box交換）
+                </Link>
+              </p>
+              <p>
+                <Link
                   to="/privacy-policy"
                   className={styles.footer_right_item}
                   data-i18n="footer.PrivacyPolicy"
