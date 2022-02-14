@@ -26,7 +26,7 @@ const Terms = () => {
         </h2>
         <div className="privacy-main">
           <div>
-            <h3 data-i18n="terms.first.mainText">第一条（適用範囲）</h3>
+            <h3 data-i18n="terms.first.mainText">第1条（適用範囲）</h3>
             <div className="privacy-text">
               <ol>
                 <li>
