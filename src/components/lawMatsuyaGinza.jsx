@@ -50,11 +50,7 @@ const LawMatsuyaGinza = () => {
             <th data-i18n="lawMatsuyaGinza.table.fifth.left">電話応対時間</th>
             <td>
               <span data-i18n="lawMatsuyaGinza.table.fifth.right.first">
-                平日　午前10時～午後6時まで（年末・年始を除く）
-              </span>
-              <br />
-              <span data-i18n="lawMatsuyaGinza.table.fifth.right.second">
-                ※受付時間外の場合は、メールにてお問い合わせください。
+                平日　10時～18時まで（年末・年始を除く）
               </span>
             </td>
           </tr>

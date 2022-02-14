@@ -43,17 +43,13 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="law.table.fourth.left">電話番号</th>
-            <td data-i18n="law.table.fourth.right">03-6820-0461</td>
+            <td data-i18n="law.table.fourth.right">03-6625-4855</td>
           </tr>
           <tr>
             <th data-i18n="law.table.fifth.left">電話応対時間</th>
             <td>
               <span data-i18n="law.table.fifth.right.first">
-                平日　午前10時～午後7時00分まで（年末・年始を除く）
-              </span>
-              <br />
-              <span data-i18n="law.table.fifth.right.second">
-                ※受付時間外の場合は、メールにてお問い合わせください。
+                平日　10時～18時まで（年末・年始を除く）
               </span>
             </td>
           </tr>
@@ -93,7 +89,7 @@ const shikin_kessai = () => {
             <th data-i18n="law.table.tenth.left">代金以外の必要料金</th>
             <td>
               <p data-i18n="law.table.tenth.right.first">
-                  JPYCを弊社に送信する際のネットワーク利用手数料（いわゆるGAS代）
+                JPYCを弊社に送信する際のネットワーク利用手数料（いわゆるGAS代）
               </p>
             </td>
           </tr>

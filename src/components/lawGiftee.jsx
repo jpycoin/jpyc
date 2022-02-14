@@ -23,7 +23,7 @@ const shikin_kessai = () => {
       <Header />
       <main className="shikin_main">
         <h2 className="page-title" data-i18n="lawGiftee.mainText">
-          特定商取引法に基づく表示（Giftee Box交換）
+          特定商取引法に基づく表示（giftee Box交換）
         </h2>
         <table className="shikin_table">
           <tr>
@@ -43,17 +43,13 @@ const shikin_kessai = () => {
           </tr>
           <tr>
             <th data-i18n="lawGiftee.table.fourth.left">電話番号</th>
-            <td data-i18n="lawGiftee.table.fourth.right">03-6820-0461</td>
+            <td data-i18n="lawGiftee.table.fourth.right">03-6625-4855</td>
           </tr>
           <tr>
             <th data-i18n="lawGiftee.table.fifth.left">電話応対時間</th>
             <td>
               <span data-i18n="lawGiftee.table.fifth.right.first">
-                平日　午前10時～午後7時00分まで（年末・年始を除く）
-              </span>
-              <br />
-              <span data-i18n="lawGiftee.table.fifth.right.second">
-                ※受付時間外の場合は、メールにてお問い合わせください。
+                平日　10時～18時まで（年末・年始を除く）
               </span>
             </td>
           </tr>

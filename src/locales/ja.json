@@ -35,7 +35,7 @@
     "SpecifiedCommercialTransactionAct2": "特定商取引法に基づく表示（JPYCショッピング）",
     "SpecifiedCommercialTransactionAct3": "特定商取引法に基づく表示（JPYC販売所）",
     "SpecifiedCommercialTransactionAct4": "特定商取引法に基づく表示（松屋銀座）",
-    "SpecifiedCommercialTransactionAct5": "特定商取引法に基づく表示（Giftee Box交換）",
+    "SpecifiedCommercialTransactionAct5": "特定商取引法に基づく表示（giftee Box交換）",
     "PrivacyPolicy": "プライバシーポリシー",
     "Terms": "JPYC利用規約",
     "furusato-nozei": "JPYCふるさと納税利用規約"
@@ -228,13 +228,12 @@
       },
       "fourth": {
         "left": "電話番号",
-        "right": "03-6820-0461"
+        "right": "03-6625-4855"
       },
       "fifth": {
         "left": "電話応対時間",
         "right": {
-          "first": "平日　午前10時～午後7時00分まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "平日　10時～18時まで（年末・年始を除く）"
         }
       },
       "sixth": {
@@ -309,13 +308,12 @@
       },
       "fourth": {
         "left": "電話番号",
-        "right": "03-6820-0461"
+        "right": "03-6625-4855"
       },
       "fifth": {
         "left": "電話応対時間",
         "right": {
-          "first": "平日　午前10時～午後7時00分まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "平日　10時～18時まで（年末・年始を除く）"
         }
       },
       "sixth": {
@@ -386,13 +384,12 @@
       },
       "fourth": {
         "left": "電話番号",
-        "right": "03-6820-0461"
+        "right": "03-6625-4855"
       },
       "fifth": {
         "left": "電話応対時間",
         "right": {
-          "first": "平日　午前10時～午後7時00分まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "平日　10時～18時まで（年末・年始を除く）"
         }
       },
       "sixth": {
@@ -485,8 +482,7 @@
       "fifth": {
         "left": "電話応対時間",
         "right": {
-          "first": "平日　午前10時～午後6時まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "平日　10時～18時まで（年末・年始を除く）"
         }
       },
       "sixth": {
@@ -540,7 +536,7 @@
     }
   },
   "lawGiftee": {
-    "mainText": "特定商取引法に基づく表示（Giftee Box交換）",
+    "mainText": "特定商取引法に基づく表示（giftee Box交換）",
     "table": {
       "first": {
         "left": "販売業者名",
@@ -556,13 +552,12 @@
       },
       "fourth": {
         "left": "電話番号",
-        "right": "03-6820-0461"
+        "right": "03-6625-4855"
       },
       "fifth": {
         "left": "電話応対時間",
         "right": {
-          "first": "平日　午前10時～午後7時00分まで（年末・年始を除く）",
-          "second": "※受付時間外の場合は、メールにてお問い合わせください。"
+          "first": "平日　10時～18時まで（年末・年始を除く）"
         }
       },
       "sixth": {
