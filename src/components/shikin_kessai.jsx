@@ -79,7 +79,7 @@ const shikin_kessai = () => {
               </Link>
               <br />
               <a
-                href="https://jpyc.channel.io/"
+                href="https://jpyc-support.freshdesk.com/support/tickets/new"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-i18n="shikinKessai.table.fifth.right.fourth"

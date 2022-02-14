@@ -60,14 +60,18 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="lawGiftee.table.seventh.left">お問い合わせ</th>
             <td>
-              
               <Link to="/company" data-i18n="lawGiftee.table.seventh.right.first">
                 法人の方
               </Link>
               <br />
-              <Link to="/individual" data-i18n="lawGiftee.table.seventh.right.second">
+              <a
+                href="https://jpyc-support.freshdesk.com/support/tickets/new"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="lawGiftee.table.seventh.right.second"
+              >
                 一般の方
-              </Link>
+              </a>
             </td>
           </tr>
           <tr>
