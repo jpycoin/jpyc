@@ -113,7 +113,7 @@ const shikin_kessai = () => {
             <th data-i18n="lawGiftee.table.thirteenth.left">引き渡し期間</th>
             <td>
               <span data-i18n="lawGiftee.table.thirteenth.right">
-                毎週木曜日締めにてお客様からのJPYCの受信を確認し、翌日金曜日にJPYCの受信が確認できたお客様に対しGiftee BoxのURLをお客様のメールアドレスへ送信します。
+                毎週木曜日締めにてお客様からのJPYCの受信を確認し、翌日金曜日にJPYCの受信が確認できたお客様に対しgiftee BoxのURLをお客様のメールアドレスへ送信します。
               </span>
             </td>
           </tr>
