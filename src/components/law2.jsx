@@ -59,15 +59,16 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="law2.table.seventh.left"></th>
             <td>
-              
               <Link to="/company" data-i18n="law2.table.seventh.right.first">
               </Link>
               <br />
-              <Link
-                to="/individual"
+              <a
+                href="https://jpyc-support.freshdesk.com/support/tickets/new"
+                target="_blank"
+                rel="noopener noreferrer"
                 data-i18n="law2.table.seventh.right.second"
               >
-              </Link>
+              </a>
             </td>
           </tr>
           <tr>

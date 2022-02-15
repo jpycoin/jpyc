@@ -27,8 +27,7 @@ const Terms = () => {
         </h2>
         <div className="privacy-main">
           <div>
-            <h3 data-i18n="terms.first.mainText">
-            </h3>
+            <h3 data-i18n="terms.first.mainText">第1条（適用範囲）</h3>
             <div className="privacy-text">
               <ol>
                 <li>
@@ -466,7 +465,7 @@ const Terms = () => {
               <p data-i18n="terms.end.subText.second"></p>
             </div>
           </div>
-          <div className="furusato-end">以上</div>
+          <div className="furusato-end" data-i18n="terms.end.subText.third"></div>
         </div>
       </main>
       <Footer />

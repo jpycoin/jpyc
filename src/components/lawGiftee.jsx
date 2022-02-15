@@ -58,14 +58,17 @@ const shikin_kessai = () => {
           <tr>
             <th data-i18n="lawGiftee.table.seventh.left"></th>
             <td>
-              
               <Link to="/company" data-i18n="lawGiftee.table.seventh.right.first">
 
               </Link>
               <br />
-              <Link to="/individual" data-i18n="lawGiftee.table.seventh.right.second">
-
-              </Link>
+              <a
+                href="https://jpyc-support.freshdesk.com/support/tickets/new"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="lawGiftee.table.seventh.right.second"
+              >
+              </a>
             </td>
           </tr>
           <tr>
@@ -105,15 +108,15 @@ const shikin_kessai = () => {
             <th data-i18n="lawGiftee.table.thirteenth.left"></th>
             <td>
               <span data-i18n="lawGiftee.table.thirteenth.right">
-              </span>
-            </td>
-          </tr>
+              </span >
+            </td >
+          </tr >
           <tr>
             <th data-i18n="lawGiftee.table.fourteenth.left"></th>
             <td data-i18n="lawGiftee.table.fourteenth.right"></td>
           </tr>
-        </table>
-      </main>
+        </table >
+      </main >
       <Footer />
     </>
   );
