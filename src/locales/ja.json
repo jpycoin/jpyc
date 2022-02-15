@@ -248,7 +248,8 @@
         }
       },
       "eighth": {
-        "left": "ウェブサイトURL"
+        "left": "ウェブサイトURL",
+        "right": "https://app.jpyc.jp/gift/"
       },
       "ninth": {
         "left": "交換金額",
@@ -328,7 +329,8 @@
         }
       },
       "eighth": {
-        "left": "ウェブサイトURL"
+        "left": "ウェブサイトURL",
+        "right": "https://jpyc.jp"
       },
       "ninth": {
         "left": "商品の販売金額（交換金額）",
@@ -404,7 +406,8 @@
         }
       },
       "eighth": {
-        "left": "ウェブサイトURL"
+        "left": "ウェブサイトURL",
+        "right": "https://app.jpyc.jp/"
       },
       "ninth": {
         "left": "前払式支払手段の名称",
@@ -946,7 +949,8 @@
     "end": {
       "mainText": "附則",
       "subText": {
-        "first": "2021年9月1日制定"
+        "first": "2021年9月1日制定",
+        "second": "以上"
       }
     }
   },
@@ -1134,7 +1138,48 @@
     }
   },
   "member": {
-    "team": "チーム",
-    "advisor": "アドバイザー"
+    "team": {
+      "mainText": "チーム",
+      "first": {
+        "name": "Noritaka Okabe",
+        "position": "CEO"
+      },
+      "second": {
+        "name": "Yosui Harasawa",
+        "position": "COO"
+      },
+      "third": {
+        "name": "Yohei Ito",
+        "position": "Engineer"
+      },
+      "fourth": {
+        "name": "Hanae Ono",
+        "position": "Engineer"
+      }
+    },
+    "advisor": {
+      "mainText": "アドバイザー",
+      "first": {
+        "name": "Kazutaka Muraguchi"
+      },
+      "second": {
+        "name": "Kazutaka Mori"
+      },
+      "third": {
+        "name": "Dai Mizui"
+      },
+      "fourth": {
+        "name": "Kenji Yanagisawa"
+      },
+      "fifth": {
+        "name": "Yoshitaka Sasaki"
+      },
+      "sixth": {
+        "name": "Hironori Ido"
+      },
+      "seventh": {
+        "name": "Takashi Yamanaka"
+      }
+    }
   }
 }
