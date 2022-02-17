@@ -20,6 +20,7 @@ import hint from "../image/hint.png";
 import ETHBlack from "../image/eth-black.svg";
 import Polygon from "../image/polygon.svg";
 import xDai from "../image/xdai.svg";
+import LoadI18nDataOnMount from "./LoadI18nDataOnMount";
 
 class ScrollToTopOnMount extends React.Component {
   componentDidMount(prevProps) {
@@ -36,17 +37,14 @@ const index = () => {
     <>
       <ScrollToTopOnMount />
       <Header />
+      <LoadI18nDataOnMount />
       <main className="main">
         <section className={styles.index_top}>
           <img src={jpyc2} alt="" />
           <p>
-            <span data-i18n="index.heroArea.mainText.first">
-              JPYC：世界を牽引する
-            </span>
+            <span data-i18n="index.heroArea.mainText.first" />
             <br />
-            <span data-i18n="index.heroArea.mainText.second">
-              日本円ステーブルコイン
-            </span>
+            <span data-i18n="index.heroArea.mainText.second" />
           </p>
         </section>
 
@@ -69,11 +67,9 @@ const index = () => {
           </div>
           <div className={styles.buy_buttom}>
             <Link to="/buy">
-              <button data-i18n="common.buyJPYC">JPYCを購入する</button>
+              <button data-i18n="common.buyJPYC" />
             </Link>
-            <p data-i18n="index.innerArea.subText">
-              日本円ステーブルコインの「JPYC」を誰でも簡単に日本円で購入できるようになりました
-            </p>
+            <p data-i18n="index.innerArea.subText" />
           </div>
         </section>
 
@@ -82,28 +78,19 @@ const index = () => {
             <p
               className={styles.feature_title}
               data-i18n="index.feature.mainText"
-            >
-              JPYCの特徴
-            </p>
+            />
             <div>
               <div className={styles.feature_center}>
                 <h3 data-i18n="index.feature.first.mainText">
-                  日本初の日本円ステーブルコイン（ERC20）
                 </h3>
-                <p data-i18n="index.feature.first.subText">
-                  JPYC（JPYCoin）は日本初のブロックチェーン技術（ERC20）を活用した日本円ステーブルコインです。イーサリアムのメインネットで動いており、常に1
-                  JPYC = 1円で物品の売買に利用可能です。メタマスクなど、お持ちのウォレットやUniswapなどの二次流通市場で日本円建てのコインとして使うことができます。
-                </p>
+                <p data-i18n="index.feature.first.subText"></p>
               </div>
               <div className={styles.feature_center}>
                 <h3 data-i18n="index.feature.second.mainText">
-                  JPYC（JPYCoin）の法的整理
                 </h3>
                 <p data-i18n="index.feature.second.subText">
-                  JPYCは1 JPYC ＝ 1円で常に購入・使用できる通貨建資産であり、資金決済法上の自家型前払式支払手段です。暗号資産ではありません。一方、イーサリアムの規格であるERC20を採用しているため、イーサリアム（メインネット）等※での取引に利用可能です。
                 </p>
                 <p data-i18n="index.feature.second.note">
-                  ※対応チェーンは以下の通り
                 </p>
               </div>
             </div>
@@ -113,15 +100,13 @@ const index = () => {
         <section className={styles.multichain} id="multichain">
           <div className={styles.multichain_top}>
             <div className={styles.multichain_label}>
-              <p data-i18n="index.multichain.label">開発者向け</p>
+              <p data-i18n="index.multichain.label"></p>
             </div>
             <h3>
               <span data-i18n="index.multichain.mainText.first">
-                JPYCはマルチチェーン対応しており、
               </span>
               <br class={styles.multichain_br} />
               <span data-i18n="index.multichain.mainText.second">
-                様々なプロダクトにサポート可能です。
               </span>
             </h3>
           </div>
@@ -189,7 +174,6 @@ const index = () => {
               className={styles.join_text}
               data-i18n="index.newsletter.subText"
             >
-              JPYCニュースレターでは社内で共有されているリサーチャーのレポートやJPYC株式会社の最近の動きなどチェックしておきたい内容をピックアップして、登録者である皆様にご提供するものです。
             </p>
             <a
               href="https://blog.jpyc.jp/subscribe_newsletter"
@@ -200,7 +184,6 @@ const index = () => {
                 className={styles.join_button}
                 data-i18n="index.newsletter.button"
               >
-                購読する
               </button>
             </a>
           </div>
@@ -209,14 +192,12 @@ const index = () => {
         <section className={styles.grant} id="grant">
           <div className={styles.inner_grant}>
             <p className={styles.grant_text} data-i18n="index.grant.subText">
-              JPYC Grantは、個人・法人問わずエコシステムへの貢献度に応じて最大1,000,000JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC Grantの審査が開始します。
             </p>
             <Link to="/grant">
               <button
                 className={styles.grant_button}
                 data-i18n="index.grant.button"
               >
-                JPYCエコシステムに貢献する
               </button>
             </Link>
           </div>
@@ -228,20 +209,17 @@ const index = () => {
               className={styles.contact_title}
               data-i18n="index.contact.first.title"
             >
-              一般の方へ
             </p>
             <div className={styles.contact_center}>
               <h3 data-i18n="index.contact.first.mainText">
-                なにかお困りのことはありませんか？
               </h3>
               <p data-i18n="index.contact.first.subText">
-                JPYCは日本初の試みであり、疑問点がいくつも生まれるかもしれませんが、私たちがサポートいたします。頻度が多いものについては「よくある質問」にまとめますのでもう少々お待ち下さい。
               </p>
               <a
                 href="https://jpyc-support.freshdesk.com/support/tickets/new"
                 target="__href"
               >
-                <button data-i18n="index.contact.button">問い合わせる</button>
+                <button data-i18n="index.contact.button"></button>
               </a>
             </div>
             <img src={people} className={styles.contact_image} alt="" />
@@ -251,17 +229,14 @@ const index = () => {
               className={styles.contact_title}
               data-i18n="index.contact.second.title"
             >
-              法人の方へ
             </p>
             <div className={styles.contact_center}>
               <h3 data-i18n="index.contact.second.mainText">
-                御社のビジネスをJPYCによって加速させませんか？
               </h3>
               <p data-i18n="index.contact.second.subText">
-                JPYCは、適法に発行されているERC20プリペイドコインです。ブロックチェーンを活用した決済、ブロックチェーンを活用した財務健全性の向上や新規ユーザーの獲得などが期待できます。
               </p>
               <Link to="/company">
-                <button data-i18n="index.contact.button">問い合わせる</button>
+                <button data-i18n="index.contact.button"></button>
               </Link>
             </div>
             <img src={people2} className={styles.contact_image} alt="" />
@@ -274,14 +249,11 @@ const index = () => {
               className={styles.exchange_left_title}
               data-i18n="index.swapICB.mainText"
             >
-              JPYCとICBの交換について
             </h3>
             <div
               className={styles.exchange_left_text}
               data-i18n="index.swapICB.subText"
             >
-              JPYCとICBは1 JPYC = 1
-              ICBの割合で交換可能です。Gas代のみご負担いただきますが、ICBを既に保有されている方はJPYCに交換することが可能です。
             </div>
           </div>
           <a
@@ -294,7 +266,6 @@ const index = () => {
                 className={styles.exchange_button}
                 data-i18n="index.swapICB.button"
               >
-                ICBをJPYCに交換する
               </button>
             </div>
           </a>
@@ -302,7 +273,6 @@ const index = () => {
 
         <section className={styles.tax}>
           <p className={styles.tax_title} data-i18n="index.tax.mainText">
-            暗号資産やJPYCに詳しい税理士はこちら
           </p>
           <div className={styles.tax_people}>
             <img
@@ -315,14 +285,11 @@ const index = () => {
                 className={styles.tax_name}
                 data-i18n="index.tax.person.first.name"
               >
-                井堂 裕功
               </p>
               <p
                 className={styles.tax_description}
                 data-i18n="index.tax.person.first.description"
               >
-                Quantum
-                Accounting株式会社取締役。複数のベンチャー企業と顧問契約を締結し、会計、税務面のアドバイザリー業務を提供している傍ら、暗号資産にかかる会計、税務の検討を日々行なっている。暗号資産による納税も開始。
               </p>
             </div>
             <a href="https://ido-office.com/contact" target="__blank">
@@ -330,7 +297,6 @@ const index = () => {
                 className={styles.tax_button}
                 data-i18n="index.tax.person.button"
               >
-                お問い合わせはこちら
               </button>
             </a>
           </div>
@@ -341,13 +307,11 @@ const index = () => {
                 className={styles.tax_name}
                 data-i18n="index.tax.person.second.name"
               >
-                太田 陽平
               </p>
               <p
                 className={styles.tax_description}
                 data-i18n="index.tax.person.second.description"
               >
-                大手監査法人で監査業務・M&amp;A関連業務に従事。その後官民ファンドのREVIC（地域経済活性化支援機構）にて中小企業の再生支援業務に従事する。現在は独立し、コンサルティング等を行うほか、ブロックチェーン系ベンチャーの顧問にも就任している。自身も暗号資産を保有しながら、リサーチを継続しており、個人投資家・暗号資産保有企業の目線に立った支援が可能。
               </p>
             </div>
             <a href="https://wakaba-tax.tokyo" target="__blank">
@@ -355,7 +319,6 @@ const index = () => {
                 className={styles.tax_button}
                 data-i18n="index.tax.person.button"
               >
-                お問い合わせはこちら
               </button>
             </a>
           </div>
@@ -366,7 +329,6 @@ const index = () => {
                 className={styles.tax_description_2}
                 data-i18n="index.tax.wanted.mainText"
               >
-                JPYCでの納税に詳しい税理士を募集しています
               </p>
             </div>
             <Link to="/company">
@@ -374,7 +336,6 @@ const index = () => {
                 className={styles.tax_button}
                 data-i18n="index.tax.wanted.button"
               >
-                運営に連絡する
               </button>
             </Link>
           </div>

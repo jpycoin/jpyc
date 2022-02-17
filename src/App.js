@@ -16,8 +16,10 @@ import Terms from "./components/Terms";
 import furusatoNozei from "./components/hometown-tax-terms";
 import Prevention from "./components/fraud-prevention";
 import LawMatsuyaGinza from "./components/lawMatsuyaGinza";
+import LawGiftee from "./components/lawGiftee";
 
 library.add(fab, fas);
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route exact path="/law/gift" component={law} />
           <Route exact path="/law/shopping" component={law2} />
           <Route exact path="/law/shop" component={law3} />
+          <Route exact path="/law/giftee" component={LawGiftee} />
           <Route exact path="/law/matsuya_ginza/" component={LawMatsuyaGinza} />
           <Route exact path="/privacy-policy" component={privacyPolicy} />
           <Route exact path="/terms" component={Terms} />
