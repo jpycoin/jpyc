@@ -67,7 +67,6 @@ const shikin_kessai = () => {
                 rel="noopener noreferrer"
                 data-i18n="law.table.seventh.right.second"
               >
-                一般の方
               </a>
             </td>
           </tr>
