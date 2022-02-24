@@ -4,7 +4,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // import translationEN from "./locales/en.json";
 import translationJA from "./locales/ja.json";
 
-document.addEventListener("DOMContentLoaded", () => {
+
+export const LoadI18nData = () => {
   const dataI18n = document.querySelectorAll("[data-i18n]");
 
   const detectorOptions = {
@@ -60,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       }
     );
-});
+}
+
+document.addEventListener("DOMContentLoaded", LoadI18nData);
 
 export default i18n;

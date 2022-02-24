@@ -67,7 +67,7 @@ const index = () => {
               className={`${styles.header_right_item} ${styles.header_right_text}`}
               data-i18n="common.grant"
             >
-              Grant
+              JPYC Grant
             </HashLink>
             <HashLink
               to="/#contact"
