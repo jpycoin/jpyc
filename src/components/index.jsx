@@ -216,14 +216,18 @@ const index = () => {
               JPYCの支援をします。求められた情報をフォームに入力していただくことで、JPYC
               Grantの審査が開始します。
             </p>
-            <Link to="/grant">
+            <a
+              href="https://grant.jpyc.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 className={styles.grant_button}
                 data-i18n="index.grant.button"
               >
                 JPYCエコシステムに貢献する
               </button>
-            </Link>
+            </a>
           </div>
         </section>
 
