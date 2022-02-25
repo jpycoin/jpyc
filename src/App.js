@@ -13,7 +13,6 @@ import law3 from "./components/law3";
 import shikin_kessai from "./components/shikin_kessai";
 import member from "./components/member";
 import Terms from "./components/Terms";
-import furusatoNozei from "./components/hometown-tax-terms";
 import Prevention from "./components/fraud-prevention";
 import LawMatsuyaGinza from "./components/lawMatsuyaGinza";
 import LawGiftee from "./components/lawGiftee";
@@ -36,7 +35,6 @@ function App() {
           <Route exact path="/law/matsuya_ginza/" component={LawMatsuyaGinza} />
           <Route exact path="/privacy-policy" component={privacyPolicy} />
           <Route exact path="/terms" component={Terms} />
-          <Route exact path="/terms/hometown-tax" component={furusatoNozei} />
           <Route exact path="/member" component={member} />
           <Route exact path="/prevention" component={Prevention} />
           <Route
