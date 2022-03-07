@@ -484,7 +484,6 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                {/*
                 <Link
                   to="/law/giftee"
                   className={styles.footer_right_item}
@@ -492,7 +491,6 @@ const Footer = () => {
                 >
                   特定商取引法に基づく表示（giftee Box交換）
                 </Link>
-                */}
               </p>
               <p>
                 <Link
