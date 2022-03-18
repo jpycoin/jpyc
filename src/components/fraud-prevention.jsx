@@ -4,6 +4,7 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import "../css/prevention.css";
+import LoadI18nDataOnMount from "./LoadI18nDataOnMount";
 
 
 
@@ -22,6 +23,7 @@ const Prevention = () => {
     <>
       <ScrollToTopOnMount />
       <Header />
+      <LoadI18nDataOnMount />
       <main className="prevention_main">
         <div className="prevention-main">
           <div className="prevention-head">
