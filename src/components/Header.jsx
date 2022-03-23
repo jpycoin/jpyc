@@ -17,7 +17,7 @@ const index = () => {
               【注意】JPYC購入時に入力するETHアドレスは「取引所のアドレス」ではなく「個人用ウォレット」のアドレスからお願いします。個人用ウォレットの作成方法は
             </span>
             <a
-              href="https://note.com/ocurima/n/n29e1fd7ecbdd"
+              href="https://blog.jpyc.jp/metamask-part1"
               target="_blank"
               rel="noopener noreferrer"
               data-i18n="header.alert.descriptionMarked"
