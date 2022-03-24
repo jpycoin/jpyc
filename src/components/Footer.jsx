@@ -65,7 +65,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="https://jcam.co.jp/"
+                  href="https://jpyc.co.jp/"
                   target="__blank"
                   className={styles.footer_link}
                 >
@@ -73,8 +73,6 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                105-0011
-                <br />
                 <span data-i18n="footer.companyAddress">
                   〒100-0004
                   東京都千代田区大手町一丁目6番1号　大手町ビル4階　FINOLAB内
@@ -87,15 +85,6 @@ const Footer = () => {
                   className={styles.footer_link}
                 >
                   Etherscan
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://note.com/ocurima/m/mf80a9d72984a"
-                  target="__blank"
-                  className={styles.footer_link}
-                >
-                  JPYC Magazine
                 </a>
               </p>
               <p className={styles.contract_address}>
@@ -344,13 +333,21 @@ const Footer = () => {
                 </HashLink>
               </p>
               <p>
-                <Link
-                  to="/buy"
+                <a
+                  href="https://app.jpyc.jp/"
                   className={styles.footer_right_item}
-                  data-i18n="common.JPYCApps"
                 >
                   JPYC Apps
-                </Link>
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://blog.jpyc.jp/"
+                  target="__blank"
+                  className={styles.footer_right_item}
+                >
+                  JPYCブログ 
+                </a>
               </p>
               <p>
                 <HashLink
