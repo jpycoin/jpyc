@@ -17,7 +17,7 @@ const index = () => {
               【注意】JPYC購入時に入力するETHアドレスは「取引所のアドレス」ではなく「個人用ウォレット」のアドレスからお願いします。個人用ウォレットの作成方法は
             </span>
             <a
-              href="https://note.com/ocurima/n/n29e1fd7ecbdd"
+              href="https://blog.jpyc.jp/metamask-part1  "
               target="_blank"
               rel="noopener noreferrer"
               data-i18n="header.alert.descriptionMarked"
@@ -34,13 +34,12 @@ const index = () => {
           <div className="header_nav move" id="header_nav">
             <ul>
               <li>
-                <Link
-                  to="/buy"
+                <a
+                  href="https://app.jpyc.jp/"
                   className={styles.nav_item}
-                  data-i18n="common.JPYCApps"
                 >
                   JPYC Apps
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -79,11 +78,14 @@ const index = () => {
             <div
               className={`${styles.header_right_item} ${styles.header_button}`}
             >
-              <Link to="/buy">
+            <a
+              href="https://app.jpyc.jp/"
+              className={styles.nav_item}
+            >
                 <button className={styles.buy_jpyc} data-i18n="common.JPYCApps">
                   JPYC Apps
                 </button>
-              </Link>
+            </a>
             </div>
           </div>
         </div>
