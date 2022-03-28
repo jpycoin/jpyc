@@ -167,7 +167,7 @@ const Footer = () => {
               </p>
               <p className={styles.contract_address}>
                 <span data-i18n="footer.xDaiAddress">
-                  xDaiコントラクトアドレス
+                  Gnosisコントラクトアドレス
                 </span>
                 ：<br />
                 0x417602f4fbdd471a431ae29fb5fe0a681964c11b
@@ -232,6 +232,46 @@ const Footer = () => {
                     onClick={() =>
                       addToken(
                         "0x735abe48e8782948a37c7765ecb76b98cde97b0f",
+                        "JPYC"
+                      )
+                    }
+                  >
+                    <img
+                      src={metamask}
+                      alt="metamask"
+                      className={styles.icon_metamask}
+                    />
+                  </IconButton>
+                </InputAdornment>
+              </p>
+              <p className={styles.contract_address}>
+                <span data-i18n="footer.AvalancheAddress">
+                  Avalanche コントラクトアドレス
+                </span>
+                ：
+                <br />
+                0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
+                <InputAdornment className={styles.copy}>
+                  <Tooltip
+                    open={openTip_shiden}
+                    onClose={() => setOpenTip_shiden(false)}
+                    disableHoverListener
+                    title="Copied!"
+                  >
+                    <CopyToClipBoard
+                      text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
+                    >
+                      <IconButton onClick={() => setOpenTip_shiden(true)}>
+                        <AssignmentIcon color="primary" />
+                      </IconButton>
+                    </CopyToClipBoard>
+                  </Tooltip>
+                </InputAdornment>
+                <InputAdornment className={styles.copy}>
+                  <IconButton
+                    onClick={() =>
+                      addToken(
+                        "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
                         "JPYC"
                       )
                     }
