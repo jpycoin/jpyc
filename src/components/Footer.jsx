@@ -27,6 +27,7 @@ const Footer = () => {
   const [openTip_Matic, setOpenTip_Matic] = useState(false);
   const [openTip_xDai, setOpenTip_xDai] = useState(false);
   const [openTip_shiden, setOpenTip_shiden] = useState(false);
+  const [openTip_avalanche, setOpenTip_avalanche] = useState(false);
 
   const tokenDecimals = 18;
   const tokenImage = "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png";
@@ -253,15 +254,15 @@ const Footer = () => {
                 0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
                 <InputAdornment className={styles.copy}>
                   <Tooltip
-                    open={openTip_shiden}
-                    onClose={() => setOpenTip_shiden(false)}
+                    open={openTip_avalanche}
+                    onClose={() => setOpenTip_avalanche(false)}
                     disableHoverListener
                     title="Copied!"
                   >
                     <CopyToClipBoard
                       text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
                     >
-                      <IconButton onClick={() => setOpenTip_shiden(true)}>
+                      <IconButton onClick={() => setOpenTip_avalanche(true)}>
                         <AssignmentIcon color="primary" />
                       </IconButton>
                     </CopyToClipBoard>
