@@ -377,6 +377,7 @@ const Footer = () => {
                 <a
                   href="https://app.jpyc.jp/"
                   className={styles.footer_right_item}
+                  data-i18n="common.JPYCApps"
                 >
                   JPYC Apps
                 </a>
@@ -386,8 +387,19 @@ const Footer = () => {
                   href="https://blog.jpyc.jp/"
                   target="__blank"
                   className={styles.footer_right_item}
+                  data-i18n="footer.blog"
                 >
                   JPYCブログ 
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://note.com/jpyc/"
+                  target="__blank"
+                  className={styles.footer_right_item}
+                  data-i18n="footer.magazine"
+                >
+                  JPYCマガジン 
                 </a>
               </p>
               <p>
@@ -416,17 +428,6 @@ const Footer = () => {
                 >
                   お問い合わせ
                 </HashLink>
-              </p>
-              <p>
-                <a
-                  href="https://blog.jpyc.jp/"
-                  className={styles.footer_right_item}
-                  data-i18n="footer.blog"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  JPYCブログ
-                </a>
               </p>
               <p>
                 <Link
