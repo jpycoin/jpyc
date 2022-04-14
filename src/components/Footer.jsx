@@ -290,7 +290,7 @@ const Footer = () => {
                   <img src={twitter} alt="twitter" className={styles.icon} />
                 </a>
                 <a
-                  href="https://www.facebook.com/japancryptoassetmarket"
+                  href="https://www.facebook.com/jpycoin"
                   target="__blank"
                 >
                   <img src={facebook} alt="facebook" className={styles.icon} />
@@ -311,7 +311,7 @@ const Footer = () => {
                   <img src={uniswap} alt="uniswap" className={styles.icon} />
                 </a>
                 <a
-                  href="https://info.quickswap.exchange/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c"
+                  href="https://info.quickswap.exchange/#/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c"
                   target="__blank"
                 >
                   <img
