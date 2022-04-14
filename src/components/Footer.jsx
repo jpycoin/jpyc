@@ -290,7 +290,7 @@ const Footer = () => {
                   <img src={twitter} alt="twitter" className={styles.icon} />
                 </a>
                 <a
-                  href="https://www.facebook.com/japancryptoassetmarket"
+                  href="https://www.facebook.com/jpycoin"
                   target="__blank"
                 >
                   <img src={facebook} alt="facebook" className={styles.icon} />
