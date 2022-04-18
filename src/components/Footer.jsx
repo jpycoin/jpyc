@@ -28,6 +28,7 @@ const Footer = () => {
   const [openTip_xDai, setOpenTip_xDai] = useState(false);
   const [openTip_shiden, setOpenTip_shiden] = useState(false);
   const [openTip_avalanche, setOpenTip_avalanche] = useState(false);
+  const [openTip_astar, setOpenTip_astar] = useState(false);
 
   const tokenDecimals = 18;
   const tokenImage = "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png";
@@ -263,6 +264,45 @@ const Footer = () => {
                       text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
                     >
                       <IconButton onClick={() => setOpenTip_avalanche(true)}>
+                        <AssignmentIcon color="primary" />
+                      </IconButton>
+                    </CopyToClipBoard>
+                  </Tooltip>
+                </InputAdornment>
+                <InputAdornment className={styles.copy}>
+                  <IconButton
+                    onClick={() =>
+                      addToken(
+                        "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+                        "JPYC"
+                      )
+                    }
+                  >
+                    <img
+                      src={metamask}
+                      alt="metamask"
+                      className={styles.icon_metamask}
+                    />
+                  </IconButton>
+                </InputAdornment>
+              </p>
+              <p className={styles.contract_address}>
+                <span data-i18n="footer.AstarAddress">
+                </span>
+                ：
+                <br />
+                0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
+                <InputAdornment className={styles.copy}>
+                  <Tooltip
+                    open={openTip_astar}
+                    onClose={() => setOpenTip_astar(false)}
+                    disableHoverListener
+                    title="Copied!"
+                  >
+                    <CopyToClipBoard
+                      text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
+                    >
+                      <IconButton onClick={() => setOpenTip_astar(true)}>
                         <AssignmentIcon color="primary" />
                       </IconButton>
                     </CopyToClipBoard>

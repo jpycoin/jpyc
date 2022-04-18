@@ -22,6 +22,7 @@
     "xDaiAddress": "Gnosisコントラクトアドレス",
     "shidenAddress": "Shidenコントラクトアドレス",
     "AvalancheAddress": "Avalanche Mainnet C-Chain コントラクトアドレス",
+    "AstarAddress": "Astar コントラクトアドレス",
     "xDaiOnBSCAddress": "xDai on BSCコントラクトアドレス",
     "HarmonyAddress": "Harmonyコントラクトアドレス",
     "blog": "JPYCブログ",
