@@ -130,10 +130,10 @@ const Footer = () => {
               </p>
               <p className={styles.contract_address}>
                 <span data-i18n="footer.MaticAddress">
-                  Maticコントラクトアドレス
+                  Polygonコントラクトアドレス
                 </span>
                 ：<br />
-                0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
+                0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
                 <InputAdornment className={styles.copy}>
                   <Tooltip
                     open={openTip_Matic}
@@ -142,7 +142,7 @@ const Footer = () => {
                     title="Copied!"
                   >
                     <CopyToClipBoard
-                      text={"0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c"}
+                      text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
                     >
                       <IconButton onClick={() => setOpenTip_Matic(true)}>
                         <AssignmentIcon color="primary" />
@@ -154,7 +154,7 @@ const Footer = () => {
                   <IconButton
                     onClick={() =>
                       addToken(
-                        "0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c",
+                        "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
                         "JPYC"
                       )
                     }
@@ -172,7 +172,7 @@ const Footer = () => {
                   Gnosisコントラクトアドレス
                 </span>
                 ：<br />
-                0x417602f4fbdd471a431ae29fb5fe0a681964c11b
+                0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
                 <InputAdornment className={styles.copy}>
                   <Tooltip
                     open={openTip_xDai}
@@ -181,7 +181,7 @@ const Footer = () => {
                     title="Copied!"
                   >
                     <CopyToClipBoard
-                      text={"0x417602f4fbdd471a431ae29fb5fe0a681964c11b"}
+                      text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
                     >
                       <IconButton onClick={() => setOpenTip_xDai(true)}>
                         <AssignmentIcon color="primary" />
@@ -193,7 +193,7 @@ const Footer = () => {
                   <IconButton
                     onClick={() =>
                       addToken(
-                        "0x417602f4fbdd471a431ae29fb5fe0a681964c11b",
+                        "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
                         "JPYC"
                       )
                     }
@@ -212,7 +212,7 @@ const Footer = () => {
                 </span>
                 ：
                 <br />
-                0x735abe48e8782948a37c7765ecb76b98cde97b0f
+                0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB
                 <InputAdornment className={styles.copy}>
                   <Tooltip
                     open={openTip_shiden}
@@ -221,7 +221,7 @@ const Footer = () => {
                     title="Copied!"
                   >
                     <CopyToClipBoard
-                      text={"0x735abe48e8782948a37c7765ecb76b98cde97b0f"}
+                      text={"0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"}
                     >
                       <IconButton onClick={() => setOpenTip_shiden(true)}>
                         <AssignmentIcon color="primary" />
@@ -233,7 +233,7 @@ const Footer = () => {
                   <IconButton
                     onClick={() =>
                       addToken(
-                        "0x735abe48e8782948a37c7765ecb76b98cde97b0f",
+                        "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
                         "JPYC"
                       )
                     }
