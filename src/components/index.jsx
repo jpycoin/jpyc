@@ -247,34 +247,6 @@ const index = () => {
           </div>
         </section>
 
-        <section className={styles.exchange}>
-          <div className={styles.exchange_left}>
-            <h3
-              className={styles.exchange_left_title}
-              data-i18n="index.swapICB.mainText"
-            >
-            </h3>
-            <div
-              className={styles.exchange_left_text}
-              data-i18n="index.swapICB.subText"
-            >
-            </div>
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://forms.gle/6iyajbTfAT2VVW8QA"
-          >
-            <div className={styles.exchange_right}>
-              <button
-                className={styles.exchange_button}
-                data-i18n="index.swapICB.button"
-              >
-              </button>
-            </div>
-          </a>
-        </section>
-
         <section className={styles.tax}>
           <p className={styles.tax_title} data-i18n="index.tax.mainText">
           </p>
