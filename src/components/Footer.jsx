@@ -351,7 +351,7 @@ const Footer = () => {
                   <img src={uniswap} alt="uniswap" className={styles.icon} />
                 </a>
                 <a
-                  href="https://info.quickswap.exchange/#/token/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c"
+                  href="https://info.quickswap.exchange/#/token/0x431d5dff03120afa4bdf332c61a6e1766ef37bdb"
                   target="__blank"
                 >
                   <img
@@ -429,7 +429,7 @@ const Footer = () => {
                   className={styles.footer_right_item}
                   data-i18n="footer.blog"
                 >
-                  JPYCブログ 
+                  JPYCブログ
                 </a>
               </p>
               <p>
@@ -439,7 +439,7 @@ const Footer = () => {
                   className={styles.footer_right_item}
                   data-i18n="footer.magazine"
                 >
-                  JPYCマガジン 
+                  JPYCマガジン
                 </a>
               </p>
               <p>
